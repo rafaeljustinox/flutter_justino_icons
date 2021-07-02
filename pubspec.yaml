@@ -1,6 +1,6 @@
 name: justino_icons
 description: A pack with some fancy icons.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/rafaeljustinox/flutter_justino_icons
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
 
 flutter:
 
-  #flutter pub global run icon_font_generator --from=assets/svg --class-name=JustinoIcons --out-font=fonts/JustinoIcons.ttf --out-flutter=lib/justino_icons.dart
+  #flutter pub global run icon_font_generator --from=../justino_icons_assets --class-name=JustinoIcons --out-font=fonts/JustinoIcons.ttf --out-flutter=lib/justino_icons_1.dart
 
   fonts:
     - family: JustinoIcons

@@ -1,3 +1,7 @@
+## 0.0.3
+
+* Replaced with new icon versions
+
 ## 0.0.2
 
 * Improved the example
