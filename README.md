@@ -1,5 +1,5 @@
 <p align="center">
- <img width="100px" src="https://raw.githubusercontent.com/rafaeljustinox/flutter_justino_icons/main/.github/images/favicon512x512-justino_icons.png" align="center" alt=":package: shell-script-boilerplate" />
+ <img width="100px" src="https://raw.githubusercontent.com/rafaeljustinox/flutter_justino_icons/main/.github/images/repo_icon.png" align="center" alt=":package: shell-script-boilerplate" />
  <h2 align="center">🎨 justino_icons</h2>
  <p align="center">A pack with some fancy icons</p>
 </p>
