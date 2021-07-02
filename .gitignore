@@ -75,3 +75,4 @@ build/
 !**/ios/**/default.perspectivev3
 
 .vscode
+.github/images/justino_icons.psd

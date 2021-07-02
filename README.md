@@ -1,18 +1,18 @@
 <p align="center">
- <img width="100px" src="https://raw.githubusercontent.com/rafaeljustinox/flutter_justino_icons/main/.github/images/repo_icon.png" align="center" alt=":package: shell-script-boilerplate" />
+ <img width="720px" src="https://raw.githubusercontent.com/rafaeljustinox/flutter_justino_icons/main/.github/images/repo_icon.png" align="center" alt=":package: shell-script-boilerplate" />
  <h2 align="center">🎨 justino_icons</h2>
  <p align="center">A pack with some fancy icons</p>
 </p>
 
   <p align="center">
+    <a href="https://pub.dev/packages/justino_icons">
+      <img alt="pub package" src="https://img.shields.io/pub/v/justino_icons.svg" />
+    </a>
     <a href="https://github.com/rafaeljustinox/flutter_justino_icons/issues">
       <img alt="Issues" src="https://img.shields.io/github/issues/rafaeljustinox/flutter_justino_icons?style=flat&color=336791" />
     </a>
     <a href="https://github.com/rafaeljustinox/flutter_justino_icons/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rafaeljustinox/flutter_justino_icons?style=flat&color=336791" />
-    </a>
-    <a href="https://pub.dev/packages/justino_icons">
-      <img alt="pub package" src="https://img.shields.io/pub/v/justino_icons.svg" />
     </a>
     <br />
   <a href="https://github.com/rafaeljustinox/flutter_justino_icons/issues/new/choose">Report Bug</a>
