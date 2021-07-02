@@ -28,7 +28,7 @@ class JustinoIcons {
     if (code != -1) {
       return JustinoIconData(code, name);
     } else {
-      String key = 'best';
+      String key = 'dollar';
       int value = names[key]!;
       return JustinoIconData(value, key);
     }

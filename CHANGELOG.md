@@ -1,3 +1,7 @@
+## 0.0.5
+
+* Fixed byName method
+
 ## 0.0.4
 
 * Updated README
