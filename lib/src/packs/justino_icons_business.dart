@@ -14,11 +14,11 @@ class _JustinoIconsBusinessData extends JustinoIconData {
 class JustinoIconsBusiness {
   const JustinoIconsBusiness();
 
-  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
+  List<JustinoIconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
   IconData? getByName(String name) => iconsMap[name];
 
-  Map<String, IconData> get iconsMap => { 
+  Map<String, JustinoIconData> get iconsMap => { 
     'addReminder' : addReminder,
     'alertBusiness' : alertBusiness,
     'arrowBusiness' : arrowBusiness,

@@ -14,9 +14,9 @@ class _JustinoIconsUserInterfaceData extends JustinoIconData {
 class JustinoIconsUserInterface {
   const JustinoIconsUserInterface();
 
-  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
+  List<JustinoIconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  Map<String, IconData> get iconsMap => { 
+  Map<String, JustinoIconData> get iconsMap => { 
     'battery' : battery,
     'bookmark' : bookmark,
     'briefcaseUserInterface' : briefcaseUserInterface,

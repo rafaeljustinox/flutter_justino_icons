@@ -14,11 +14,11 @@ class _JustinoIconsSailorData extends JustinoIconData {
 class JustinoIconsSailor {
   const JustinoIconsSailor();
 
-  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
+  List<JustinoIconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
   IconData? getByName(String name) => iconsMap[name];
 
-  Map<String, IconData> get iconsMap => { 
+  Map<String, JustinoIconData> get iconsMap => { 
     'anchorSailor' : anchorSailor,
     'bandana' : bandana,
     'binocularsSailor' : binocularsSailor,

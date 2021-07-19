@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/justino_icons.dart';
 import 'package:justino_icons/src/packs/justino_icons_accessibility.dart';
 import 'package:justino_icons/src/packs/justino_icons_adventure.dart';
 import 'package:justino_icons/src/packs/justino_icons_agriculture.dart';
@@ -43,24 +44,16 @@ import 'package:justino_icons/src/packs/justino_icons_weather.dart';
 class JustinoIcons {
   JustinoIcons();
 
-  static IconData? getByName(String name) {
-    const categories = {
-      'accessibility' : accessibility,
-      'adventure' : adventure
-    };
-
-    for (var key in categories.keys) {
-      var category =  categories[key]! as dynamic;
-      IconData? founded = category.getByName(name);
-      if (founded != null){
-        return founded;
-      }
+  static JustinoIconData? getByName(String name) {
+    for (var icon in all) {
+      if (icon.name == name)
+        return icon;
     }
     return null;
   }
 
-  static List<IconData> get all {
-    List<IconData> icons = [];
+  static List<JustinoIconData> get all {
+    List<JustinoIconData> icons = [];
     icons.addAll( accessibility.all );
     icons.addAll( adventure.all );
     icons.addAll( agriculture.all );

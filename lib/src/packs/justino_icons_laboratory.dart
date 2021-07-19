@@ -14,11 +14,11 @@ class _JustinoIconsLaboratoryData extends JustinoIconData {
 class JustinoIconsLaboratory {
   const JustinoIconsLaboratory();
 
-  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
+  List<JustinoIconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
   IconData? getByName(String name) => iconsMap[name];
 
-  Map<String, IconData> get iconsMap => { 
+  Map<String, JustinoIconData> get iconsMap => { 
     'biohazard' : biohazard,
     'bunsenBurner' : bunsenBurner,
     'filterLaboratory' : filterLaboratory,

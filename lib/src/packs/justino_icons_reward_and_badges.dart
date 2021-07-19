@@ -14,11 +14,11 @@ class _JustinoIconsRewardAndBadgesData extends JustinoIconData {
 class JustinoIconsRewardAndBadges {
   const JustinoIconsRewardAndBadges();
 
-  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
+  List<JustinoIconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
   IconData? getByName(String name) => iconsMap[name];
 
-  Map<String, IconData> get iconsMap => { 
+  Map<String, JustinoIconData> get iconsMap => { 
     'badge' : badge,
     'certificate' : certificate,
     'crown' : crown,

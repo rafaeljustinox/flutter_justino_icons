@@ -14,11 +14,11 @@ class _JustinoIconsGraphicDesignData extends JustinoIconData {
 class JustinoIconsGraphicDesign {
   const JustinoIconsGraphicDesign();
 
-  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
+  List<JustinoIconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
   
   IconData? getByName(String name) => iconsMap[name];
 
-  Map<String, IconData> get iconsMap => { 
+  Map<String, JustinoIconData> get iconsMap => { 
     'a3dModel' : a3dModel,
     'a3dModeling' : a3dModeling,
     'a3d' : a3d,
