@@ -17,7 +17,7 @@ class JustinoIconsSignalsProhibitions {
 
   List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => iconsMap[name] ?? busStop;
+  IconData? getByName(String name) => iconsMap[name];
 
   Map<String, IconData> get iconsMap => { 
     'busStop' : busStop,

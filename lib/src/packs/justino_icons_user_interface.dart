@@ -70,7 +70,7 @@ class JustinoIconsUserInterface {
     'wifiRouter' : wifiRouter,
   };
 
-  IconData getByName(String name) => iconsMap[name] ?? battery;
+  IconData? getByName(String name) => iconsMap[name];
   
   final IconData battery = const _JustinoIconsUserInterfaceData(0xe000);
   final IconData bookmark = const _JustinoIconsUserInterfaceData(0xe001);

@@ -17,7 +17,7 @@ class JustinoIconsGraphicDesign {
 
   List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
   
-  IconData getByName(String name) => iconsMap[name] ?? a3dModel;
+  IconData? getByName(String name) => iconsMap[name];
 
   Map<String, IconData> get iconsMap => { 
     'a3dModel' : a3dModel,

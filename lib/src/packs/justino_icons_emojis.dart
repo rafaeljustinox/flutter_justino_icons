@@ -17,7 +17,7 @@ class JustinoIconsEmojis {
 
   List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => iconsMap[name] ?? angry;
+  IconData? getByName(String name) => iconsMap[name];
 
   Map<String, IconData> get iconsMap => { 
     'angry' : angry,

@@ -1,5 +1,4 @@
 import 'package:flutter/widgets.dart';
-import 'package:justino_icons/src/names.dart';
 import 'package:justino_icons/src/packs/justino_icons_accessibility.dart';
 import 'package:justino_icons/src/packs/justino_icons_adventure.dart';
 import 'package:justino_icons/src/packs/justino_icons_agriculture.dart';
@@ -42,32 +41,72 @@ import 'package:justino_icons/src/packs/justino_icons_weather.dart';
 
 @immutable
 class JustinoIconData extends IconData {
-  final String name;
-  const JustinoIconData(int codePoint, this.name)
-      : super(codePoint,
-            fontFamily: 'JustinoIcons', fontPackage: 'justino_icons');
+  const JustinoIconData(int codePoint)
+  : super(codePoint, fontFamily: 'JustinoIcons', fontPackage: 'justino_icons');
 }
 
 @immutable
 class JustinoIcons {
   JustinoIcons._();
 
-  static List<JustinoIconData> get all {
-    return names.keys.map((key) {
-      int code = names[key]!;
-      return JustinoIconData(code, key);
-    }).toList();
+  static IconData? getByName(String name) {
+    const categories = {
+      'accessibility' : accessibility,
+      'adventure' : adventure
+    };
+
+    for (var key in categories.keys) {
+      var category =  categories[key]! as dynamic;
+      IconData? founded = category.getByName(name);
+      if (founded != null){
+        return founded;
+      }
+    }
+    return null;
   }
 
-  static JustinoIconData byName(String name) {
-    int code = names[name] ?? -1;
-    if (code != -1) {
-      return JustinoIconData(code, name);
-    } else {
-      String key = 'dollar';
-      int value = names[key]!;
-      return JustinoIconData(value, key);
-    }
+  static List<IconData> get all {
+    List<IconData> icons = [];
+    icons.addAll( accessibility.all );
+    icons.addAll( adventure.all );
+    icons.addAll( agriculture.all );
+    icons.addAll( airport.all );
+    icons.addAll( animals.all );
+    icons.addAll( birthday.all );
+    icons.addAll( business.all );
+    icons.addAll( chess.all );
+    icons.addAll( christmas.all );
+    icons.addAll( coffee.all );
+    icons.addAll( delivery.all );
+    icons.addAll( drivingSchool.all );
+    icons.addAll( emojis.all );
+    icons.addAll( food.all );
+    icons.addAll( fruits.all );
+    icons.addAll( galaxy.all );
+    icons.addAll( graphicDesign.all );
+    icons.addAll( gym.all );
+    icons.addAll( halloween.all );
+    icons.addAll( homeScreenApps.all );
+    icons.addAll( laboratory.all );
+    icons.addAll( motivation.all );
+    icons.addAll( music.all );
+    icons.addAll( navigationMaps.all );
+    icons.addAll( plumber.all );
+    icons.addAll( protectionAndSecurity.all );
+    icons.addAll( rewardAndBadges.all );
+    icons.addAll( sailor.all );
+    icons.addAll( signalsProhibitions.all );
+    icons.addAll( socialMedia.all );
+    icons.addAll( sports.all );
+    icons.addAll( spring.all );
+    icons.addAll( stayAtHome.all );
+    icons.addAll( summer.all );
+    icons.addAll( swimmingPoolRules.all );
+    icons.addAll( travel.all );
+    icons.addAll( userInterface.all );
+    icons.addAll( virusTransmission.all );
+    icons.addAll( weather.all );
+    return icons;
   }
 
   static const JustinoIconsAccessibility accessibility = const JustinoIconsAccessibility();

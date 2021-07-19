@@ -17,7 +17,7 @@ class JustinoIconsChess {
 
   List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => iconsMap[name] ?? bishop;
+  IconData? getByName(String name) => iconsMap[name];
 
   Map<String, IconData> get iconsMap => { 
     'bishop' : bishop,
