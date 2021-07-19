@@ -1,3 +1,7 @@
+## 0.1.0
+
+* New Icons! Now it's 1357 icons!
+
 ## 0.0.6
 
 * Updated README

@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  JustinoIconData _selected = JustinoIcons.adventure.bbqAdventure;
+  JustinoIconData _selected = JustinoIcons.getByName('steeringWheel')!;
 
   _selectIcon(JustinoIconData icon){
     setState(() {

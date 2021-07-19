@@ -17,7 +17,7 @@ dev_dependencies:
 
 flutter:
 
-  #flutter pub global run icon_font_generator --from=../justino_icons_assets/all-icons/business --class-name=JustinoIconsBusiness2 --out-font=fonts/JustinoIconsBusiness2.ttf --out-flutter=lib/justino_icons_business_2.dart
+  #flutter pub global run icon_font_generator --from=../justino_icons_assets/all-icons/driving_school --class-name=JustinoIconsDrivingSchool2 --out-font=fonts/JustinoIconsDrivingSchool2.ttf --out-flutter=lib/justino_icons_driving_school_2.dart
 
   fonts:
     - family: JustinoIconsAccessibility

@@ -43,6 +43,7 @@ class JustinoIconsDrivingSchool {
     'safetyBelt' : safetyBelt,
     'speedBump' : speedBump,
     'speedLimit' : speedLimit,
+    'steeringWheel' : steeringWheel,
     'stopDrivingSchool' : stopDrivingSchool,
     'testingDrivingSchool' : testingDrivingSchool,
     'trafficCamera' : trafficCamera,
@@ -73,8 +74,9 @@ class JustinoIconsDrivingSchool {
   final JustinoIconData safetyBelt = const _JustinoIconsDrivingSchoolData(0xe015, 'safetyBelt');
   final JustinoIconData speedBump = const _JustinoIconsDrivingSchoolData(0xe016, 'speedBump');
   final JustinoIconData speedLimit = const _JustinoIconsDrivingSchoolData(0xe017, 'speedLimit');
-  final JustinoIconData stopDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe018, 'stopDrivingSchool');
-  final JustinoIconData testingDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe019, 'testingDrivingSchool');
-  final JustinoIconData trafficCamera = const _JustinoIconsDrivingSchoolData(0xe01a, 'trafficCamera');
-  final JustinoIconData trafficCone = const _JustinoIconsDrivingSchoolData(0xe01b, 'trafficCone');
+  final JustinoIconData steeringWheel = const _JustinoIconsDrivingSchoolData(0xe018, 'steeringWheel');
+  final JustinoIconData stopDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe019, 'stopDrivingSchool');
+  final JustinoIconData testingDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe01a, 'testingDrivingSchool');
+  final JustinoIconData trafficCamera = const _JustinoIconsDrivingSchoolData(0xe01b, 'trafficCamera');
+  final JustinoIconData trafficCone = const _JustinoIconsDrivingSchoolData(0xe01c, 'trafficCone');
 }
