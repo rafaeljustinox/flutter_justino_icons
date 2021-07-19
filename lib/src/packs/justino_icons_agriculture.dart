@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsAgricultureData extends IconData {
-  const _JustinoIconsAgricultureData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsAgriculture',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsAgricultureData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsAgricultureData(int codePoint, this.name)
+  : super('JustinoIconsAgriculture', codePoint, name);
 }
 
 @immutable
@@ -51,31 +49,31 @@ class JustinoIconsAgriculture {
   };
 
   
-  final IconData artificialIntelligence = const _JustinoIconsAgricultureData(0xe000);
-  final IconData bio = const _JustinoIconsAgricultureData(0xe001);
-  final IconData chemistry = const _JustinoIconsAgricultureData(0xe002);
-  final IconData deliveryAgriculture = const _JustinoIconsAgricultureData(0xe003);
-  final IconData drone = const _JustinoIconsAgricultureData(0xe004);
-  final IconData egg = const _JustinoIconsAgricultureData(0xe005);
-  final IconData flour = const _JustinoIconsAgricultureData(0xe006);
-  final IconData gmo = const _JustinoIconsAgricultureData(0xe007);
-  final IconData greenhouse = const _JustinoIconsAgricultureData(0xe008);
-  final IconData hay = const _JustinoIconsAgricultureData(0xe009);
-  final IconData humidityAgriculture = const _JustinoIconsAgricultureData(0xe00a);
-  final IconData ladderAgriculture = const _JustinoIconsAgricultureData(0xe00b);
-  final IconData meatAgriculture = const _JustinoIconsAgricultureData(0xe00c);
-  final IconData milkAgriculture = const _JustinoIconsAgricultureData(0xe00d);
-  final IconData planting = const _JustinoIconsAgricultureData(0xe00e);
-  final IconData precipitation = const _JustinoIconsAgricultureData(0xe00f);
-  final IconData scythe = const _JustinoIconsAgricultureData(0xe010);
-  final IconData seed = const _JustinoIconsAgricultureData(0xe011);
-  final IconData seedling = const _JustinoIconsAgricultureData(0xe012);
-  final IconData sickle = const _JustinoIconsAgricultureData(0xe013);
-  final IconData soil = const _JustinoIconsAgricultureData(0xe014);
-  final IconData sunflower = const _JustinoIconsAgricultureData(0xe015);
-  final IconData tool = const _JustinoIconsAgricultureData(0xe016);
-  final IconData tractor = const _JustinoIconsAgricultureData(0xe017);
-  final IconData watering = const _JustinoIconsAgricultureData(0xe018);
-  final IconData wheat = const _JustinoIconsAgricultureData(0xe019);
-  final IconData windmill = const _JustinoIconsAgricultureData(0xe01a);
+  final JustinoIconData artificialIntelligence = const _JustinoIconsAgricultureData(0xe000, 'artificialIntelligence');
+  final JustinoIconData bio = const _JustinoIconsAgricultureData(0xe001, 'bio');
+  final JustinoIconData chemistry = const _JustinoIconsAgricultureData(0xe002, 'chemistry');
+  final JustinoIconData deliveryAgriculture = const _JustinoIconsAgricultureData(0xe003, 'deliveryAgriculture');
+  final JustinoIconData drone = const _JustinoIconsAgricultureData(0xe004, 'drone');
+  final JustinoIconData egg = const _JustinoIconsAgricultureData(0xe005, 'egg');
+  final JustinoIconData flour = const _JustinoIconsAgricultureData(0xe006, 'flour');
+  final JustinoIconData gmo = const _JustinoIconsAgricultureData(0xe007, 'gmo');
+  final JustinoIconData greenhouse = const _JustinoIconsAgricultureData(0xe008, 'greenhouse');
+  final JustinoIconData hay = const _JustinoIconsAgricultureData(0xe009, 'hay');
+  final JustinoIconData humidityAgriculture = const _JustinoIconsAgricultureData(0xe00a, 'humidityAgriculture');
+  final JustinoIconData ladderAgriculture = const _JustinoIconsAgricultureData(0xe00b, 'ladderAgriculture');
+  final JustinoIconData meatAgriculture = const _JustinoIconsAgricultureData(0xe00c, 'meatAgriculture');
+  final JustinoIconData milkAgriculture = const _JustinoIconsAgricultureData(0xe00d, 'milkAgriculture');
+  final JustinoIconData planting = const _JustinoIconsAgricultureData(0xe00e, 'planting');
+  final JustinoIconData precipitation = const _JustinoIconsAgricultureData(0xe00f, 'precipitation');
+  final JustinoIconData scythe = const _JustinoIconsAgricultureData(0xe010, 'scythe');
+  final JustinoIconData seed = const _JustinoIconsAgricultureData(0xe011, 'seed');
+  final JustinoIconData seedling = const _JustinoIconsAgricultureData(0xe012, 'seedling');
+  final JustinoIconData sickle = const _JustinoIconsAgricultureData(0xe013, 'sickle');
+  final JustinoIconData soil = const _JustinoIconsAgricultureData(0xe014, 'soil');
+  final JustinoIconData sunflower = const _JustinoIconsAgricultureData(0xe015, 'sunflower');
+  final JustinoIconData tool = const _JustinoIconsAgricultureData(0xe016, 'tool');
+  final JustinoIconData tractor = const _JustinoIconsAgricultureData(0xe017, 'tractor');
+  final JustinoIconData watering = const _JustinoIconsAgricultureData(0xe018, 'watering');
+  final JustinoIconData wheat = const _JustinoIconsAgricultureData(0xe019, 'wheat');
+  final JustinoIconData windmill = const _JustinoIconsAgricultureData(0xe01a, 'windmill');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsDeliveryData extends IconData {
-  const _JustinoIconsDeliveryData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsDelivery',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsDeliveryData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsDeliveryData(int codePoint, this.name)
+  : super('JustinoIconsDelivery', codePoint, name);
 }
 
 @immutable
@@ -66,47 +64,47 @@ class JustinoIconsDelivery {
     'worldwideDelivery' : worldwideDelivery,
   };
   
-  final IconData hoursDelivery = const _JustinoIconsDeliveryData(0xe000);
-  final IconData addPackage = const _JustinoIconsDeliveryData(0xe001);
-  final IconData approvedDelivery = const _JustinoIconsDeliveryData(0xe002);
-  final IconData barcode = const _JustinoIconsDeliveryData(0xe003);
-  final IconData calendarDelivery = const _JustinoIconsDeliveryData(0xe004);
-  final IconData cardPayment = const _JustinoIconsDeliveryData(0xe005);
-  final IconData cashOnDelivery = const _JustinoIconsDeliveryData(0xe006);
-  final IconData centerOfGravity = const _JustinoIconsDeliveryData(0xe007);
-  final IconData checkedBox = const _JustinoIconsDeliveryData(0xe008);
-  final IconData chronometer = const _JustinoIconsDeliveryData(0xe009);
-  final IconData clipboard = const _JustinoIconsDeliveryData(0xe00a);
-  final IconData courier = const _JustinoIconsDeliveryData(0xe00b);
-  final IconData customerSupport = const _JustinoIconsDeliveryData(0xe00c);
-  final IconData delivered = const _JustinoIconsDeliveryData(0xe00d);
-  final IconData deliveryBox = const _JustinoIconsDeliveryData(0xe00e);
-  final IconData deliveryDelivery = const _JustinoIconsDeliveryData(0xe00f);
-  final IconData deliveryTruck = const _JustinoIconsDeliveryData(0xe010);
-  final IconData distribution = const _JustinoIconsDeliveryData(0xe011);
-  final IconData doNotRoll = const _JustinoIconsDeliveryData(0xe012);
-  final IconData doNotUseHooks = const _JustinoIconsDeliveryData(0xe013);
-  final IconData flammableSign = const _JustinoIconsDeliveryData(0xe014);
-  final IconData giftDelivery = const _JustinoIconsDeliveryData(0xe015);
-  final IconData handTruck = const _JustinoIconsDeliveryData(0xe016);
-  final IconData handleWithCare = const _JustinoIconsDeliveryData(0xe017);
-  final IconData importantDelivery = const _JustinoIconsDeliveryData(0xe018);
-  final IconData loading = const _JustinoIconsDeliveryData(0xe019);
-  final IconData locationDelivery = const _JustinoIconsDeliveryData(0xe01a);
-  final IconData lockDelivery = const _JustinoIconsDeliveryData(0xe01b);
-  final IconData onlineShopping = const _JustinoIconsDeliveryData(0xe01c);
-  final IconData packed = const _JustinoIconsDeliveryData(0xe01d);
-  final IconData pallet = const _JustinoIconsDeliveryData(0xe01e);
-  final IconData postalDelivery = const _JustinoIconsDeliveryData(0xe01f);
-  final IconData processingTime = const _JustinoIconsDeliveryData(0xe020);
-  final IconData railwayDelivery = const _JustinoIconsDeliveryData(0xe021);
-  final IconData receipt = const _JustinoIconsDeliveryData(0xe022);
-  final IconData returnBox = const _JustinoIconsDeliveryData(0xe023);
-  final IconData thisSideUp = const _JustinoIconsDeliveryData(0xe024);
-  final IconData tilt = const _JustinoIconsDeliveryData(0xe025);
-  final IconData tracking = const _JustinoIconsDeliveryData(0xe026);
-  final IconData trolleyDelivery = const _JustinoIconsDeliveryData(0xe027);
-  final IconData unloading = const _JustinoIconsDeliveryData(0xe028);
-  final IconData view = const _JustinoIconsDeliveryData(0xe029);
-  final IconData worldwideDelivery = const _JustinoIconsDeliveryData(0xe02a);
+  final JustinoIconData hoursDelivery = const _JustinoIconsDeliveryData(0xe000, 'hoursDelivery');
+  final JustinoIconData addPackage = const _JustinoIconsDeliveryData(0xe001, 'addPackage');
+  final JustinoIconData approvedDelivery = const _JustinoIconsDeliveryData(0xe002, 'approvedDelivery');
+  final JustinoIconData barcode = const _JustinoIconsDeliveryData(0xe003, 'barcode');
+  final JustinoIconData calendarDelivery = const _JustinoIconsDeliveryData(0xe004, 'calendarDelivery');
+  final JustinoIconData cardPayment = const _JustinoIconsDeliveryData(0xe005, 'cardPayment');
+  final JustinoIconData cashOnDelivery = const _JustinoIconsDeliveryData(0xe006, 'cashOnDelivery');
+  final JustinoIconData centerOfGravity = const _JustinoIconsDeliveryData(0xe007, 'centerOfGravity');
+  final JustinoIconData checkedBox = const _JustinoIconsDeliveryData(0xe008, 'checkedBox');
+  final JustinoIconData chronometer = const _JustinoIconsDeliveryData(0xe009, 'chronometer');
+  final JustinoIconData clipboard = const _JustinoIconsDeliveryData(0xe00a, 'clipboard');
+  final JustinoIconData courier = const _JustinoIconsDeliveryData(0xe00b, 'courier');
+  final JustinoIconData customerSupport = const _JustinoIconsDeliveryData(0xe00c, 'customerSupport');
+  final JustinoIconData delivered = const _JustinoIconsDeliveryData(0xe00d, 'delivered');
+  final JustinoIconData deliveryBox = const _JustinoIconsDeliveryData(0xe00e, 'deliveryBox');
+  final JustinoIconData deliveryDelivery = const _JustinoIconsDeliveryData(0xe00f, 'deliveryDelivery');
+  final JustinoIconData deliveryTruck = const _JustinoIconsDeliveryData(0xe010, 'deliveryTruck');
+  final JustinoIconData distribution = const _JustinoIconsDeliveryData(0xe011, 'distribution');
+  final JustinoIconData doNotRoll = const _JustinoIconsDeliveryData(0xe012, 'doNotRoll');
+  final JustinoIconData doNotUseHooks = const _JustinoIconsDeliveryData(0xe013, 'doNotUseHooks');
+  final JustinoIconData flammableSign = const _JustinoIconsDeliveryData(0xe014, 'flammableSign');
+  final JustinoIconData giftDelivery = const _JustinoIconsDeliveryData(0xe015, 'giftDelivery');
+  final JustinoIconData handTruck = const _JustinoIconsDeliveryData(0xe016, 'handTruck');
+  final JustinoIconData handleWithCare = const _JustinoIconsDeliveryData(0xe017, 'handleWithCare');
+  final JustinoIconData importantDelivery = const _JustinoIconsDeliveryData(0xe018, 'importantDelivery');
+  final JustinoIconData loading = const _JustinoIconsDeliveryData(0xe019, 'loading');
+  final JustinoIconData locationDelivery = const _JustinoIconsDeliveryData(0xe01a, 'locationDelivery');
+  final JustinoIconData lockDelivery = const _JustinoIconsDeliveryData(0xe01b, 'lockDelivery');
+  final JustinoIconData onlineShopping = const _JustinoIconsDeliveryData(0xe01c, 'onlineShopping');
+  final JustinoIconData packed = const _JustinoIconsDeliveryData(0xe01d, 'packed');
+  final JustinoIconData pallet = const _JustinoIconsDeliveryData(0xe01e, 'pallet');
+  final JustinoIconData postalDelivery = const _JustinoIconsDeliveryData(0xe01f, 'postalDelivery');
+  final JustinoIconData processingTime = const _JustinoIconsDeliveryData(0xe020, 'processingTime');
+  final JustinoIconData railwayDelivery = const _JustinoIconsDeliveryData(0xe021, 'railwayDelivery');
+  final JustinoIconData receipt = const _JustinoIconsDeliveryData(0xe022, 'receipt');
+  final JustinoIconData returnBox = const _JustinoIconsDeliveryData(0xe023, 'returnBox');
+  final JustinoIconData thisSideUp = const _JustinoIconsDeliveryData(0xe024, 'thisSideUp');
+  final JustinoIconData tilt = const _JustinoIconsDeliveryData(0xe025, 'tilt');
+  final JustinoIconData tracking = const _JustinoIconsDeliveryData(0xe026, 'tracking');
+  final JustinoIconData trolleyDelivery = const _JustinoIconsDeliveryData(0xe027, 'trolleyDelivery');
+  final JustinoIconData unloading = const _JustinoIconsDeliveryData(0xe028, 'unloading');
+  final JustinoIconData view = const _JustinoIconsDeliveryData(0xe029, 'view');
+  final JustinoIconData worldwideDelivery = const _JustinoIconsDeliveryData(0xe02a, 'worldwideDelivery');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsSpringData extends IconData {
-  const _JustinoIconsSpringData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsSpring',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsSpringData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsSpringData(int codePoint, this.name)
+  : super('JustinoIconsSpring', codePoint, name);
 }
 
 @immutable
@@ -61,42 +59,42 @@ class JustinoIconsSpring {
     'wheelbarrow' : wheelbarrow,
   };
   
-  final IconData bbqSpring = const _JustinoIconsSpringData(0xe000);
-  final IconData birdHouse = const _JustinoIconsSpringData(0xe001);
-  final IconData bird = const _JustinoIconsSpringData(0xe002);
-  final IconData butterfly = const _JustinoIconsSpringData(0xe003);
-  final IconData care = const _JustinoIconsSpringData(0xe004);
-  final IconData carrot = const _JustinoIconsSpringData(0xe005);
-  final IconData chick = const _JustinoIconsSpringData(0xe006);
-  final IconData clover = const _JustinoIconsSpringData(0xe007);
-  final IconData easterEgg = const _JustinoIconsSpringData(0xe008);
-  final IconData fenceSpring = const _JustinoIconsSpringData(0xe009);
-  final IconData floods = const _JustinoIconsSpringData(0xe00a);
-  final IconData flowerBud = const _JustinoIconsSpringData(0xe00b);
-  final IconData flowerPot = const _JustinoIconsSpringData(0xe00c);
-  final IconData flower = const _JustinoIconsSpringData(0xe00d);
-  final IconData germinate = const _JustinoIconsSpringData(0xe00e);
-  final IconData glovesSpring = const _JustinoIconsSpringData(0xe00f);
-  final IconData grass = const _JustinoIconsSpringData(0xe010);
-  final IconData gumboot = const _JustinoIconsSpringData(0xe011);
-  final IconData icicles = const _JustinoIconsSpringData(0xe012);
-  final IconData insecticide = const _JustinoIconsSpringData(0xe013);
-  final IconData kite = const _JustinoIconsSpringData(0xe014);
-  final IconData ladybug = const _JustinoIconsSpringData(0xe015);
-  final IconData paperBoat = const _JustinoIconsSpringData(0xe016);
-  final IconData park = const _JustinoIconsSpringData(0xe017);
-  final IconData pinwheel = const _JustinoIconsSpringData(0xe018);
-  final IconData radish = const _JustinoIconsSpringData(0xe019);
-  final IconData rainSpring = const _JustinoIconsSpringData(0xe01a);
-  final IconData rake = const _JustinoIconsSpringData(0xe01b);
-  final IconData seeds = const _JustinoIconsSpringData(0xe01c);
-  final IconData shovel = const _JustinoIconsSpringData(0xe01d);
-  final IconData springSpring = const _JustinoIconsSpringData(0xe01e);
-  final IconData sprout = const _JustinoIconsSpringData(0xe01f);
-  final IconData stormSpring = const _JustinoIconsSpringData(0xe020);
-  final IconData sunSpring = const _JustinoIconsSpringData(0xe021);
-  final IconData treeSpring = const _JustinoIconsSpringData(0xe022);
-  final IconData umbrellaSpring = const _JustinoIconsSpringData(0xe023);
-  final IconData waterHose = const _JustinoIconsSpringData(0xe024);
-  final IconData wheelbarrow = const _JustinoIconsSpringData(0xe025);
+  final JustinoIconData bbqSpring = const _JustinoIconsSpringData(0xe000, 'bbqSpring');
+  final JustinoIconData birdHouse = const _JustinoIconsSpringData(0xe001, 'birdHouse');
+  final JustinoIconData bird = const _JustinoIconsSpringData(0xe002, 'bird');
+  final JustinoIconData butterfly = const _JustinoIconsSpringData(0xe003, 'butterfly');
+  final JustinoIconData care = const _JustinoIconsSpringData(0xe004, 'care');
+  final JustinoIconData carrot = const _JustinoIconsSpringData(0xe005, 'carrot');
+  final JustinoIconData chick = const _JustinoIconsSpringData(0xe006, 'chick');
+  final JustinoIconData clover = const _JustinoIconsSpringData(0xe007, 'clover');
+  final JustinoIconData easterEgg = const _JustinoIconsSpringData(0xe008, 'easterEgg');
+  final JustinoIconData fenceSpring = const _JustinoIconsSpringData(0xe009, 'fenceSpring');
+  final JustinoIconData floods = const _JustinoIconsSpringData(0xe00a, 'floods');
+  final JustinoIconData flowerBud = const _JustinoIconsSpringData(0xe00b, 'flowerBud');
+  final JustinoIconData flowerPot = const _JustinoIconsSpringData(0xe00c, 'flowerPot');
+  final JustinoIconData flower = const _JustinoIconsSpringData(0xe00d, 'flower');
+  final JustinoIconData germinate = const _JustinoIconsSpringData(0xe00e, 'germinate');
+  final JustinoIconData glovesSpring = const _JustinoIconsSpringData(0xe00f, 'glovesSpring');
+  final JustinoIconData grass = const _JustinoIconsSpringData(0xe010, 'grass');
+  final JustinoIconData gumboot = const _JustinoIconsSpringData(0xe011, 'gumboot');
+  final JustinoIconData icicles = const _JustinoIconsSpringData(0xe012, 'icicles');
+  final JustinoIconData insecticide = const _JustinoIconsSpringData(0xe013, 'insecticide');
+  final JustinoIconData kite = const _JustinoIconsSpringData(0xe014, 'kite');
+  final JustinoIconData ladybug = const _JustinoIconsSpringData(0xe015, 'ladybug');
+  final JustinoIconData paperBoat = const _JustinoIconsSpringData(0xe016, 'paperBoat');
+  final JustinoIconData park = const _JustinoIconsSpringData(0xe017, 'park');
+  final JustinoIconData pinwheel = const _JustinoIconsSpringData(0xe018, 'pinwheel');
+  final JustinoIconData radish = const _JustinoIconsSpringData(0xe019, 'radish');
+  final JustinoIconData rainSpring = const _JustinoIconsSpringData(0xe01a, 'rainSpring');
+  final JustinoIconData rake = const _JustinoIconsSpringData(0xe01b, 'rake');
+  final JustinoIconData seeds = const _JustinoIconsSpringData(0xe01c, 'seeds');
+  final JustinoIconData shovel = const _JustinoIconsSpringData(0xe01d, 'shovel');
+  final JustinoIconData springSpring = const _JustinoIconsSpringData(0xe01e, 'springSpring');
+  final JustinoIconData sprout = const _JustinoIconsSpringData(0xe01f, 'sprout');
+  final JustinoIconData stormSpring = const _JustinoIconsSpringData(0xe020, 'stormSpring');
+  final JustinoIconData sunSpring = const _JustinoIconsSpringData(0xe021, 'sunSpring');
+  final JustinoIconData treeSpring = const _JustinoIconsSpringData(0xe022, 'treeSpring');
+  final JustinoIconData umbrellaSpring = const _JustinoIconsSpringData(0xe023, 'umbrellaSpring');
+  final JustinoIconData waterHose = const _JustinoIconsSpringData(0xe024, 'waterHose');
+  final JustinoIconData wheelbarrow = const _JustinoIconsSpringData(0xe025, 'wheelbarrow');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsVirusTransmissionData extends IconData {
-  const _JustinoIconsVirusTransmissionData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsVirusTransmission',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsVirusTransmissionData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsVirusTransmissionData(int codePoint, this.name)
+  : super('JustinoIconsVirusTransmission', codePoint, name);
 }
 
 @immutable
@@ -55,36 +53,36 @@ class JustinoIconsVirusTransmission {
     'wetVirusTransmission' : wetVirusTransmission,
   };
   
-  final IconData airTransmission = const _JustinoIconsVirusTransmissionData(0xe000);
-  final IconData antiseptic = const _JustinoIconsVirusTransmissionData(0xe001);
-  final IconData attention = const _JustinoIconsVirusTransmissionData(0xe002);
-  final IconData blood = const _JustinoIconsVirusTransmissionData(0xe003);
-  final IconData cough = const _JustinoIconsVirusTransmissionData(0xe004);
-  final IconData dizziness = const _JustinoIconsVirusTransmissionData(0xe005);
-  final IconData eyeVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe006);
-  final IconData fever = const _JustinoIconsVirusTransmissionData(0xe007);
-  final IconData handSanitizer = const _JustinoIconsVirusTransmissionData(0xe008);
-  final IconData handVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe009);
-  final IconData handWashing = const _JustinoIconsVirusTransmissionData(0xe00a);
-  final IconData headache = const _JustinoIconsVirusTransmissionData(0xe00b);
-  final IconData highTemperatureVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe00c);
-  final IconData hospitalBed = const _JustinoIconsVirusTransmissionData(0xe00d);
-  final IconData infected = const _JustinoIconsVirusTransmissionData(0xe00e);
-  final IconData intestine = const _JustinoIconsVirusTransmissionData(0xe00f);
-  final IconData isolationVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe010);
-  final IconData keep = const _JustinoIconsVirusTransmissionData(0xe011);
-  final IconData locationVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe012);
-  final IconData loupeVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe013);
-  final IconData lungs = const _JustinoIconsVirusTransmissionData(0xe014);
-  final IconData medicalMaskVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe015);
-  final IconData noFlight = const _JustinoIconsVirusTransmissionData(0xe016);
-  final IconData noGroups = const _JustinoIconsVirusTransmissionData(0xe017);
-  final IconData noHandshake = const _JustinoIconsVirusTransmissionData(0xe018);
-  final IconData planet = const _JustinoIconsVirusTransmissionData(0xe019);
-  final IconData test = const _JustinoIconsVirusTransmissionData(0xe01a);
-  final IconData unprotected = const _JustinoIconsVirusTransmissionData(0xe01b);
-  final IconData vaccine = const _JustinoIconsVirusTransmissionData(0xe01c);
-  final IconData virusTransmission = const _JustinoIconsVirusTransmissionData(0xe01d);
-  final IconData virus = const _JustinoIconsVirusTransmissionData(0xe01e);
-  final IconData wetVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe01f);
+  final JustinoIconData airTransmission = const _JustinoIconsVirusTransmissionData(0xe000, 'airTransmission');
+  final JustinoIconData antiseptic = const _JustinoIconsVirusTransmissionData(0xe001, 'antiseptic');
+  final JustinoIconData attention = const _JustinoIconsVirusTransmissionData(0xe002, 'attention');
+  final JustinoIconData blood = const _JustinoIconsVirusTransmissionData(0xe003, 'blood');
+  final JustinoIconData cough = const _JustinoIconsVirusTransmissionData(0xe004, 'cough');
+  final JustinoIconData dizziness = const _JustinoIconsVirusTransmissionData(0xe005, 'dizziness');
+  final JustinoIconData eyeVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe006, 'eyeVirusTransmission');
+  final JustinoIconData fever = const _JustinoIconsVirusTransmissionData(0xe007, 'fever');
+  final JustinoIconData handSanitizer = const _JustinoIconsVirusTransmissionData(0xe008, 'handSanitizer');
+  final JustinoIconData handVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe009, 'handVirusTransmission');
+  final JustinoIconData handWashing = const _JustinoIconsVirusTransmissionData(0xe00a, 'handWashing');
+  final JustinoIconData headache = const _JustinoIconsVirusTransmissionData(0xe00b, 'headache');
+  final JustinoIconData highTemperatureVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe00c, 'highTemperatureVirusTransmission');
+  final JustinoIconData hospitalBed = const _JustinoIconsVirusTransmissionData(0xe00d, 'hospitalBed');
+  final JustinoIconData infected = const _JustinoIconsVirusTransmissionData(0xe00e, 'infected');
+  final JustinoIconData intestine = const _JustinoIconsVirusTransmissionData(0xe00f, 'intestine');
+  final JustinoIconData isolationVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe010, 'isolationVirusTransmission');
+  final JustinoIconData keep = const _JustinoIconsVirusTransmissionData(0xe011, 'keep');
+  final JustinoIconData locationVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe012, 'locationVirusTransmission');
+  final JustinoIconData loupeVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe013, 'loupeVirusTransmission');
+  final JustinoIconData lungs = const _JustinoIconsVirusTransmissionData(0xe014, 'lungs');
+  final JustinoIconData medicalMaskVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe015, 'medicalMaskVirusTransmission');
+  final JustinoIconData noFlight = const _JustinoIconsVirusTransmissionData(0xe016, 'noFlight');
+  final JustinoIconData noGroups = const _JustinoIconsVirusTransmissionData(0xe017, 'noGroups');
+  final JustinoIconData noHandshake = const _JustinoIconsVirusTransmissionData(0xe018, 'noHandshake');
+  final JustinoIconData planet = const _JustinoIconsVirusTransmissionData(0xe019, 'planet');
+  final JustinoIconData test = const _JustinoIconsVirusTransmissionData(0xe01a, 'test');
+  final JustinoIconData unprotected = const _JustinoIconsVirusTransmissionData(0xe01b, 'unprotected');
+  final JustinoIconData vaccine = const _JustinoIconsVirusTransmissionData(0xe01c, 'vaccine');
+  final JustinoIconData virusTransmission = const _JustinoIconsVirusTransmissionData(0xe01d, 'virusTransmission');
+  final JustinoIconData virus = const _JustinoIconsVirusTransmissionData(0xe01e, 'virus');
+  final JustinoIconData wetVirusTransmission = const _JustinoIconsVirusTransmissionData(0xe01f, 'wetVirusTransmission');
 }

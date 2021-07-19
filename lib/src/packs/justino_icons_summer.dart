@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsSummerData extends IconData {
-  const _JustinoIconsSummerData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsSummer',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsSummerData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsSummerData(int codePoint, this.name)
+  : super('JustinoIconsSummer', codePoint, name);
 }
 
 @immutable
@@ -51,32 +49,32 @@ class JustinoIconsSummer {
     'waves' : waves,
   };
   
-  final IconData anchorSummer = const _JustinoIconsSummerData(0xe000);
-  final IconData beachBag = const _JustinoIconsSummerData(0xe001);
-  final IconData beachBall = const _JustinoIconsSummerData(0xe002);
-  final IconData beachTowel = const _JustinoIconsSummerData(0xe003);
-  final IconData calendarSummer = const _JustinoIconsSummerData(0xe004);
-  final IconData flipFlops = const _JustinoIconsSummerData(0xe005);
-  final IconData hammock = const _JustinoIconsSummerData(0xe006);
-  final IconData lemonade = const _JustinoIconsSummerData(0xe007);
-  final IconData lifebuoySummer = const _JustinoIconsSummerData(0xe008);
-  final IconData popsicle = const _JustinoIconsSummerData(0xe009);
-  final IconData shirt = const _JustinoIconsSummerData(0xe00a);
-  final IconData signpostSummer = const _JustinoIconsSummerData(0xe00b);
-  final IconData sunHat = const _JustinoIconsSummerData(0xe00c);
-  final IconData sunSummer = const _JustinoIconsSummerData(0xe00d);
-  final IconData sunUmbrella = const _JustinoIconsSummerData(0xe00e);
-  final IconData sunbed = const _JustinoIconsSummerData(0xe00f);
-  final IconData sunglassesSummer = const _JustinoIconsSummerData(0xe010);
-  final IconData sunscreen = const _JustinoIconsSummerData(0xe011);
-  final IconData sunsetSummer = const _JustinoIconsSummerData(0xe012);
-  final IconData surfboard = const _JustinoIconsSummerData(0xe013);
-  final IconData sweat = const _JustinoIconsSummerData(0xe014);
-  final IconData swimsuit = const _JustinoIconsSummerData(0xe015);
-  final IconData tentSummer = const _JustinoIconsSummerData(0xe016);
-  final IconData treeSummer = const _JustinoIconsSummerData(0xe017);
-  final IconData tshirt = const _JustinoIconsSummerData(0xe018);
-  final IconData ultraviolet = const _JustinoIconsSummerData(0xe019);
-  final IconData waterTemperature = const _JustinoIconsSummerData(0xe01a);
-  final IconData waves = const _JustinoIconsSummerData(0xe01b);
+  final JustinoIconData anchorSummer = const _JustinoIconsSummerData(0xe000, 'anchorSummer');
+  final JustinoIconData beachBag = const _JustinoIconsSummerData(0xe001, 'beachBag');
+  final JustinoIconData beachBall = const _JustinoIconsSummerData(0xe002, 'beachBall');
+  final JustinoIconData beachTowel = const _JustinoIconsSummerData(0xe003, 'beachTowel');
+  final JustinoIconData calendarSummer = const _JustinoIconsSummerData(0xe004, 'calendarSummer');
+  final JustinoIconData flipFlops = const _JustinoIconsSummerData(0xe005, 'flipFlops');
+  final JustinoIconData hammock = const _JustinoIconsSummerData(0xe006, 'hammock');
+  final JustinoIconData lemonade = const _JustinoIconsSummerData(0xe007, 'lemonade');
+  final JustinoIconData lifebuoySummer = const _JustinoIconsSummerData(0xe008, 'lifebuoySummer');
+  final JustinoIconData popsicle = const _JustinoIconsSummerData(0xe009, 'popsicle');
+  final JustinoIconData shirt = const _JustinoIconsSummerData(0xe00a, 'shirt');
+  final JustinoIconData signpostSummer = const _JustinoIconsSummerData(0xe00b, 'signpostSummer');
+  final JustinoIconData sunHat = const _JustinoIconsSummerData(0xe00c, 'sunHat');
+  final JustinoIconData sunSummer = const _JustinoIconsSummerData(0xe00d, 'sunSummer');
+  final JustinoIconData sunUmbrella = const _JustinoIconsSummerData(0xe00e, 'sunUmbrella');
+  final JustinoIconData sunbed = const _JustinoIconsSummerData(0xe00f, 'sunbed');
+  final JustinoIconData sunglassesSummer = const _JustinoIconsSummerData(0xe010, 'sunglassesSummer');
+  final JustinoIconData sunscreen = const _JustinoIconsSummerData(0xe011, 'sunscreen');
+  final JustinoIconData sunsetSummer = const _JustinoIconsSummerData(0xe012, 'sunsetSummer');
+  final JustinoIconData surfboard = const _JustinoIconsSummerData(0xe013, 'surfboard');
+  final JustinoIconData sweat = const _JustinoIconsSummerData(0xe014, 'sweat');
+  final JustinoIconData swimsuit = const _JustinoIconsSummerData(0xe015, 'swimsuit');
+  final JustinoIconData tentSummer = const _JustinoIconsSummerData(0xe016, 'tentSummer');
+  final JustinoIconData treeSummer = const _JustinoIconsSummerData(0xe017, 'treeSummer');
+  final JustinoIconData tshirt = const _JustinoIconsSummerData(0xe018, 'tshirt');
+  final JustinoIconData ultraviolet = const _JustinoIconsSummerData(0xe019, 'ultraviolet');
+  final JustinoIconData waterTemperature = const _JustinoIconsSummerData(0xe01a, 'waterTemperature');
+  final JustinoIconData waves = const _JustinoIconsSummerData(0xe01b, 'waves');
 }

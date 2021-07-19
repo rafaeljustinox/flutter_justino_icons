@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsGymData extends IconData {
-  const _JustinoIconsGymData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsGym',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsGymData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsGymData(int codePoint, this.name)
+  : super('JustinoIconsGym', codePoint, name);
 }
 
 @immutable
@@ -52,33 +50,33 @@ class JustinoIconsGym {
     'yogaMat' : yogaMat,
   };
   
-  final IconData appleGym = const _JustinoIconsGymData(0xe000);
-  final IconData athlete = const _JustinoIconsGymData(0xe001);
-  final IconData boxingGlove = const _JustinoIconsGymData(0xe002);
-  final IconData centimeter = const _JustinoIconsGymData(0xe003);
-  final IconData dumbbell = const _JustinoIconsGymData(0xe004);
-  final IconData dumbbells = const _JustinoIconsGymData(0xe005);
-  final IconData energy = const _JustinoIconsGymData(0xe006);
-  final IconData fitball = const _JustinoIconsGymData(0xe007);
-  final IconData glovesGym = const _JustinoIconsGymData(0xe008);
-  final IconData gymnasticRings = const _JustinoIconsGymData(0xe009);
-  final IconData handGrip = const _JustinoIconsGymData(0xe00a);
-  final IconData heartRate = const _JustinoIconsGymData(0xe00b);
-  final IconData horizontalBar = const _JustinoIconsGymData(0xe00c);
-  final IconData isotonic = const _JustinoIconsGymData(0xe00d);
-  final IconData jumpRope = const _JustinoIconsGymData(0xe00e);
-  final IconData kettlebell = const _JustinoIconsGymData(0xe00f);
-  final IconData musicPlayerGym = const _JustinoIconsGymData(0xe010);
-  final IconData orangeJuice = const _JustinoIconsGymData(0xe011);
-  final IconData punchingBag = const _JustinoIconsGymData(0xe012);
-  final IconData resistanceBand = const _JustinoIconsGymData(0xe013);
-  final IconData running = const _JustinoIconsGymData(0xe014);
-  final IconData schedule = const _JustinoIconsGymData(0xe015);
-  final IconData shaker = const _JustinoIconsGymData(0xe016);
-  final IconData smartWatch = const _JustinoIconsGymData(0xe017);
-  final IconData sportBag = const _JustinoIconsGymData(0xe018);
-  final IconData towelGym = const _JustinoIconsGymData(0xe019);
-  final IconData water = const _JustinoIconsGymData(0xe01a);
-  final IconData weightScale = const _JustinoIconsGymData(0xe01b);
-  final IconData yogaMat = const _JustinoIconsGymData(0xe01c);
+  final JustinoIconData appleGym = const _JustinoIconsGymData(0xe000, 'appleGym');
+  final JustinoIconData athlete = const _JustinoIconsGymData(0xe001, 'athlete');
+  final JustinoIconData boxingGlove = const _JustinoIconsGymData(0xe002, 'boxingGlove');
+  final JustinoIconData centimeter = const _JustinoIconsGymData(0xe003, 'centimeter');
+  final JustinoIconData dumbbell = const _JustinoIconsGymData(0xe004, 'dumbbell');
+  final JustinoIconData dumbbells = const _JustinoIconsGymData(0xe005, 'dumbbells');
+  final JustinoIconData energy = const _JustinoIconsGymData(0xe006, 'energy');
+  final JustinoIconData fitball = const _JustinoIconsGymData(0xe007, 'fitball');
+  final JustinoIconData glovesGym = const _JustinoIconsGymData(0xe008, 'glovesGym');
+  final JustinoIconData gymnasticRings = const _JustinoIconsGymData(0xe009, 'gymnasticRings');
+  final JustinoIconData handGrip = const _JustinoIconsGymData(0xe00a, 'handGrip');
+  final JustinoIconData heartRate = const _JustinoIconsGymData(0xe00b, 'heartRate');
+  final JustinoIconData horizontalBar = const _JustinoIconsGymData(0xe00c, 'horizontalBar');
+  final JustinoIconData isotonic = const _JustinoIconsGymData(0xe00d, 'isotonic');
+  final JustinoIconData jumpRope = const _JustinoIconsGymData(0xe00e, 'jumpRope');
+  final JustinoIconData kettlebell = const _JustinoIconsGymData(0xe00f, 'kettlebell');
+  final JustinoIconData musicPlayerGym = const _JustinoIconsGymData(0xe010, 'musicPlayerGym');
+  final JustinoIconData orangeJuice = const _JustinoIconsGymData(0xe011, 'orangeJuice');
+  final JustinoIconData punchingBag = const _JustinoIconsGymData(0xe012, 'punchingBag');
+  final JustinoIconData resistanceBand = const _JustinoIconsGymData(0xe013, 'resistanceBand');
+  final JustinoIconData running = const _JustinoIconsGymData(0xe014, 'running');
+  final JustinoIconData schedule = const _JustinoIconsGymData(0xe015, 'schedule');
+  final JustinoIconData shaker = const _JustinoIconsGymData(0xe016, 'shaker');
+  final JustinoIconData smartWatch = const _JustinoIconsGymData(0xe017, 'smartWatch');
+  final JustinoIconData sportBag = const _JustinoIconsGymData(0xe018, 'sportBag');
+  final JustinoIconData towelGym = const _JustinoIconsGymData(0xe019, 'towelGym');
+  final JustinoIconData water = const _JustinoIconsGymData(0xe01a, 'water');
+  final JustinoIconData weightScale = const _JustinoIconsGymData(0xe01b, 'weightScale');
+  final JustinoIconData yogaMat = const _JustinoIconsGymData(0xe01c, 'yogaMat');
 }

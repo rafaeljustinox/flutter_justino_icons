@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsStayAtHomeData extends IconData {
-  const _JustinoIconsStayAtHomeData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsStayAtHome',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsStayAtHomeData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsStayAtHomeData(int codePoint, this.name)
+  : super('JustinoIconsStayAtHome', codePoint, name);
 }
 
 @immutable
@@ -43,24 +41,24 @@ class JustinoIconsStayAtHome {
     'workingAtHome' : workingAtHome,
   };
 
-  final IconData armchair = const _JustinoIconsStayAtHomeData(0xe000);
-  final IconData cleaning = const _JustinoIconsStayAtHomeData(0xe001);
-  final IconData computerScreen = const _JustinoIconsStayAtHomeData(0xe002);
-  final IconData cooking = const _JustinoIconsStayAtHomeData(0xe003);
-  final IconData doNotGoOut = const _JustinoIconsStayAtHomeData(0xe004);
-  final IconData doNot = const _JustinoIconsStayAtHomeData(0xe005);
-  final IconData homeStayAtHome = const _JustinoIconsStayAtHomeData(0xe006);
-  final IconData houseStayAtHome = const _JustinoIconsStayAtHomeData(0xe007);
-  final IconData isolationStayAtHome = const _JustinoIconsStayAtHomeData(0xe008);
-  final IconData lockStayAtHome = const _JustinoIconsStayAtHomeData(0xe009);
-  final IconData make = const _JustinoIconsStayAtHomeData(0xe00a);
-  final IconData observation = const _JustinoIconsStayAtHomeData(0xe00b);
-  final IconData onlineLearning = const _JustinoIconsStayAtHomeData(0xe00c);
-  final IconData play = const _JustinoIconsStayAtHomeData(0xe00d);
-  final IconData reading = const _JustinoIconsStayAtHomeData(0xe00e);
-  final IconData rest = const _JustinoIconsStayAtHomeData(0xe00f);
-  final IconData stayhome = const _JustinoIconsStayAtHomeData(0xe010);
-  final IconData waiting = const _JustinoIconsStayAtHomeData(0xe011);
-  final IconData watchTv = const _JustinoIconsStayAtHomeData(0xe012);
-  final IconData workingAtHome = const _JustinoIconsStayAtHomeData(0xe013);
+  final JustinoIconData armchair = const _JustinoIconsStayAtHomeData(0xe000, 'armchair');
+  final JustinoIconData cleaning = const _JustinoIconsStayAtHomeData(0xe001, 'cleaning');
+  final JustinoIconData computerScreen = const _JustinoIconsStayAtHomeData(0xe002, 'computerScreen');
+  final JustinoIconData cooking = const _JustinoIconsStayAtHomeData(0xe003, 'cooking');
+  final JustinoIconData doNotGoOut = const _JustinoIconsStayAtHomeData(0xe004, 'doNotGoOut');
+  final JustinoIconData doNot = const _JustinoIconsStayAtHomeData(0xe005, 'doNot');
+  final JustinoIconData homeStayAtHome = const _JustinoIconsStayAtHomeData(0xe006, 'homeStayAtHome');
+  final JustinoIconData houseStayAtHome = const _JustinoIconsStayAtHomeData(0xe007, 'houseStayAtHome');
+  final JustinoIconData isolationStayAtHome = const _JustinoIconsStayAtHomeData(0xe008, 'isolationStayAtHome');
+  final JustinoIconData lockStayAtHome = const _JustinoIconsStayAtHomeData(0xe009, 'lockStayAtHome');
+  final JustinoIconData make = const _JustinoIconsStayAtHomeData(0xe00a, 'make');
+  final JustinoIconData observation = const _JustinoIconsStayAtHomeData(0xe00b, 'observation');
+  final JustinoIconData onlineLearning = const _JustinoIconsStayAtHomeData(0xe00c, 'onlineLearning');
+  final JustinoIconData play = const _JustinoIconsStayAtHomeData(0xe00d, 'play');
+  final JustinoIconData reading = const _JustinoIconsStayAtHomeData(0xe00e, 'reading');
+  final JustinoIconData rest = const _JustinoIconsStayAtHomeData(0xe00f, 'rest');
+  final JustinoIconData stayhome = const _JustinoIconsStayAtHomeData(0xe010, 'stayhome');
+  final JustinoIconData waiting = const _JustinoIconsStayAtHomeData(0xe011, 'waiting');
+  final JustinoIconData watchTv = const _JustinoIconsStayAtHomeData(0xe012, 'watchTv');
+  final JustinoIconData workingAtHome = const _JustinoIconsStayAtHomeData(0xe013, 'workingAtHome');
 }

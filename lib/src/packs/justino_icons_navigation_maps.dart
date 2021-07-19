@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsNavigationMapsData extends IconData {
-  const _JustinoIconsNavigationMapsData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsNavigationMaps',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsNavigationMapsData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsNavigationMapsData(int codePoint, this.name)
+  : super('JustinoIconsNavigationMaps', codePoint, name);
 }
 
 @immutable
@@ -39,20 +37,20 @@ class JustinoIconsNavigationMaps {
     'turn' : turn,
   };
   
-  final IconData direction = const _JustinoIconsNavigationMapsData(0xe000);
-  final IconData distanceNavigationMaps = const _JustinoIconsNavigationMapsData(0xe001);
-  final IconData downloadNavigationMaps = const _JustinoIconsNavigationMapsData(0xe002);
-  final IconData favourite = const _JustinoIconsNavigationMapsData(0xe003);
-  final IconData flagNavigationMaps = const _JustinoIconsNavigationMapsData(0xe004);
-  final IconData globeNavigationMaps = const _JustinoIconsNavigationMapsData(0xe005);
-  final IconData homeNavigationMaps = const _JustinoIconsNavigationMapsData(0xe006);
-  final IconData locationNavigationMaps = const _JustinoIconsNavigationMapsData(0xe007);
-  final IconData mapNavigationMaps = const _JustinoIconsNavigationMapsData(0xe008);
-  final IconData navigationNavigationMaps = const _JustinoIconsNavigationMapsData(0xe009);
-  final IconData pinNavigationMaps = const _JustinoIconsNavigationMapsData(0xe00a);
-  final IconData point = const _JustinoIconsNavigationMapsData(0xe00b);
-  final IconData position = const _JustinoIconsNavigationMapsData(0xe00c);
-  final IconData searchNavigationMaps = const _JustinoIconsNavigationMapsData(0xe00d);
-  final IconData signpostNavigationMaps = const _JustinoIconsNavigationMapsData(0xe00e);
-  final IconData turn = const _JustinoIconsNavigationMapsData(0xe00f);
+  final JustinoIconData direction = const _JustinoIconsNavigationMapsData(0xe000, 'direction');
+  final JustinoIconData distanceNavigationMaps = const _JustinoIconsNavigationMapsData(0xe001, 'distanceNavigationMaps');
+  final JustinoIconData downloadNavigationMaps = const _JustinoIconsNavigationMapsData(0xe002, 'downloadNavigationMaps');
+  final JustinoIconData favourite = const _JustinoIconsNavigationMapsData(0xe003, 'favourite');
+  final JustinoIconData flagNavigationMaps = const _JustinoIconsNavigationMapsData(0xe004, 'flagNavigationMaps');
+  final JustinoIconData globeNavigationMaps = const _JustinoIconsNavigationMapsData(0xe005, 'globeNavigationMaps');
+  final JustinoIconData homeNavigationMaps = const _JustinoIconsNavigationMapsData(0xe006, 'homeNavigationMaps');
+  final JustinoIconData locationNavigationMaps = const _JustinoIconsNavigationMapsData(0xe007, 'locationNavigationMaps');
+  final JustinoIconData mapNavigationMaps = const _JustinoIconsNavigationMapsData(0xe008, 'mapNavigationMaps');
+  final JustinoIconData navigationNavigationMaps = const _JustinoIconsNavigationMapsData(0xe009, 'navigationNavigationMaps');
+  final JustinoIconData pinNavigationMaps = const _JustinoIconsNavigationMapsData(0xe00a, 'pinNavigationMaps');
+  final JustinoIconData point = const _JustinoIconsNavigationMapsData(0xe00b, 'point');
+  final JustinoIconData position = const _JustinoIconsNavigationMapsData(0xe00c, 'position');
+  final JustinoIconData searchNavigationMaps = const _JustinoIconsNavigationMapsData(0xe00d, 'searchNavigationMaps');
+  final JustinoIconData signpostNavigationMaps = const _JustinoIconsNavigationMapsData(0xe00e, 'signpostNavigationMaps');
+  final JustinoIconData turn = const _JustinoIconsNavigationMapsData(0xe00f, 'turn');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsCoffeeData extends IconData {
-  const _JustinoIconsCoffeeData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsCoffee',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsCoffeeData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsCoffeeData(int codePoint, this.name)
+  : super('JustinoIconsCoffee', codePoint, name);
 }
 
 @immutable
@@ -52,33 +50,33 @@ class JustinoIconsCoffee {
     'turkishCezve' : turkishCezve,
   };
   
-  final IconData aeropress = const _JustinoIconsCoffeeData(0xe000);
-  final IconData americano = const _JustinoIconsCoffeeData(0xe001);
-  final IconData beaker = const _JustinoIconsCoffeeData(0xe002);
-  final IconData cappuccino = const _JustinoIconsCoffeeData(0xe003);
-  final IconData chemex = const _JustinoIconsCoffeeData(0xe004);
-  final IconData coffeeBag = const _JustinoIconsCoffeeData(0xe005);
-  final IconData coffeeBean = const _JustinoIconsCoffeeData(0xe006);
-  final IconData coffeeCapsule = const _JustinoIconsCoffeeData(0xe007);
-  final IconData coffeeCup = const _JustinoIconsCoffeeData(0xe008);
-  final IconData coffeeMaker = const _JustinoIconsCoffeeData(0xe009);
-  final IconData coffeePack = const _JustinoIconsCoffeeData(0xe00a);
-  final IconData coffee = const _JustinoIconsCoffeeData(0xe00b);
-  final IconData cold = const _JustinoIconsCoffeeData(0xe00c);
-  final IconData cupping = const _JustinoIconsCoffeeData(0xe00d);
-  final IconData drip = const _JustinoIconsCoffeeData(0xe00e);
-  final IconData espresso = const _JustinoIconsCoffeeData(0xe00f);
-  final IconData filterCoffee = const _JustinoIconsCoffeeData(0xe010);
-  final IconData frenchPress = const _JustinoIconsCoffeeData(0xe011);
-  final IconData irishCoffee = const _JustinoIconsCoffeeData(0xe012);
-  final IconData kettleCoffee = const _JustinoIconsCoffeeData(0xe013);
-  final IconData latte = const _JustinoIconsCoffeeData(0xe014);
-  final IconData long = const _JustinoIconsCoffeeData(0xe015);
-  final IconData manual = const _JustinoIconsCoffeeData(0xe016);
-  final IconData mini = const _JustinoIconsCoffeeData(0xe017);
-  final IconData pitcher = const _JustinoIconsCoffeeData(0xe018);
-  final IconData siphon = const _JustinoIconsCoffeeData(0xe019);
-  final IconData takeAway = const _JustinoIconsCoffeeData(0xe01a);
-  final IconData tamper = const _JustinoIconsCoffeeData(0xe01b);
-  final IconData turkishCezve = const _JustinoIconsCoffeeData(0xe01c);
+  final JustinoIconData aeropress = const _JustinoIconsCoffeeData(0xe000, 'aeropress');
+  final JustinoIconData americano = const _JustinoIconsCoffeeData(0xe001, 'americano');
+  final JustinoIconData beaker = const _JustinoIconsCoffeeData(0xe002, 'beaker');
+  final JustinoIconData cappuccino = const _JustinoIconsCoffeeData(0xe003, 'cappuccino');
+  final JustinoIconData chemex = const _JustinoIconsCoffeeData(0xe004, 'chemex');
+  final JustinoIconData coffeeBag = const _JustinoIconsCoffeeData(0xe005, 'coffeeBag');
+  final JustinoIconData coffeeBean = const _JustinoIconsCoffeeData(0xe006, 'coffeeBean');
+  final JustinoIconData coffeeCapsule = const _JustinoIconsCoffeeData(0xe007, 'coffeeCapsule');
+  final JustinoIconData coffeeCup = const _JustinoIconsCoffeeData(0xe008, 'coffeeCup');
+  final JustinoIconData coffeeMaker = const _JustinoIconsCoffeeData(0xe009, 'coffeeMaker');
+  final JustinoIconData coffeePack = const _JustinoIconsCoffeeData(0xe00a, 'coffeePack');
+  final JustinoIconData coffee = const _JustinoIconsCoffeeData(0xe00b, 'coffee');
+  final JustinoIconData cold = const _JustinoIconsCoffeeData(0xe00c, 'cold');
+  final JustinoIconData cupping = const _JustinoIconsCoffeeData(0xe00d, 'cupping');
+  final JustinoIconData drip = const _JustinoIconsCoffeeData(0xe00e, 'drip');
+  final JustinoIconData espresso = const _JustinoIconsCoffeeData(0xe00f, 'espresso');
+  final JustinoIconData filterCoffee = const _JustinoIconsCoffeeData(0xe010, 'filterCoffee');
+  final JustinoIconData frenchPress = const _JustinoIconsCoffeeData(0xe011, 'frenchPress');
+  final JustinoIconData irishCoffee = const _JustinoIconsCoffeeData(0xe012, 'irishCoffee');
+  final JustinoIconData kettleCoffee = const _JustinoIconsCoffeeData(0xe013, 'kettleCoffee');
+  final JustinoIconData latte = const _JustinoIconsCoffeeData(0xe014, 'latte');
+  final JustinoIconData long = const _JustinoIconsCoffeeData(0xe015, 'long');
+  final JustinoIconData manual = const _JustinoIconsCoffeeData(0xe016, 'manual');
+  final JustinoIconData mini = const _JustinoIconsCoffeeData(0xe017, 'mini');
+  final JustinoIconData pitcher = const _JustinoIconsCoffeeData(0xe018, 'pitcher');
+  final JustinoIconData siphon = const _JustinoIconsCoffeeData(0xe019, 'siphon');
+  final JustinoIconData takeAway = const _JustinoIconsCoffeeData(0xe01a, 'takeAway');
+  final JustinoIconData tamper = const _JustinoIconsCoffeeData(0xe01b, 'tamper');
+  final JustinoIconData turkishCezve = const _JustinoIconsCoffeeData(0xe01c, 'turkishCezve');
 }

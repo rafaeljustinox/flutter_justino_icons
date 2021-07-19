@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsGalaxyData extends IconData {
-  const _JustinoIconsGalaxyData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsGalaxy',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsGalaxyData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsGalaxyData(int codePoint, this.name)
+  : super('JustinoIconsGalaxy', codePoint, name);
 }
 
 @immutable
@@ -50,31 +48,31 @@ class JustinoIconsGalaxy {
     'venus' : venus,
   };
   
-  final IconData alien = const _JustinoIconsGalaxyData(0xe000);
-  final IconData blackHole = const _JustinoIconsGalaxyData(0xe001);
-  final IconData comet = const _JustinoIconsGalaxyData(0xe002);
-  final IconData constellation = const _JustinoIconsGalaxyData(0xe003);
-  final IconData earth = const _JustinoIconsGalaxyData(0xe004);
-  final IconData eclipse = const _JustinoIconsGalaxyData(0xe005);
-  final IconData galaxy = const _JustinoIconsGalaxyData(0xe006);
-  final IconData jupiter = const _JustinoIconsGalaxyData(0xe007);
-  final IconData mars = const _JustinoIconsGalaxyData(0xe008);
-  final IconData mercury = const _JustinoIconsGalaxyData(0xe009);
-  final IconData meteorShower = const _JustinoIconsGalaxyData(0xe00a);
-  final IconData meteorite = const _JustinoIconsGalaxyData(0xe00b);
-  final IconData milkyWay = const _JustinoIconsGalaxyData(0xe00c);
-  final IconData moonGalaxy = const _JustinoIconsGalaxyData(0xe00d);
-  final IconData neptune = const _JustinoIconsGalaxyData(0xe00e);
-  final IconData orbits = const _JustinoIconsGalaxyData(0xe00f);
-  final IconData rocket = const _JustinoIconsGalaxyData(0xe010);
-  final IconData satellite = const _JustinoIconsGalaxyData(0xe011);
-  final IconData saturn = const _JustinoIconsGalaxyData(0xe012);
-  final IconData solarSystem = const _JustinoIconsGalaxyData(0xe013);
-  final IconData spaceMap = const _JustinoIconsGalaxyData(0xe014);
-  final IconData starGalaxy = const _JustinoIconsGalaxyData(0xe015);
-  final IconData sunGalaxy = const _JustinoIconsGalaxyData(0xe016);
-  final IconData telescope = const _JustinoIconsGalaxyData(0xe017);
-  final IconData ufo = const _JustinoIconsGalaxyData(0xe018);
-  final IconData uranus = const _JustinoIconsGalaxyData(0xe019);
-  final IconData venus = const _JustinoIconsGalaxyData(0xe01a);
+  final JustinoIconData alien = const _JustinoIconsGalaxyData(0xe000, 'alien');
+  final JustinoIconData blackHole = const _JustinoIconsGalaxyData(0xe001, 'blackHole');
+  final JustinoIconData comet = const _JustinoIconsGalaxyData(0xe002, 'comet');
+  final JustinoIconData constellation = const _JustinoIconsGalaxyData(0xe003, 'constellation');
+  final JustinoIconData earth = const _JustinoIconsGalaxyData(0xe004, 'earth');
+  final JustinoIconData eclipse = const _JustinoIconsGalaxyData(0xe005, 'eclipse');
+  final JustinoIconData galaxy = const _JustinoIconsGalaxyData(0xe006, 'galaxy');
+  final JustinoIconData jupiter = const _JustinoIconsGalaxyData(0xe007, 'jupiter');
+  final JustinoIconData mars = const _JustinoIconsGalaxyData(0xe008, 'mars');
+  final JustinoIconData mercury = const _JustinoIconsGalaxyData(0xe009, 'mercury');
+  final JustinoIconData meteorShower = const _JustinoIconsGalaxyData(0xe00a, 'meteorShower');
+  final JustinoIconData meteorite = const _JustinoIconsGalaxyData(0xe00b, 'meteorite');
+  final JustinoIconData milkyWay = const _JustinoIconsGalaxyData(0xe00c, 'milkyWay');
+  final JustinoIconData moonGalaxy = const _JustinoIconsGalaxyData(0xe00d, 'moonGalaxy');
+  final JustinoIconData neptune = const _JustinoIconsGalaxyData(0xe00e, 'neptune');
+  final JustinoIconData orbits = const _JustinoIconsGalaxyData(0xe00f, 'orbits');
+  final JustinoIconData rocket = const _JustinoIconsGalaxyData(0xe010, 'rocket');
+  final JustinoIconData satellite = const _JustinoIconsGalaxyData(0xe011, 'satellite');
+  final JustinoIconData saturn = const _JustinoIconsGalaxyData(0xe012, 'saturn');
+  final JustinoIconData solarSystem = const _JustinoIconsGalaxyData(0xe013, 'solarSystem');
+  final JustinoIconData spaceMap = const _JustinoIconsGalaxyData(0xe014, 'spaceMap');
+  final JustinoIconData starGalaxy = const _JustinoIconsGalaxyData(0xe015, 'starGalaxy');
+  final JustinoIconData sunGalaxy = const _JustinoIconsGalaxyData(0xe016, 'sunGalaxy');
+  final JustinoIconData telescope = const _JustinoIconsGalaxyData(0xe017, 'telescope');
+  final JustinoIconData ufo = const _JustinoIconsGalaxyData(0xe018, 'ufo');
+  final JustinoIconData uranus = const _JustinoIconsGalaxyData(0xe019, 'uranus');
+  final JustinoIconData venus = const _JustinoIconsGalaxyData(0xe01a, 'venus');
 }

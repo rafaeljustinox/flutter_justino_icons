@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsSocialMediaData extends IconData {
-  const _JustinoIconsSocialMediaData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsSocialMedia',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsSocialMediaData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsSocialMediaData(int codePoint, this.name)
+  : super('JustinoIconsSocialMedia', codePoint, name);
 }
 
 @immutable
@@ -54,35 +52,35 @@ class JustinoIconsSocialMedia {
     'video' : video,    
   };
   
-  final IconData addUser = const _JustinoIconsSocialMediaData(0xe000);
-  final IconData angryFace = const _JustinoIconsSocialMediaData(0xe001);
-  final IconData cameraSocialMedia = const _JustinoIconsSocialMediaData(0xe002);
-  final IconData chatSocialMedia = const _JustinoIconsSocialMediaData(0xe003);
-  final IconData comments = const _JustinoIconsSocialMediaData(0xe004);
-  final IconData contactList = const _JustinoIconsSocialMediaData(0xe005);
-  final IconData editSocialMedia = const _JustinoIconsSocialMediaData(0xe006);
-  final IconData emailSocialMedia = const _JustinoIconsSocialMediaData(0xe007);
-  final IconData groupChat = const _JustinoIconsSocialMediaData(0xe008);
-  final IconData happyFace = const _JustinoIconsSocialMediaData(0xe009);
-  final IconData internetSocialMedia = const _JustinoIconsSocialMediaData(0xe00a);
-  final IconData keyboardSocialMedia = const _JustinoIconsSocialMediaData(0xe00b);
-  final IconData laptopSocialMedia = const _JustinoIconsSocialMediaData(0xe00c);
-  final IconData likeSocialMedia = const _JustinoIconsSocialMediaData(0xe00d);
-  final IconData link = const _JustinoIconsSocialMediaData(0xe00e);
-  final IconData message = const _JustinoIconsSocialMediaData(0xe00f);
-  final IconData monitor = const _JustinoIconsSocialMediaData(0xe010);
-  final IconData newsSocialMedia = const _JustinoIconsSocialMediaData(0xe011);
-  final IconData notification = const _JustinoIconsSocialMediaData(0xe012);
-  final IconData profile = const _JustinoIconsSocialMediaData(0xe013);
-  final IconData review = const _JustinoIconsSocialMediaData(0xe014);
-  final IconData sadFace = const _JustinoIconsSocialMediaData(0xe015);
-  final IconData searchSocialMedia = const _JustinoIconsSocialMediaData(0xe016);
-  final IconData selfie = const _JustinoIconsSocialMediaData(0xe017);
-  final IconData smartphoneSocialMedia = const _JustinoIconsSocialMediaData(0xe018);
-  final IconData socialNetwork = const _JustinoIconsSocialMediaData(0xe019);
-  final IconData surprised = const _JustinoIconsSocialMediaData(0xe01a);
-  final IconData thumbsUp = const _JustinoIconsSocialMediaData(0xe01b);
-  final IconData userSocialMedia = const _JustinoIconsSocialMediaData(0xe01c);
-  final IconData videoPlayerSocialMedia = const _JustinoIconsSocialMediaData(0xe01d);
-  final IconData video = const _JustinoIconsSocialMediaData(0xe01e);
+  final JustinoIconData addUser = const _JustinoIconsSocialMediaData(0xe000, 'addUser');
+  final JustinoIconData angryFace = const _JustinoIconsSocialMediaData(0xe001, 'angryFace');
+  final JustinoIconData cameraSocialMedia = const _JustinoIconsSocialMediaData(0xe002, 'cameraSocialMedia');
+  final JustinoIconData chatSocialMedia = const _JustinoIconsSocialMediaData(0xe003, 'chatSocialMedia');
+  final JustinoIconData comments = const _JustinoIconsSocialMediaData(0xe004, 'comments');
+  final JustinoIconData contactList = const _JustinoIconsSocialMediaData(0xe005, 'contactList');
+  final JustinoIconData editSocialMedia = const _JustinoIconsSocialMediaData(0xe006, 'editSocialMedia');
+  final JustinoIconData emailSocialMedia = const _JustinoIconsSocialMediaData(0xe007, 'emailSocialMedia');
+  final JustinoIconData groupChat = const _JustinoIconsSocialMediaData(0xe008, 'groupChat');
+  final JustinoIconData happyFace = const _JustinoIconsSocialMediaData(0xe009, 'happyFace');
+  final JustinoIconData internetSocialMedia = const _JustinoIconsSocialMediaData(0xe00a, 'internetSocialMedia');
+  final JustinoIconData keyboardSocialMedia = const _JustinoIconsSocialMediaData(0xe00b, 'keyboardSocialMedia');
+  final JustinoIconData laptopSocialMedia = const _JustinoIconsSocialMediaData(0xe00c, 'laptopSocialMedia');
+  final JustinoIconData likeSocialMedia = const _JustinoIconsSocialMediaData(0xe00d, 'likeSocialMedia');
+  final JustinoIconData link = const _JustinoIconsSocialMediaData(0xe00e, 'link');
+  final JustinoIconData message = const _JustinoIconsSocialMediaData(0xe00f, 'message');
+  final JustinoIconData monitor = const _JustinoIconsSocialMediaData(0xe010, 'monitor');
+  final JustinoIconData newsSocialMedia = const _JustinoIconsSocialMediaData(0xe011, 'newsSocialMedia');
+  final JustinoIconData notification = const _JustinoIconsSocialMediaData(0xe012, 'notification');
+  final JustinoIconData profile = const _JustinoIconsSocialMediaData(0xe013, 'profile');
+  final JustinoIconData review = const _JustinoIconsSocialMediaData(0xe014, 'review');
+  final JustinoIconData sadFace = const _JustinoIconsSocialMediaData(0xe015, 'sadFace');
+  final JustinoIconData searchSocialMedia = const _JustinoIconsSocialMediaData(0xe016, 'searchSocialMedia');
+  final JustinoIconData selfie = const _JustinoIconsSocialMediaData(0xe017, 'selfie');
+  final JustinoIconData smartphoneSocialMedia = const _JustinoIconsSocialMediaData(0xe018, 'smartphoneSocialMedia');
+  final JustinoIconData socialNetwork = const _JustinoIconsSocialMediaData(0xe019, 'socialNetwork');
+  final JustinoIconData surprised = const _JustinoIconsSocialMediaData(0xe01a, 'surprised');
+  final JustinoIconData thumbsUp = const _JustinoIconsSocialMediaData(0xe01b, 'thumbsUp');
+  final JustinoIconData userSocialMedia = const _JustinoIconsSocialMediaData(0xe01c, 'userSocialMedia');
+  final JustinoIconData videoPlayerSocialMedia = const _JustinoIconsSocialMediaData(0xe01d, 'videoPlayerSocialMedia');
+  final JustinoIconData video = const _JustinoIconsSocialMediaData(0xe01e, 'video');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsRewardAndBadgesData extends IconData {
-  const _JustinoIconsRewardAndBadgesData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsRewardAndBadges',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsRewardAndBadgesData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsRewardAndBadgesData(int codePoint, this.name)
+  : super('JustinoIconsRewardAndBadges', codePoint, name);
 }
 
 @immutable
@@ -37,18 +35,18 @@ class JustinoIconsRewardAndBadges {
     'trophy' : trophy,
   };
   
-  final IconData badge = const _JustinoIconsRewardAndBadgesData(0xe000);
-  final IconData certificate = const _JustinoIconsRewardAndBadgesData(0xe001);
-  final IconData crown = const _JustinoIconsRewardAndBadgesData(0xe002);
-  final IconData diamondRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe003);
-  final IconData first = const _JustinoIconsRewardAndBadgesData(0xe004);
-  final IconData flagRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe005);
-  final IconData medalRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe006);
-  final IconData podiumRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe007);
-  final IconData reward = const _JustinoIconsRewardAndBadgesData(0xe008);
-  final IconData second = const _JustinoIconsRewardAndBadgesData(0xe009);
-  final IconData shieldRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe00a);
-  final IconData starRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe00b);
-  final IconData third = const _JustinoIconsRewardAndBadgesData(0xe00c);
-  final IconData trophy = const _JustinoIconsRewardAndBadgesData(0xe00d);
+  final JustinoIconData badge = const _JustinoIconsRewardAndBadgesData(0xe000, 'badge');
+  final JustinoIconData certificate = const _JustinoIconsRewardAndBadgesData(0xe001, 'certificate');
+  final JustinoIconData crown = const _JustinoIconsRewardAndBadgesData(0xe002, 'crown');
+  final JustinoIconData diamondRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe003, 'diamondRewardAndBadges');
+  final JustinoIconData first = const _JustinoIconsRewardAndBadgesData(0xe004, 'first');
+  final JustinoIconData flagRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe005, 'flagRewardAndBadges');
+  final JustinoIconData medalRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe006, 'medalRewardAndBadges');
+  final JustinoIconData podiumRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe007, 'podiumRewardAndBadges');
+  final JustinoIconData reward = const _JustinoIconsRewardAndBadgesData(0xe008, 'reward');
+  final JustinoIconData second = const _JustinoIconsRewardAndBadgesData(0xe009, 'second');
+  final JustinoIconData shieldRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe00a, 'shieldRewardAndBadges');
+  final JustinoIconData starRewardAndBadges = const _JustinoIconsRewardAndBadgesData(0xe00b, 'starRewardAndBadges');
+  final JustinoIconData third = const _JustinoIconsRewardAndBadgesData(0xe00c, 'third');
+  final JustinoIconData trophy = const _JustinoIconsRewardAndBadgesData(0xe00d, 'trophy');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsSignalsProhibitionsData extends IconData {
-  const _JustinoIconsSignalsProhibitionsData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsSignalsProhibitions',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsSignalsProhibitionsData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsSignalsProhibitionsData(int codePoint, this.name)
+  : super('JustinoIconsSignalsProhibitions', codePoint, name);
 }
 
 @immutable
@@ -53,34 +51,34 @@ class JustinoIconsSignalsProhibitions {
     'wc' : wc,    
   };
   
-  final IconData busStop = const _JustinoIconsSignalsProhibitionsData(0xe000);
-  final IconData camping = const _JustinoIconsSignalsProhibitionsData(0xe001);
-  final IconData disabled = const _JustinoIconsSignalsProhibitionsData(0xe002);
-  final IconData electricity = const _JustinoIconsSignalsProhibitionsData(0xe003);
-  final IconData exitSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe004);
-  final IconData fire = const _JustinoIconsSignalsProhibitionsData(0xe005);
-  final IconData hospital = const _JustinoIconsSignalsProhibitionsData(0xe006);
-  final IconData infoSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe007);
-  final IconData magneticField = const _JustinoIconsSignalsProhibitionsData(0xe008);
-  final IconData mute = const _JustinoIconsSignalsProhibitionsData(0xe009);
-  final IconData noCamera = const _JustinoIconsSignalsProhibitionsData(0xe00a);
-  final IconData noMusic = const _JustinoIconsSignalsProhibitionsData(0xe00b);
-  final IconData noParkingSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe00c);
-  final IconData noPetsSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe00d);
-  final IconData noPlug = const _JustinoIconsSignalsProhibitionsData(0xe00e);
-  final IconData noTalk = const _JustinoIconsSignalsProhibitionsData(0xe00f);
-  final IconData noTurnRight = const _JustinoIconsSignalsProhibitionsData(0xe010);
-  final IconData noVideo = const _JustinoIconsSignalsProhibitionsData(0xe011);
-  final IconData noWifi = const _JustinoIconsSignalsProhibitionsData(0xe012);
-  final IconData open = const _JustinoIconsSignalsProhibitionsData(0xe013);
-  final IconData parkingSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe014);
-  final IconData phoneSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe015);
-  final IconData prohibition = const _JustinoIconsSignalsProhibitionsData(0xe016);
-  final IconData questionMark = const _JustinoIconsSignalsProhibitionsData(0xe017);
-  final IconData railwaySignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe018);
-  final IconData snowSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe019);
-  final IconData stopSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe01a);
-  final IconData trafficLight = const _JustinoIconsSignalsProhibitionsData(0xe01b);
-  final IconData twoWays = const _JustinoIconsSignalsProhibitionsData(0xe01c);
-  final IconData wc = const _JustinoIconsSignalsProhibitionsData(0xe01d);
+  final JustinoIconData busStop = const _JustinoIconsSignalsProhibitionsData(0xe000, 'busStop');
+  final JustinoIconData camping = const _JustinoIconsSignalsProhibitionsData(0xe001, 'camping');
+  final JustinoIconData disabled = const _JustinoIconsSignalsProhibitionsData(0xe002, 'disabled');
+  final JustinoIconData electricity = const _JustinoIconsSignalsProhibitionsData(0xe003, 'electricity');
+  final JustinoIconData exitSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe004, 'exitSignalsProhibitions');
+  final JustinoIconData fire = const _JustinoIconsSignalsProhibitionsData(0xe005, 'fire');
+  final JustinoIconData hospital = const _JustinoIconsSignalsProhibitionsData(0xe006, 'hospital');
+  final JustinoIconData infoSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe007, 'infoSignalsProhibitions');
+  final JustinoIconData magneticField = const _JustinoIconsSignalsProhibitionsData(0xe008, 'magneticField');
+  final JustinoIconData mute = const _JustinoIconsSignalsProhibitionsData(0xe009, 'mute');
+  final JustinoIconData noCamera = const _JustinoIconsSignalsProhibitionsData(0xe00a, 'noCamera');
+  final JustinoIconData noMusic = const _JustinoIconsSignalsProhibitionsData(0xe00b, 'noMusic');
+  final JustinoIconData noParkingSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe00c, 'noParkingSignalsProhibitions');
+  final JustinoIconData noPetsSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe00d, 'noPetsSignalsProhibitions');
+  final JustinoIconData noPlug = const _JustinoIconsSignalsProhibitionsData(0xe00e, 'noPlug');
+  final JustinoIconData noTalk = const _JustinoIconsSignalsProhibitionsData(0xe00f, 'noTalk');
+  final JustinoIconData noTurnRight = const _JustinoIconsSignalsProhibitionsData(0xe010, 'noTurnRight');
+  final JustinoIconData noVideo = const _JustinoIconsSignalsProhibitionsData(0xe011, 'noVideo');
+  final JustinoIconData noWifi = const _JustinoIconsSignalsProhibitionsData(0xe012, 'noWifi');
+  final JustinoIconData open = const _JustinoIconsSignalsProhibitionsData(0xe013, 'open');
+  final JustinoIconData parkingSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe014, 'parkingSignalsProhibitions');
+  final JustinoIconData phoneSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe015, 'phoneSignalsProhibitions');
+  final JustinoIconData prohibition = const _JustinoIconsSignalsProhibitionsData(0xe016, 'prohibition');
+  final JustinoIconData questionMark = const _JustinoIconsSignalsProhibitionsData(0xe017, 'questionMark');
+  final JustinoIconData railwaySignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe018, 'railwaySignalsProhibitions');
+  final JustinoIconData snowSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe019, 'snowSignalsProhibitions');
+  final JustinoIconData stopSignalsProhibitions = const _JustinoIconsSignalsProhibitionsData(0xe01a, 'stopSignalsProhibitions');
+  final JustinoIconData trafficLight = const _JustinoIconsSignalsProhibitionsData(0xe01b, 'trafficLight');
+  final JustinoIconData twoWays = const _JustinoIconsSignalsProhibitionsData(0xe01c, 'twoWays');
+  final JustinoIconData wc = const _JustinoIconsSignalsProhibitionsData(0xe01d, 'wc');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsSportsData extends IconData {
-  const _JustinoIconsSportsData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsSports',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsSportsData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsSportsData(int codePoint, this.name)
+  : super('JustinoIconsSports', codePoint, name);
 }
 
 @immutable
@@ -50,31 +48,31 @@ class JustinoIconsSports {
     'winner' : winner,    
   };
   
-  final IconData badminton = const _JustinoIconsSportsData(0xe000);
-  final IconData baseballBall = const _JustinoIconsSportsData(0xe001);
-  final IconData basketballBall = const _JustinoIconsSportsData(0xe002);
-  final IconData basketballJersey = const _JustinoIconsSportsData(0xe003);
-  final IconData basketball = const _JustinoIconsSportsData(0xe004);
-  final IconData bike = const _JustinoIconsSportsData(0xe005);
-  final IconData billiardBall = const _JustinoIconsSportsData(0xe006);
-  final IconData billiard = const _JustinoIconsSportsData(0xe007);
-  final IconData bowAndArrow = const _JustinoIconsSportsData(0xe008);
-  final IconData bowlingBall = const _JustinoIconsSportsData(0xe009);
-  final IconData coach = const _JustinoIconsSportsData(0xe00a);
-  final IconData fencing = const _JustinoIconsSportsData(0xe00b);
-  final IconData footballBall = const _JustinoIconsSportsData(0xe00c);
-  final IconData footballField = const _JustinoIconsSportsData(0xe00d);
-  final IconData golfBall = const _JustinoIconsSportsData(0xe00e);
-  final IconData hockeyStick = const _JustinoIconsSportsData(0xe00f);
-  final IconData medalSports = const _JustinoIconsSportsData(0xe010);
-  final IconData pingPong = const _JustinoIconsSportsData(0xe011);
-  final IconData rugbyBall = const _JustinoIconsSportsData(0xe012);
-  final IconData scoreboard = const _JustinoIconsSportsData(0xe013);
-  final IconData smartwatch = const _JustinoIconsSportsData(0xe014);
-  final IconData sport = const _JustinoIconsSportsData(0xe015);
-  final IconData stopwatchSports = const _JustinoIconsSportsData(0xe016);
-  final IconData swimmingPoolSports = const _JustinoIconsSportsData(0xe017);
-  final IconData tShirt = const _JustinoIconsSportsData(0xe018);
-  final IconData volleyballBall = const _JustinoIconsSportsData(0xe019);
-  final IconData winner = const _JustinoIconsSportsData(0xe01a);
+  final JustinoIconData badminton = const _JustinoIconsSportsData(0xe000, 'badminton');
+  final JustinoIconData baseballBall = const _JustinoIconsSportsData(0xe001, 'baseballBall');
+  final JustinoIconData basketballBall = const _JustinoIconsSportsData(0xe002, 'basketballBall');
+  final JustinoIconData basketballJersey = const _JustinoIconsSportsData(0xe003, 'basketballJersey');
+  final JustinoIconData basketball = const _JustinoIconsSportsData(0xe004, 'basketball');
+  final JustinoIconData bike = const _JustinoIconsSportsData(0xe005, 'bike');
+  final JustinoIconData billiardBall = const _JustinoIconsSportsData(0xe006, 'billiardBall');
+  final JustinoIconData billiard = const _JustinoIconsSportsData(0xe007, 'billiard');
+  final JustinoIconData bowAndArrow = const _JustinoIconsSportsData(0xe008, 'bowAndArrow');
+  final JustinoIconData bowlingBall = const _JustinoIconsSportsData(0xe009, 'bowlingBall');
+  final JustinoIconData coach = const _JustinoIconsSportsData(0xe00a, 'coach');
+  final JustinoIconData fencing = const _JustinoIconsSportsData(0xe00b, 'fencing');
+  final JustinoIconData footballBall = const _JustinoIconsSportsData(0xe00c, 'footballBall');
+  final JustinoIconData footballField = const _JustinoIconsSportsData(0xe00d, 'footballField');
+  final JustinoIconData golfBall = const _JustinoIconsSportsData(0xe00e, 'golfBall');
+  final JustinoIconData hockeyStick = const _JustinoIconsSportsData(0xe00f, 'hockeyStick');
+  final JustinoIconData medalSports = const _JustinoIconsSportsData(0xe010, 'medalSports');
+  final JustinoIconData pingPong = const _JustinoIconsSportsData(0xe011, 'pingPong');
+  final JustinoIconData rugbyBall = const _JustinoIconsSportsData(0xe012, 'rugbyBall');
+  final JustinoIconData scoreboard = const _JustinoIconsSportsData(0xe013, 'scoreboard');
+  final JustinoIconData smartwatch = const _JustinoIconsSportsData(0xe014, 'smartwatch');
+  final JustinoIconData sport = const _JustinoIconsSportsData(0xe015, 'sport');
+  final JustinoIconData stopwatchSports = const _JustinoIconsSportsData(0xe016, 'stopwatchSports');
+  final JustinoIconData swimmingPoolSports = const _JustinoIconsSportsData(0xe017, 'swimmingPoolSports');
+  final JustinoIconData tShirt = const _JustinoIconsSportsData(0xe018, 'tShirt');
+  final JustinoIconData volleyballBall = const _JustinoIconsSportsData(0xe019, 'volleyballBall');
+  final JustinoIconData winner = const _JustinoIconsSportsData(0xe01a, 'winner');
 }

@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsTravelData extends IconData {
-  const _JustinoIconsTravelData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsTravel',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsTravelData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsTravelData(int codePoint, this.name)
+  : super('JustinoIconsTravel', codePoint, name);
 }
 
 @immutable
@@ -51,32 +49,32 @@ class JustinoIconsTravel {
     'trolleyTravel' : trolleyTravel,
   };
   
-  final IconData aircraft = const _JustinoIconsTravelData(0xe000);
-  final IconData anchorTravel = const _JustinoIconsTravelData(0xe001);
-  final IconData backpack = const _JustinoIconsTravelData(0xe002);
-  final IconData baggageTravel = const _JustinoIconsTravelData(0xe003);
-  final IconData beachUmbrella = const _JustinoIconsTravelData(0xe004);
-  final IconData cableCar = const _JustinoIconsTravelData(0xe005);
-  final IconData campfire = const _JustinoIconsTravelData(0xe006);
-  final IconData cocktailTravel = const _JustinoIconsTravelData(0xe007);
-  final IconData distanceTravel = const _JustinoIconsTravelData(0xe008);
-  final IconData divingMask = const _JustinoIconsTravelData(0xe009);
-  final IconData globeTravel = const _JustinoIconsTravelData(0xe00a);
-  final IconData mapTravel = const _JustinoIconsTravelData(0xe00b);
-  final IconData mountainTravel = const _JustinoIconsTravelData(0xe00c);
-  final IconData navigationTravel = const _JustinoIconsTravelData(0xe00d);
-  final IconData passport = const _JustinoIconsTravelData(0xe00e);
-  final IconData pot = const _JustinoIconsTravelData(0xe00f);
-  final IconData restaurant = const _JustinoIconsTravelData(0xe010);
-  final IconData signpostTravel = const _JustinoIconsTravelData(0xe011);
-  final IconData sunBlock = const _JustinoIconsTravelData(0xe012);
-  final IconData sunglassesTravel = const _JustinoIconsTravelData(0xe013);
-  final IconData taxi = const _JustinoIconsTravelData(0xe014);
-  final IconData tentTravel = const _JustinoIconsTravelData(0xe015);
-  final IconData thermos = const _JustinoIconsTravelData(0xe016);
-  final IconData ticket = const _JustinoIconsTravelData(0xe017);
-  final IconData timeZone = const _JustinoIconsTravelData(0xe018);
-  final IconData trailer = const _JustinoIconsTravelData(0xe019);
-  final IconData train = const _JustinoIconsTravelData(0xe01a);
-  final IconData trolleyTravel = const _JustinoIconsTravelData(0xe01b);
+  final JustinoIconData aircraft = const _JustinoIconsTravelData(0xe000, 'aircraft');
+  final JustinoIconData anchorTravel = const _JustinoIconsTravelData(0xe001, 'anchorTravel');
+  final JustinoIconData backpack = const _JustinoIconsTravelData(0xe002, 'backpack');
+  final JustinoIconData baggageTravel = const _JustinoIconsTravelData(0xe003, 'baggageTravel');
+  final JustinoIconData beachUmbrella = const _JustinoIconsTravelData(0xe004, 'beachUmbrella');
+  final JustinoIconData cableCar = const _JustinoIconsTravelData(0xe005, 'cableCar');
+  final JustinoIconData campfire = const _JustinoIconsTravelData(0xe006, 'campfire');
+  final JustinoIconData cocktailTravel = const _JustinoIconsTravelData(0xe007, 'cocktailTravel');
+  final JustinoIconData distanceTravel = const _JustinoIconsTravelData(0xe008, 'distanceTravel');
+  final JustinoIconData divingMask = const _JustinoIconsTravelData(0xe009, 'divingMask');
+  final JustinoIconData globeTravel = const _JustinoIconsTravelData(0xe00a, 'globeTravel');
+  final JustinoIconData mapTravel = const _JustinoIconsTravelData(0xe00b, 'mapTravel');
+  final JustinoIconData mountainTravel = const _JustinoIconsTravelData(0xe00c, 'mountainTravel');
+  final JustinoIconData navigationTravel = const _JustinoIconsTravelData(0xe00d, 'navigationTravel');
+  final JustinoIconData passport = const _JustinoIconsTravelData(0xe00e, 'passport');
+  final JustinoIconData pot = const _JustinoIconsTravelData(0xe00f, 'pot');
+  final JustinoIconData restaurant = const _JustinoIconsTravelData(0xe010, 'restaurant');
+  final JustinoIconData signpostTravel = const _JustinoIconsTravelData(0xe011, 'signpostTravel');
+  final JustinoIconData sunBlock = const _JustinoIconsTravelData(0xe012, 'sunBlock');
+  final JustinoIconData sunglassesTravel = const _JustinoIconsTravelData(0xe013, 'sunglassesTravel');
+  final JustinoIconData taxi = const _JustinoIconsTravelData(0xe014, 'taxi');
+  final JustinoIconData tentTravel = const _JustinoIconsTravelData(0xe015, 'tentTravel');
+  final JustinoIconData thermos = const _JustinoIconsTravelData(0xe016, 'thermos');
+  final JustinoIconData ticket = const _JustinoIconsTravelData(0xe017, 'ticket');
+  final JustinoIconData timeZone = const _JustinoIconsTravelData(0xe018, 'timeZone');
+  final JustinoIconData trailer = const _JustinoIconsTravelData(0xe019, 'trailer');
+  final JustinoIconData train = const _JustinoIconsTravelData(0xe01a, 'train');
+  final JustinoIconData trolleyTravel = const _JustinoIconsTravelData(0xe01b, 'trolleyTravel');
 }

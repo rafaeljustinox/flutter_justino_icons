@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsAdventureData extends IconData {
-  const _JustinoIconsAdventureData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsAdventure',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsAdventureData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsAdventureData(int codePoint, this.name)
+  : super('JustinoIconsAdventure', codePoint, name);
 }
 
 @immutable
@@ -49,30 +47,30 @@ class JustinoIconsAdventure {
     'swissArmyKnife' : swissArmyKnife,
   };
   
-  final IconData bbqAdventure = const _JustinoIconsAdventureData(0xe000);
-  final IconData binocularsAdventure = const _JustinoIconsAdventureData(0xe001);
-  final IconData bowl = const _JustinoIconsAdventureData(0xe002);
-  final IconData campingGas = const _JustinoIconsAdventureData(0xe003);
-  final IconData cannedFoodAdventure = const _JustinoIconsAdventureData(0xe004);
-  final IconData carabiner = const _JustinoIconsAdventureData(0xe005);
-  final IconData firstAidKit = const _JustinoIconsAdventureData(0xe006);
-  final IconData fishing = const _JustinoIconsAdventureData(0xe007);
-  final IconData flaskAdventure = const _JustinoIconsAdventureData(0xe008);
-  final IconData forest = const _JustinoIconsAdventureData(0xe009);
-  final IconData glove = const _JustinoIconsAdventureData(0xe00a);
-  final IconData hatAdventure = const _JustinoIconsAdventureData(0xe00b);
-  final IconData kettleAdventure = const _JustinoIconsAdventureData(0xe00c);
-  final IconData lighthouse = const _JustinoIconsAdventureData(0xe00d);
-  final IconData locationAdventure = const _JustinoIconsAdventureData(0xe00e);
-  final IconData mapAdventure = const _JustinoIconsAdventureData(0xe00f);
-  final IconData marshmallows = const _JustinoIconsAdventureData(0xe010);
-  final IconData matches = const _JustinoIconsAdventureData(0xe011);
-  final IconData mountainAdventure = const _JustinoIconsAdventureData(0xe012);
-  final IconData mug = const _JustinoIconsAdventureData(0xe013);
-  final IconData navigationAdventure = const _JustinoIconsAdventureData(0xe014);
-  final IconData rope = const _JustinoIconsAdventureData(0xe015);
-  final IconData sausageAdventure = const _JustinoIconsAdventureData(0xe016);
-  final IconData shipWheel = const _JustinoIconsAdventureData(0xe017);
-  final IconData sleepingBag = const _JustinoIconsAdventureData(0xe018);
-  final IconData swissArmyKnife = const _JustinoIconsAdventureData(0xe019);
+  final JustinoIconData bbqAdventure = const _JustinoIconsAdventureData(0xe000, 'bbqAdventure');
+  final JustinoIconData binocularsAdventure = const _JustinoIconsAdventureData(0xe001, 'binocularsAdventure');
+  final JustinoIconData bowl = const _JustinoIconsAdventureData(0xe002, 'bowl');
+  final JustinoIconData campingGas = const _JustinoIconsAdventureData(0xe003, 'campingGas');
+  final JustinoIconData cannedFoodAdventure = const _JustinoIconsAdventureData(0xe004, 'cannedFoodAdventure');
+  final JustinoIconData carabiner = const _JustinoIconsAdventureData(0xe005, 'carabiner');
+  final JustinoIconData firstAidKit = const _JustinoIconsAdventureData(0xe006, 'firstAidKit');
+  final JustinoIconData fishing = const _JustinoIconsAdventureData(0xe007, 'fishing');
+  final JustinoIconData flaskAdventure = const _JustinoIconsAdventureData(0xe008, 'flaskAdventure');
+  final JustinoIconData forest = const _JustinoIconsAdventureData(0xe009, 'forest');
+  final JustinoIconData glove = const _JustinoIconsAdventureData(0xe00a, 'glove');
+  final JustinoIconData hatAdventure = const _JustinoIconsAdventureData(0xe00b, 'hatAdventure');
+  final JustinoIconData kettleAdventure = const _JustinoIconsAdventureData(0xe00c, 'kettleAdventure');
+  final JustinoIconData lighthouse = const _JustinoIconsAdventureData(0xe00d, 'lighthouse');
+  final JustinoIconData locationAdventure = const _JustinoIconsAdventureData(0xe00e, 'locationAdventure');
+  final JustinoIconData mapAdventure = const _JustinoIconsAdventureData(0xe00f, 'mapAdventure');
+  final JustinoIconData marshmallows = const _JustinoIconsAdventureData(0xe010, 'marshmallows');
+  final JustinoIconData matches = const _JustinoIconsAdventureData(0xe011, 'matches');
+  final JustinoIconData mountainAdventure = const _JustinoIconsAdventureData(0xe012, 'mountainAdventure');
+  final JustinoIconData mug = const _JustinoIconsAdventureData(0xe013, 'mug');
+  final JustinoIconData navigationAdventure = const _JustinoIconsAdventureData(0xe014, 'navigationAdventure');
+  final JustinoIconData rope = const _JustinoIconsAdventureData(0xe015, 'rope');
+  final JustinoIconData sausageAdventure = const _JustinoIconsAdventureData(0xe016, 'sausageAdventure');
+  final JustinoIconData shipWheel = const _JustinoIconsAdventureData(0xe017, 'shipWheel');
+  final JustinoIconData sleepingBag = const _JustinoIconsAdventureData(0xe018, 'sleepingBag');
+  final JustinoIconData swissArmyKnife = const _JustinoIconsAdventureData(0xe019, 'swissArmyKnife');
 }

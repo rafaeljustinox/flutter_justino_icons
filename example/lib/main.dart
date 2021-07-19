@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Wrap(
                           children: [
                             Text(
-                              '',
+                              _selected.name,
                               style: Theme.of(context).textTheme.headline6,
                             ),
                           ],

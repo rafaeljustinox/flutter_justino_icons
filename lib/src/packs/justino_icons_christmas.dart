@@ -1,15 +1,13 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
 import 'package:flutter/widgets.dart';
+import 'package:justino_icons/src/models/justino_icon_data.dart';
 
 @immutable
-class _JustinoIconsChristmasData extends IconData {
-  const _JustinoIconsChristmasData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'JustinoIconsChristmas',
-          fontPackage: 'justino_icons'
-        );
+class _JustinoIconsChristmasData extends JustinoIconData {
+  final String name;
+  const _JustinoIconsChristmasData(int codePoint, this.name)
+  : super('JustinoIconsChristmas', codePoint, name);
 }
 
 @immutable
@@ -50,31 +48,31 @@ class JustinoIconsChristmas {
     'sock' : sock,
   };
   
-  final IconData bag = const _JustinoIconsChristmasData(0xe000);
-  final IconData calendarChristmas = const _JustinoIconsChristmasData(0xe001);
-  final IconData candleChristmas = const _JustinoIconsChristmasData(0xe002);
-  final IconData candyCane = const _JustinoIconsChristmasData(0xe003);
-  final IconData champagne = const _JustinoIconsChristmasData(0xe004);
-  final IconData christmasBall = const _JustinoIconsChristmasData(0xe005);
-  final IconData christmasBell = const _JustinoIconsChristmasData(0xe006);
-  final IconData christmasDay = const _JustinoIconsChristmasData(0xe007);
-  final IconData christmasHat = const _JustinoIconsChristmasData(0xe008);
-  final IconData christmasStar = const _JustinoIconsChristmasData(0xe009);
-  final IconData christmasTree = const _JustinoIconsChristmasData(0xe00a);
-  final IconData cinnamon = const _JustinoIconsChristmasData(0xe00b);
-  final IconData cookie = const _JustinoIconsChristmasData(0xe00c);
-  final IconData fireplace = const _JustinoIconsChristmasData(0xe00d);
-  final IconData fireworksChristmas = const _JustinoIconsChristmasData(0xe00e);
-  final IconData garland = const _JustinoIconsChristmasData(0xe00f);
-  final IconData giftChristmas = const _JustinoIconsChristmasData(0xe010);
-  final IconData giftList = const _JustinoIconsChristmasData(0xe011);
-  final IconData hohoho = const _JustinoIconsChristmasData(0xe012);
-  final IconData holly = const _JustinoIconsChristmasData(0xe013);
-  final IconData jingleBell = const _JustinoIconsChristmasData(0xe014);
-  final IconData lantern = const _JustinoIconsChristmasData(0xe015);
-  final IconData letter = const _JustinoIconsChristmasData(0xe016);
-  final IconData mulledWine = const _JustinoIconsChristmasData(0xe017);
-  final IconData postcard = const _JustinoIconsChristmasData(0xe018);
-  final IconData snowChristmas = const _JustinoIconsChristmasData(0xe019);
-  final IconData sock = const _JustinoIconsChristmasData(0xe01a);
+  final JustinoIconData bag = const _JustinoIconsChristmasData(0xe000, 'bag');
+  final JustinoIconData calendarChristmas = const _JustinoIconsChristmasData(0xe001, 'calendarChristmas');
+  final JustinoIconData candleChristmas = const _JustinoIconsChristmasData(0xe002, 'candleChristmas');
+  final JustinoIconData candyCane = const _JustinoIconsChristmasData(0xe003, 'candyCane');
+  final JustinoIconData champagne = const _JustinoIconsChristmasData(0xe004, 'champagne');
+  final JustinoIconData christmasBall = const _JustinoIconsChristmasData(0xe005, 'christmasBall');
+  final JustinoIconData christmasBell = const _JustinoIconsChristmasData(0xe006, 'christmasBell');
+  final JustinoIconData christmasDay = const _JustinoIconsChristmasData(0xe007, 'christmasDay');
+  final JustinoIconData christmasHat = const _JustinoIconsChristmasData(0xe008, 'christmasHat');
+  final JustinoIconData christmasStar = const _JustinoIconsChristmasData(0xe009, 'christmasStar');
+  final JustinoIconData christmasTree = const _JustinoIconsChristmasData(0xe00a, 'christmasTree');
+  final JustinoIconData cinnamon = const _JustinoIconsChristmasData(0xe00b, 'cinnamon');
+  final JustinoIconData cookie = const _JustinoIconsChristmasData(0xe00c, 'cookie');
+  final JustinoIconData fireplace = const _JustinoIconsChristmasData(0xe00d, 'fireplace');
+  final JustinoIconData fireworksChristmas = const _JustinoIconsChristmasData(0xe00e, 'fireworksChristmas');
+  final JustinoIconData garland = const _JustinoIconsChristmasData(0xe00f, 'garland');
+  final JustinoIconData giftChristmas = const _JustinoIconsChristmasData(0xe010, 'giftChristmas');
+  final JustinoIconData giftList = const _JustinoIconsChristmasData(0xe011, 'giftList');
+  final JustinoIconData hohoho = const _JustinoIconsChristmasData(0xe012, 'hohoho');
+  final JustinoIconData holly = const _JustinoIconsChristmasData(0xe013, 'holly');
+  final JustinoIconData jingleBell = const _JustinoIconsChristmasData(0xe014, 'jingleBell');
+  final JustinoIconData lantern = const _JustinoIconsChristmasData(0xe015, 'lantern');
+  final JustinoIconData letter = const _JustinoIconsChristmasData(0xe016, 'letter');
+  final JustinoIconData mulledWine = const _JustinoIconsChristmasData(0xe017, 'mulledWine');
+  final JustinoIconData postcard = const _JustinoIconsChristmasData(0xe018, 'postcard');
+  final JustinoIconData snowChristmas = const _JustinoIconsChristmasData(0xe019, 'snowChristmas');
+  final JustinoIconData sock = const _JustinoIconsChristmasData(0xe01a, 'sock');
 }
