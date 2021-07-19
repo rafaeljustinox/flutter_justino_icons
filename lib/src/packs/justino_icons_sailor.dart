@@ -13,46 +13,91 @@ class _JustinoIconsSailorData extends IconData {
 
 @immutable
 class JustinoIconsSailor {
-  JustinoIconsSailor._();
+  const JustinoIconsSailor();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? anchorSailor;
+
+  Map<String, IconData> get all => { 
+    'anchorSailor' : anchorSailor,
+    'bandana' : bandana,
+    'binocularsSailor' : binocularsSailor,
+    'boat' : boat,
+    'bottle' : bottle,
+    'buoy' : buoy,
+    'carrick' : carrick,
+    'chains' : chains,
+    'compassSailor' : compassSailor,
+    'divingHelmet' : divingHelmet,
+    'dock' : dock,
+    'draftingCompass' : draftingCompass,
+    'figureEightKnot' : figureEightKnot,
+    'float' : float,
+    'hatSailor' : hatSailor,
+    'hook' : hook,
+    'land' : land,
+    'lifeVest' : lifeVest,
+    'logbook' : logbook,
+    'mapSailor' : mapSailor,
+    'mooringBollard' : mooringBollard,
+    'oars' : oars,
+    'oxygenTank' : oxygenTank,
+    'periscope' : periscope,
+    'portholeSailor' : portholeSailor,
+    'radar' : radar,
+    'reefKnot' : reefKnot,
+    'rum' : rum,
+    'screw' : screw,
+    'seaRoute' : seaRoute,
+    'seaman' : seaman,
+    'shark' : shark,
+    'singlet' : singlet,
+    'smoke' : smoke,
+    'tridentSailor' : tridentSailor,
+    'wave' : wave,
+    'windsockSailor' : windsockSailor,
+    'woman' : woman,
+    'woodRaft' : woodRaft,
+  };
   
-  static const IconData anchorSailor = _JustinoIconsSailorData(0xe000);
-  static const IconData bandana = _JustinoIconsSailorData(0xe001);
-  static const IconData binocularsSailor = _JustinoIconsSailorData(0xe002);
-  static const IconData boat = _JustinoIconsSailorData(0xe003);
-  static const IconData bottle = _JustinoIconsSailorData(0xe004);
-  static const IconData buoy = _JustinoIconsSailorData(0xe005);
-  static const IconData carrick = _JustinoIconsSailorData(0xe006);
-  static const IconData chains = _JustinoIconsSailorData(0xe007);
-  static const IconData compassSailor = _JustinoIconsSailorData(0xe008);
-  static const IconData divingHelmet = _JustinoIconsSailorData(0xe009);
-  static const IconData dock = _JustinoIconsSailorData(0xe00a);
-  static const IconData draftingCompass = _JustinoIconsSailorData(0xe00b);
-  static const IconData figureEightKnot = _JustinoIconsSailorData(0xe00c);
-  static const IconData float = _JustinoIconsSailorData(0xe00d);
-  static const IconData hatSailor = _JustinoIconsSailorData(0xe00e);
-  static const IconData hook = _JustinoIconsSailorData(0xe00f);
-  static const IconData land = _JustinoIconsSailorData(0xe010);
-  static const IconData lifeVest = _JustinoIconsSailorData(0xe011);
-  static const IconData logbook = _JustinoIconsSailorData(0xe012);
-  static const IconData mapSailor = _JustinoIconsSailorData(0xe013);
-  static const IconData mooringBollard = _JustinoIconsSailorData(0xe014);
-  static const IconData oars = _JustinoIconsSailorData(0xe015);
-  static const IconData oxygenTank = _JustinoIconsSailorData(0xe016);
-  static const IconData periscope = _JustinoIconsSailorData(0xe017);
-  static const IconData portholeSailor = _JustinoIconsSailorData(0xe018);
-  static const IconData radar = _JustinoIconsSailorData(0xe019);
-  static const IconData reefKnot = _JustinoIconsSailorData(0xe01a);
-  static const IconData rum = _JustinoIconsSailorData(0xe01b);
-  static const IconData screw = _JustinoIconsSailorData(0xe01c);
-  static const IconData seaRoute = _JustinoIconsSailorData(0xe01d);
-  static const IconData seaman = _JustinoIconsSailorData(0xe01e);
-  static const IconData shark = _JustinoIconsSailorData(0xe01f);
-  static const IconData singlet = _JustinoIconsSailorData(0xe020);
-  static const IconData smoke = _JustinoIconsSailorData(0xe021);
-  static const IconData tridentSailor = _JustinoIconsSailorData(0xe022);
-  static const IconData wave = _JustinoIconsSailorData(0xe023);
-  static const IconData windsockSailor = _JustinoIconsSailorData(0xe024);
-  static const IconData woman = _JustinoIconsSailorData(0xe025);
-  static const IconData woodRaft = _JustinoIconsSailorData(0xe026);
+  final IconData anchorSailor = const _JustinoIconsSailorData(0xe000);
+  final IconData bandana = const _JustinoIconsSailorData(0xe001);
+  final IconData binocularsSailor = const _JustinoIconsSailorData(0xe002);
+  final IconData boat = const _JustinoIconsSailorData(0xe003);
+  final IconData bottle = const _JustinoIconsSailorData(0xe004);
+  final IconData buoy = const _JustinoIconsSailorData(0xe005);
+  final IconData carrick = const _JustinoIconsSailorData(0xe006);
+  final IconData chains = const _JustinoIconsSailorData(0xe007);
+  final IconData compassSailor = const _JustinoIconsSailorData(0xe008);
+  final IconData divingHelmet = const _JustinoIconsSailorData(0xe009);
+  final IconData dock = const _JustinoIconsSailorData(0xe00a);
+  final IconData draftingCompass = const _JustinoIconsSailorData(0xe00b);
+  final IconData figureEightKnot = const _JustinoIconsSailorData(0xe00c);
+  final IconData float = const _JustinoIconsSailorData(0xe00d);
+  final IconData hatSailor = const _JustinoIconsSailorData(0xe00e);
+  final IconData hook = const _JustinoIconsSailorData(0xe00f);
+  final IconData land = const _JustinoIconsSailorData(0xe010);
+  final IconData lifeVest = const _JustinoIconsSailorData(0xe011);
+  final IconData logbook = const _JustinoIconsSailorData(0xe012);
+  final IconData mapSailor = const _JustinoIconsSailorData(0xe013);
+  final IconData mooringBollard = const _JustinoIconsSailorData(0xe014);
+  final IconData oars = const _JustinoIconsSailorData(0xe015);
+  final IconData oxygenTank = const _JustinoIconsSailorData(0xe016);
+  final IconData periscope = const _JustinoIconsSailorData(0xe017);
+  final IconData portholeSailor = const _JustinoIconsSailorData(0xe018);
+  final IconData radar = const _JustinoIconsSailorData(0xe019);
+  final IconData reefKnot = const _JustinoIconsSailorData(0xe01a);
+  final IconData rum = const _JustinoIconsSailorData(0xe01b);
+  final IconData screw = const _JustinoIconsSailorData(0xe01c);
+  final IconData seaRoute = const _JustinoIconsSailorData(0xe01d);
+  final IconData seaman = const _JustinoIconsSailorData(0xe01e);
+  final IconData shark = const _JustinoIconsSailorData(0xe01f);
+  final IconData singlet = const _JustinoIconsSailorData(0xe020);
+  final IconData smoke = const _JustinoIconsSailorData(0xe021);
+  final IconData tridentSailor = const _JustinoIconsSailorData(0xe022);
+  final IconData wave = const _JustinoIconsSailorData(0xe023);
+  final IconData windsockSailor = const _JustinoIconsSailorData(0xe024);
+  final IconData woman = const _JustinoIconsSailorData(0xe025);
+  final IconData woodRaft = const _JustinoIconsSailorData(0xe026);
 }

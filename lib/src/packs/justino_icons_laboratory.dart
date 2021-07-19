@@ -13,23 +13,45 @@ class _JustinoIconsLaboratoryData extends IconData {
 
 @immutable
 class JustinoIconsLaboratory {
-  JustinoIconsLaboratory._();
+  const JustinoIconsLaboratory();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? biohazard;
+
+  Map<String, IconData> get all => { 
+    'biohazard' : biohazard,
+    'bunsenBurner' : bunsenBurner,
+    'filterLaboratory' : filterLaboratory,
+    'flaskLaboratory' : flaskLaboratory,
+    'glovesLaboratory' : glovesLaboratory,
+    'goggles' : goggles,
+    'magnet' : magnet,
+    'microscope' : microscope,
+    'molecule' : molecule,
+    'nuclear' : nuclear,
+    'petriDish' : petriDish,
+    'scientist' : scientist,
+    'testTube' : testTube,
+    'testingLaboratory' : testingLaboratory,
+    'tongs' : tongs,
+    'weight' : weight,
+  };
   
-  static const IconData biohazard = _JustinoIconsLaboratoryData(0xe000);
-  static const IconData bunsenBurner = _JustinoIconsLaboratoryData(0xe001);
-  static const IconData filterLaboratory = _JustinoIconsLaboratoryData(0xe002);
-  static const IconData flaskLaboratory = _JustinoIconsLaboratoryData(0xe003);
-  static const IconData glovesLaboratory = _JustinoIconsLaboratoryData(0xe004);
-  static const IconData goggles = _JustinoIconsLaboratoryData(0xe005);
-  static const IconData magnet = _JustinoIconsLaboratoryData(0xe006);
-  static const IconData microscope = _JustinoIconsLaboratoryData(0xe007);
-  static const IconData molecule = _JustinoIconsLaboratoryData(0xe008);
-  static const IconData nuclear = _JustinoIconsLaboratoryData(0xe009);
-  static const IconData petriDish = _JustinoIconsLaboratoryData(0xe00a);
-  static const IconData scientist = _JustinoIconsLaboratoryData(0xe00b);
-  static const IconData testTube = _JustinoIconsLaboratoryData(0xe00c);
-  static const IconData testingLaboratory = _JustinoIconsLaboratoryData(0xe00d);
-  static const IconData tongs = _JustinoIconsLaboratoryData(0xe00e);
-  static const IconData weight = _JustinoIconsLaboratoryData(0xe00f);
+  final IconData biohazard = const _JustinoIconsLaboratoryData(0xe000);
+  final IconData bunsenBurner = const _JustinoIconsLaboratoryData(0xe001);
+  final IconData filterLaboratory = const _JustinoIconsLaboratoryData(0xe002);
+  final IconData flaskLaboratory = const _JustinoIconsLaboratoryData(0xe003);
+  final IconData glovesLaboratory = const _JustinoIconsLaboratoryData(0xe004);
+  final IconData goggles = const _JustinoIconsLaboratoryData(0xe005);
+  final IconData magnet = const _JustinoIconsLaboratoryData(0xe006);
+  final IconData microscope = const _JustinoIconsLaboratoryData(0xe007);
+  final IconData molecule = const _JustinoIconsLaboratoryData(0xe008);
+  final IconData nuclear = const _JustinoIconsLaboratoryData(0xe009);
+  final IconData petriDish = const _JustinoIconsLaboratoryData(0xe00a);
+  final IconData scientist = const _JustinoIconsLaboratoryData(0xe00b);
+  final IconData testTube = const _JustinoIconsLaboratoryData(0xe00c);
+  final IconData testingLaboratory = const _JustinoIconsLaboratoryData(0xe00d);
+  final IconData tongs = const _JustinoIconsLaboratoryData(0xe00e);
+  final IconData weight = const _JustinoIconsLaboratoryData(0xe00f);
 }

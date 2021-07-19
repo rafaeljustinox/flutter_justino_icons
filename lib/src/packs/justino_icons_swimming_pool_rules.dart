@@ -13,37 +13,73 @@ class _JustinoIconsSwimmingPoolRulesData extends IconData {
 
 @immutable
 class JustinoIconsSwimmingPoolRules {
-  JustinoIconsSwimmingPoolRules._();
+  const JustinoIconsSwimmingPoolRules();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? beCareful;
+
+  Map<String, IconData> get all => { 
+    'beCareful' : beCareful,
+    'divingPlatform' : divingPlatform,
+    'dontSwimAlone' : dontSwimAlone,
+    'lifebuoySwimmingPoolRules' : lifebuoySwimmingPoolRules,
+    'noBombing' : noBombing,
+    'noDiving' : noDiving,
+    'noDrinking' : noDrinking,
+    'noFood' : noFood,
+    'noLittering' : noLittering,
+    'noPeeing' : noPeeing,
+    'noPetsSwimmingPoolRules' : noPetsSwimmingPoolRules,
+    'noPushing' : noPushing,
+    'noRunning' : noRunning,
+    'noShouting' : noShouting,
+    'noSickPeople' : noSickPeople,
+    'noSmoking' : noSmoking,
+    'onlyWithParents' : onlyWithParents,
+    'opening' : opening,
+    'poolDepth' : poolDepth,
+    'shallow' : shallow,
+    'showerBefore' : showerBefore,
+    'swimmingPoolSwimmingPoolRules' : swimmingPoolSwimmingPoolRules,
+    'towelSwimmingPoolRules' : towelSwimmingPoolRules,
+    'useCap' : useCap,
+    'useRestrooms' : useRestrooms,
+    'useSlippers' : useSlippers,
+    'useStairs' : useStairs,
+    'useSwimsuit' : useSwimsuit,
+    'watchYourChildren' : watchYourChildren,
+    'wetTowel' : wetTowel,
+  };
   
-  static const IconData beCareful = _JustinoIconsSwimmingPoolRulesData(0xe000);
-  static const IconData divingPlatform = _JustinoIconsSwimmingPoolRulesData(0xe001);
-  static const IconData dontSwimAlone = _JustinoIconsSwimmingPoolRulesData(0xe002);
-  static const IconData lifebuoySwimmingPoolRules = _JustinoIconsSwimmingPoolRulesData(0xe003);
-  static const IconData noBombing = _JustinoIconsSwimmingPoolRulesData(0xe004);
-  static const IconData noDiving = _JustinoIconsSwimmingPoolRulesData(0xe005);
-  static const IconData noDrinking = _JustinoIconsSwimmingPoolRulesData(0xe006);
-  static const IconData noFood = _JustinoIconsSwimmingPoolRulesData(0xe007);
-  static const IconData noLittering = _JustinoIconsSwimmingPoolRulesData(0xe008);
-  static const IconData noPeeing = _JustinoIconsSwimmingPoolRulesData(0xe009);
-  static const IconData noPetsSwimmingPoolRules = _JustinoIconsSwimmingPoolRulesData(0xe00a);
-  static const IconData noPushing = _JustinoIconsSwimmingPoolRulesData(0xe00b);
-  static const IconData noRunning = _JustinoIconsSwimmingPoolRulesData(0xe00c);
-  static const IconData noShouting = _JustinoIconsSwimmingPoolRulesData(0xe00d);
-  static const IconData noSickPeople = _JustinoIconsSwimmingPoolRulesData(0xe00e);
-  static const IconData noSmoking = _JustinoIconsSwimmingPoolRulesData(0xe00f);
-  static const IconData onlyWithParents = _JustinoIconsSwimmingPoolRulesData(0xe010);
-  static const IconData opening = _JustinoIconsSwimmingPoolRulesData(0xe011);
-  static const IconData poolDepth = _JustinoIconsSwimmingPoolRulesData(0xe012);
-  static const IconData shallow = _JustinoIconsSwimmingPoolRulesData(0xe013);
-  static const IconData showerBefore = _JustinoIconsSwimmingPoolRulesData(0xe014);
-  static const IconData swimmingPoolSwimmingPoolRules = _JustinoIconsSwimmingPoolRulesData(0xe015);
-  static const IconData towelSwimmingPoolRules = _JustinoIconsSwimmingPoolRulesData(0xe016);
-  static const IconData useCap = _JustinoIconsSwimmingPoolRulesData(0xe017);
-  static const IconData useRestrooms = _JustinoIconsSwimmingPoolRulesData(0xe018);
-  static const IconData useSlippers = _JustinoIconsSwimmingPoolRulesData(0xe019);
-  static const IconData useStairs = _JustinoIconsSwimmingPoolRulesData(0xe01a);
-  static const IconData useSwimsuit = _JustinoIconsSwimmingPoolRulesData(0xe01b);
-  static const IconData watchYourChildren = _JustinoIconsSwimmingPoolRulesData(0xe01c);
-  static const IconData wetTowel = _JustinoIconsSwimmingPoolRulesData(0xe01d);
+  final IconData beCareful = const _JustinoIconsSwimmingPoolRulesData(0xe000);
+  final IconData divingPlatform = const _JustinoIconsSwimmingPoolRulesData(0xe001);
+  final IconData dontSwimAlone = const _JustinoIconsSwimmingPoolRulesData(0xe002);
+  final IconData lifebuoySwimmingPoolRules = const _JustinoIconsSwimmingPoolRulesData(0xe003);
+  final IconData noBombing = const _JustinoIconsSwimmingPoolRulesData(0xe004);
+  final IconData noDiving = const _JustinoIconsSwimmingPoolRulesData(0xe005);
+  final IconData noDrinking = const _JustinoIconsSwimmingPoolRulesData(0xe006);
+  final IconData noFood = const _JustinoIconsSwimmingPoolRulesData(0xe007);
+  final IconData noLittering = const _JustinoIconsSwimmingPoolRulesData(0xe008);
+  final IconData noPeeing = const _JustinoIconsSwimmingPoolRulesData(0xe009);
+  final IconData noPetsSwimmingPoolRules = const _JustinoIconsSwimmingPoolRulesData(0xe00a);
+  final IconData noPushing = const _JustinoIconsSwimmingPoolRulesData(0xe00b);
+  final IconData noRunning = const _JustinoIconsSwimmingPoolRulesData(0xe00c);
+  final IconData noShouting = const _JustinoIconsSwimmingPoolRulesData(0xe00d);
+  final IconData noSickPeople = const _JustinoIconsSwimmingPoolRulesData(0xe00e);
+  final IconData noSmoking = const _JustinoIconsSwimmingPoolRulesData(0xe00f);
+  final IconData onlyWithParents = const _JustinoIconsSwimmingPoolRulesData(0xe010);
+  final IconData opening = const _JustinoIconsSwimmingPoolRulesData(0xe011);
+  final IconData poolDepth = const _JustinoIconsSwimmingPoolRulesData(0xe012);
+  final IconData shallow = const _JustinoIconsSwimmingPoolRulesData(0xe013);
+  final IconData showerBefore = const _JustinoIconsSwimmingPoolRulesData(0xe014);
+  final IconData swimmingPoolSwimmingPoolRules = const _JustinoIconsSwimmingPoolRulesData(0xe015);
+  final IconData towelSwimmingPoolRules = const _JustinoIconsSwimmingPoolRulesData(0xe016);
+  final IconData useCap = const _JustinoIconsSwimmingPoolRulesData(0xe017);
+  final IconData useRestrooms = const _JustinoIconsSwimmingPoolRulesData(0xe018);
+  final IconData useSlippers = const _JustinoIconsSwimmingPoolRulesData(0xe019);
+  final IconData useStairs = const _JustinoIconsSwimmingPoolRulesData(0xe01a);
+  final IconData useSwimsuit = const _JustinoIconsSwimmingPoolRulesData(0xe01b);
+  final IconData watchYourChildren = const _JustinoIconsSwimmingPoolRulesData(0xe01c);
+  final IconData wetTowel = const _JustinoIconsSwimmingPoolRulesData(0xe01d);
 }

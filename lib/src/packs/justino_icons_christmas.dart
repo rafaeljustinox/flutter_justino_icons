@@ -13,34 +13,67 @@ class _JustinoIconsChristmasData extends IconData {
 
 @immutable
 class JustinoIconsChristmas {
-  JustinoIconsChristmas._();
+  const JustinoIconsChristmas();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? bag;
+
+  Map<String, IconData> get all => { 
+    'bag' : bag,
+    'calendarChristmas' : calendarChristmas,
+    'candleChristmas' : candleChristmas,
+    'candyCane' : candyCane,
+    'champagne' : champagne,
+    'christmasBall' : christmasBall,
+    'christmasBell' : christmasBell,
+    'christmasDay' : christmasDay,
+    'christmasHat' : christmasHat,
+    'christmasStar' : christmasStar,
+    'christmasTree' : christmasTree,
+    'cinnamon' : cinnamon,
+    'cookie' : cookie,
+    'fireplace' : fireplace,
+    'fireworksChristmas' : fireworksChristmas,
+    'garland' : garland,
+    'giftChristmas' : giftChristmas,
+    'giftList' : giftList,
+    'hohoho' : hohoho,
+    'holly' : holly,
+    'jingleBell' : jingleBell,
+    'lantern' : lantern,
+    'letter' : letter,
+    'mulledWine' : mulledWine,
+    'postcard' : postcard,
+    'snowChristmas' : snowChristmas,
+    'sock' : sock,
+  };
   
-  static const IconData bag = _JustinoIconsChristmasData(0xe000);
-  static const IconData calendarChristmas = _JustinoIconsChristmasData(0xe001);
-  static const IconData candleChristmas = _JustinoIconsChristmasData(0xe002);
-  static const IconData candyCane = _JustinoIconsChristmasData(0xe003);
-  static const IconData champagne = _JustinoIconsChristmasData(0xe004);
-  static const IconData christmasBall = _JustinoIconsChristmasData(0xe005);
-  static const IconData christmasBell = _JustinoIconsChristmasData(0xe006);
-  static const IconData christmasDay = _JustinoIconsChristmasData(0xe007);
-  static const IconData christmasHat = _JustinoIconsChristmasData(0xe008);
-  static const IconData christmasStar = _JustinoIconsChristmasData(0xe009);
-  static const IconData christmasTree = _JustinoIconsChristmasData(0xe00a);
-  static const IconData cinnamon = _JustinoIconsChristmasData(0xe00b);
-  static const IconData cookie = _JustinoIconsChristmasData(0xe00c);
-  static const IconData fireplace = _JustinoIconsChristmasData(0xe00d);
-  static const IconData fireworksChristmas = _JustinoIconsChristmasData(0xe00e);
-  static const IconData garland = _JustinoIconsChristmasData(0xe00f);
-  static const IconData giftChristmas = _JustinoIconsChristmasData(0xe010);
-  static const IconData giftList = _JustinoIconsChristmasData(0xe011);
-  static const IconData hohoho = _JustinoIconsChristmasData(0xe012);
-  static const IconData holly = _JustinoIconsChristmasData(0xe013);
-  static const IconData jingleBell = _JustinoIconsChristmasData(0xe014);
-  static const IconData lantern = _JustinoIconsChristmasData(0xe015);
-  static const IconData letter = _JustinoIconsChristmasData(0xe016);
-  static const IconData mulledWine = _JustinoIconsChristmasData(0xe017);
-  static const IconData postcard = _JustinoIconsChristmasData(0xe018);
-  static const IconData snowChristmas = _JustinoIconsChristmasData(0xe019);
-  static const IconData sock = _JustinoIconsChristmasData(0xe01a);
+  final IconData bag = const _JustinoIconsChristmasData(0xe000);
+  final IconData calendarChristmas = const _JustinoIconsChristmasData(0xe001);
+  final IconData candleChristmas = const _JustinoIconsChristmasData(0xe002);
+  final IconData candyCane = const _JustinoIconsChristmasData(0xe003);
+  final IconData champagne = const _JustinoIconsChristmasData(0xe004);
+  final IconData christmasBall = const _JustinoIconsChristmasData(0xe005);
+  final IconData christmasBell = const _JustinoIconsChristmasData(0xe006);
+  final IconData christmasDay = const _JustinoIconsChristmasData(0xe007);
+  final IconData christmasHat = const _JustinoIconsChristmasData(0xe008);
+  final IconData christmasStar = const _JustinoIconsChristmasData(0xe009);
+  final IconData christmasTree = const _JustinoIconsChristmasData(0xe00a);
+  final IconData cinnamon = const _JustinoIconsChristmasData(0xe00b);
+  final IconData cookie = const _JustinoIconsChristmasData(0xe00c);
+  final IconData fireplace = const _JustinoIconsChristmasData(0xe00d);
+  final IconData fireworksChristmas = const _JustinoIconsChristmasData(0xe00e);
+  final IconData garland = const _JustinoIconsChristmasData(0xe00f);
+  final IconData giftChristmas = const _JustinoIconsChristmasData(0xe010);
+  final IconData giftList = const _JustinoIconsChristmasData(0xe011);
+  final IconData hohoho = const _JustinoIconsChristmasData(0xe012);
+  final IconData holly = const _JustinoIconsChristmasData(0xe013);
+  final IconData jingleBell = const _JustinoIconsChristmasData(0xe014);
+  final IconData lantern = const _JustinoIconsChristmasData(0xe015);
+  final IconData letter = const _JustinoIconsChristmasData(0xe016);
+  final IconData mulledWine = const _JustinoIconsChristmasData(0xe017);
+  final IconData postcard = const _JustinoIconsChristmasData(0xe018);
+  final IconData snowChristmas = const _JustinoIconsChristmasData(0xe019);
+  final IconData sock = const _JustinoIconsChristmasData(0xe01a);
 }

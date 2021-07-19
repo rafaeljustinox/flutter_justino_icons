@@ -13,54 +13,108 @@ class _JustinoIconsAirportData extends IconData {
 
 @immutable
 class JustinoIconsAirport {
-  JustinoIconsAirport._();
+  const JustinoIconsAirport();
+
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  
+  IconData getByName(String name) => all[name] ?? airplane;
+
+  Map<String, IconData> get all => { 
+    'airplane' : airplane,
+    'arrival' : arrival,
+    'arrowAirport' : arrowAirport,
+    'baggageAirport' : baggageAirport,
+    'boardingPass' : boardingPass,
+    'bus' : bus,
+    'calendarAirport' : calendarAirport,
+    'clockAirport' : clockAirport,
+    'coffeeMug' : coffeeMug,
+    'controlTower' : controlTower,
+    'customsAgent' : customsAgent,
+    'directFlight' : directFlight,
+    'dish' : dish,
+    'enter' : enter,
+    'escalatorDown' : escalatorDown,
+    'escalatorUp' : escalatorUp,
+    'exitAirport' : exitAirport,
+    'fastFood' : fastFood,
+    'forwardAirport' : forwardAirport,
+    'guardrail' : guardrail,
+    'infoAirport' : infoAirport,
+    'inspection' : inspection,
+    'leftAirport' : leftAirport,
+    'liquids' : liquids,
+    'lockers' : lockers,
+    'lounge' : lounge,
+    'luggage' : luggage,
+    'movingWalkway' : movingWalkway,
+    'noLiquids' : noLiquids,
+    'noMobile' : noMobile,
+    'parkingAirport' : parkingAirport,
+    'pharmacy' : pharmacy,
+    'policeman' : policeman,
+    'portholeAirport' : portholeAirport,
+    'roundTrip' : roundTrip,
+    'runway' : runway,
+    'scale' : scale,
+    'scanner' : scanner,
+    'seats' : seats,
+    'securityCamera' : securityCamera,
+    'takeOff' : takeOff,
+    'toilets' : toilets,
+    'transfer' : transfer,
+    'transit' : transit,
+    'trolleyAirport' : trolleyAirport,
+    'waitingHall' : waitingHall,
+    'wifi' : wifi,
+  };
 
   
-  static const IconData airplane = _JustinoIconsAirportData(0xe000);
-  static const IconData arrival = _JustinoIconsAirportData(0xe001);
-  static const IconData arrowAirport = _JustinoIconsAirportData(0xe002);
-  static const IconData baggageAirport = _JustinoIconsAirportData(0xe003);
-  static const IconData boardingPass = _JustinoIconsAirportData(0xe004);
-  static const IconData bus = _JustinoIconsAirportData(0xe005);
-  static const IconData calendarAirport = _JustinoIconsAirportData(0xe006);
-  static const IconData clockAirport = _JustinoIconsAirportData(0xe007);
-  static const IconData coffeeMug = _JustinoIconsAirportData(0xe008);
-  static const IconData controlTower = _JustinoIconsAirportData(0xe009);
-  static const IconData customsAgent = _JustinoIconsAirportData(0xe00a);
-  static const IconData directFlight = _JustinoIconsAirportData(0xe00b);
-  static const IconData dish = _JustinoIconsAirportData(0xe00c);
-  static const IconData enter = _JustinoIconsAirportData(0xe00d);
-  static const IconData escalatorDown = _JustinoIconsAirportData(0xe00e);
-  static const IconData escalatorUp = _JustinoIconsAirportData(0xe00f);
-  static const IconData exitAirport = _JustinoIconsAirportData(0xe010);
-  static const IconData fastFood = _JustinoIconsAirportData(0xe011);
-  static const IconData forwardAirport = _JustinoIconsAirportData(0xe012);
-  static const IconData guardrail = _JustinoIconsAirportData(0xe013);
-  static const IconData infoAirport = _JustinoIconsAirportData(0xe014);
-  static const IconData inspection = _JustinoIconsAirportData(0xe015);
-  static const IconData leftAirport = _JustinoIconsAirportData(0xe016);
-  static const IconData liquids = _JustinoIconsAirportData(0xe017);
-  static const IconData lockers = _JustinoIconsAirportData(0xe018);
-  static const IconData lounge = _JustinoIconsAirportData(0xe019);
-  static const IconData luggage = _JustinoIconsAirportData(0xe01a);
-  static const IconData movingWalkway = _JustinoIconsAirportData(0xe01b);
-  static const IconData noLiquids = _JustinoIconsAirportData(0xe01c);
-  static const IconData noMobile = _JustinoIconsAirportData(0xe01d);
-  static const IconData parkingAirport = _JustinoIconsAirportData(0xe01e);
-  static const IconData pharmacy = _JustinoIconsAirportData(0xe01f);
-  static const IconData policeman = _JustinoIconsAirportData(0xe020);
-  static const IconData portholeAirport = _JustinoIconsAirportData(0xe021);
-  static const IconData roundTrip = _JustinoIconsAirportData(0xe022);
-  static const IconData runway = _JustinoIconsAirportData(0xe023);
-  static const IconData scale = _JustinoIconsAirportData(0xe024);
-  static const IconData scanner = _JustinoIconsAirportData(0xe025);
-  static const IconData seats = _JustinoIconsAirportData(0xe026);
-  static const IconData securityCamera = _JustinoIconsAirportData(0xe027);
-  static const IconData takeOff = _JustinoIconsAirportData(0xe028);
-  static const IconData toilets = _JustinoIconsAirportData(0xe029);
-  static const IconData transfer = _JustinoIconsAirportData(0xe02a);
-  static const IconData transit = _JustinoIconsAirportData(0xe02b);
-  static const IconData trolleyAirport = _JustinoIconsAirportData(0xe02c);
-  static const IconData waitingHall = _JustinoIconsAirportData(0xe02d);
-  static const IconData wifi = _JustinoIconsAirportData(0xe02e);
+  final IconData airplane = const _JustinoIconsAirportData(0xe000);
+  final IconData arrival = const _JustinoIconsAirportData(0xe001);
+  final IconData arrowAirport = const _JustinoIconsAirportData(0xe002);
+  final IconData baggageAirport = const _JustinoIconsAirportData(0xe003);
+  final IconData boardingPass = const _JustinoIconsAirportData(0xe004);
+  final IconData bus = const _JustinoIconsAirportData(0xe005);
+  final IconData calendarAirport = const _JustinoIconsAirportData(0xe006);
+  final IconData clockAirport = const _JustinoIconsAirportData(0xe007);
+  final IconData coffeeMug = const _JustinoIconsAirportData(0xe008);
+  final IconData controlTower = const _JustinoIconsAirportData(0xe009);
+  final IconData customsAgent = const _JustinoIconsAirportData(0xe00a);
+  final IconData directFlight = const _JustinoIconsAirportData(0xe00b);
+  final IconData dish = const _JustinoIconsAirportData(0xe00c);
+  final IconData enter = const _JustinoIconsAirportData(0xe00d);
+  final IconData escalatorDown = const _JustinoIconsAirportData(0xe00e);
+  final IconData escalatorUp = const _JustinoIconsAirportData(0xe00f);
+  final IconData exitAirport = const _JustinoIconsAirportData(0xe010);
+  final IconData fastFood = const _JustinoIconsAirportData(0xe011);
+  final IconData forwardAirport = const _JustinoIconsAirportData(0xe012);
+  final IconData guardrail = const _JustinoIconsAirportData(0xe013);
+  final IconData infoAirport = const _JustinoIconsAirportData(0xe014);
+  final IconData inspection = const _JustinoIconsAirportData(0xe015);
+  final IconData leftAirport = const _JustinoIconsAirportData(0xe016);
+  final IconData liquids = const _JustinoIconsAirportData(0xe017);
+  final IconData lockers = const _JustinoIconsAirportData(0xe018);
+  final IconData lounge = const _JustinoIconsAirportData(0xe019);
+  final IconData luggage = const _JustinoIconsAirportData(0xe01a);
+  final IconData movingWalkway = const _JustinoIconsAirportData(0xe01b);
+  final IconData noLiquids = const _JustinoIconsAirportData(0xe01c);
+  final IconData noMobile = const _JustinoIconsAirportData(0xe01d);
+  final IconData parkingAirport = const _JustinoIconsAirportData(0xe01e);
+  final IconData pharmacy = const _JustinoIconsAirportData(0xe01f);
+  final IconData policeman = const _JustinoIconsAirportData(0xe020);
+  final IconData portholeAirport = const _JustinoIconsAirportData(0xe021);
+  final IconData roundTrip = const _JustinoIconsAirportData(0xe022);
+  final IconData runway = const _JustinoIconsAirportData(0xe023);
+  final IconData scale = const _JustinoIconsAirportData(0xe024);
+  final IconData scanner = const _JustinoIconsAirportData(0xe025);
+  final IconData seats = const _JustinoIconsAirportData(0xe026);
+  final IconData securityCamera = const _JustinoIconsAirportData(0xe027);
+  final IconData takeOff = const _JustinoIconsAirportData(0xe028);
+  final IconData toilets = const _JustinoIconsAirportData(0xe029);
+  final IconData transfer = const _JustinoIconsAirportData(0xe02a);
+  final IconData transit = const _JustinoIconsAirportData(0xe02b);
+  final IconData trolleyAirport = const _JustinoIconsAirportData(0xe02c);
+  final IconData waitingHall = const _JustinoIconsAirportData(0xe02d);
+  final IconData wifi = const _JustinoIconsAirportData(0xe02e);
 }

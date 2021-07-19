@@ -28,7 +28,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  dynamic _selected = JustinoIcons.acousticGuitar;
+  dynamic _selected = JustinoIcons.adventure.bbqAdventure;
 
   _selectIcon(dynamic icon){
     setState(() {

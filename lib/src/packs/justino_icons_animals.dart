@@ -13,36 +13,72 @@ class _JustinoIconsAnimalsData extends IconData {
 
 @immutable
 class JustinoIconsAnimals {
-  JustinoIconsAnimals._();
+  const JustinoIconsAnimals();
+
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  
+  IconData getByName(String name) => all[name] ?? bear;
+  
+  Map<String, IconData> get all => { 
+    'bear' : bear,
+    'cage' : cage,
+    'cat' : cat,
+    'collar' : collar,
+    'dogBone' : dogBone,
+    'dogHouse' : dogHouse,
+    'dog' : dog,
+    'frog' : frog,
+    'hedgehog' : hedgehog,
+    'leash' : leash,
+    'love' : love,
+    'mouse' : mouse,
+    'octopus' : octopus,
+    'owl' : owl,
+    'panda' : panda,
+    'pawprint' : pawprint,
+    'penguin' : penguin,
+    'petBowl' : petBowl,
+    'petBrush' : petBrush,
+    'petCarrier' : petCarrier,
+    'petFood' : petFood,
+    'pet' : pet,
+    'pig' : pig,
+    'rabbit' : rabbit,
+    'sheep' : sheep,
+    'snail' : snail,
+    'snake' : snake,
+    'veterinarian' : veterinarian,
+    'veterinary' : veterinary,
+  };
 
   
-  static const IconData bear = _JustinoIconsAnimalsData(0xe000);
-  static const IconData cage = _JustinoIconsAnimalsData(0xe001);
-  static const IconData cat = _JustinoIconsAnimalsData(0xe002);
-  static const IconData collar = _JustinoIconsAnimalsData(0xe003);
-  static const IconData dogBone = _JustinoIconsAnimalsData(0xe004);
-  static const IconData dogHouse = _JustinoIconsAnimalsData(0xe005);
-  static const IconData dog = _JustinoIconsAnimalsData(0xe006);
-  static const IconData frog = _JustinoIconsAnimalsData(0xe007);
-  static const IconData hedgehog = _JustinoIconsAnimalsData(0xe008);
-  static const IconData leash = _JustinoIconsAnimalsData(0xe009);
-  static const IconData love = _JustinoIconsAnimalsData(0xe00a);
-  static const IconData mouse = _JustinoIconsAnimalsData(0xe00b);
-  static const IconData octopus = _JustinoIconsAnimalsData(0xe00c);
-  static const IconData owl = _JustinoIconsAnimalsData(0xe00d);
-  static const IconData panda = _JustinoIconsAnimalsData(0xe00e);
-  static const IconData pawprint = _JustinoIconsAnimalsData(0xe00f);
-  static const IconData penguin = _JustinoIconsAnimalsData(0xe010);
-  static const IconData petBowl = _JustinoIconsAnimalsData(0xe011);
-  static const IconData petBrush = _JustinoIconsAnimalsData(0xe012);
-  static const IconData petCarrier = _JustinoIconsAnimalsData(0xe013);
-  static const IconData petFood = _JustinoIconsAnimalsData(0xe014);
-  static const IconData pet = _JustinoIconsAnimalsData(0xe015);
-  static const IconData pig = _JustinoIconsAnimalsData(0xe016);
-  static const IconData rabbit = _JustinoIconsAnimalsData(0xe017);
-  static const IconData sheep = _JustinoIconsAnimalsData(0xe018);
-  static const IconData snail = _JustinoIconsAnimalsData(0xe019);
-  static const IconData snake = _JustinoIconsAnimalsData(0xe01a);
-  static const IconData veterinarian = _JustinoIconsAnimalsData(0xe01b);
-  static const IconData veterinary = _JustinoIconsAnimalsData(0xe01c);
+  final IconData bear = const _JustinoIconsAnimalsData(0xe000);
+  final IconData cage = const _JustinoIconsAnimalsData(0xe001);
+  final IconData cat = const _JustinoIconsAnimalsData(0xe002);
+  final IconData collar = const _JustinoIconsAnimalsData(0xe003);
+  final IconData dogBone = const _JustinoIconsAnimalsData(0xe004);
+  final IconData dogHouse = const _JustinoIconsAnimalsData(0xe005);
+  final IconData dog = const _JustinoIconsAnimalsData(0xe006);
+  final IconData frog = const _JustinoIconsAnimalsData(0xe007);
+  final IconData hedgehog = const _JustinoIconsAnimalsData(0xe008);
+  final IconData leash = const _JustinoIconsAnimalsData(0xe009);
+  final IconData love = const _JustinoIconsAnimalsData(0xe00a);
+  final IconData mouse = const _JustinoIconsAnimalsData(0xe00b);
+  final IconData octopus = const _JustinoIconsAnimalsData(0xe00c);
+  final IconData owl = const _JustinoIconsAnimalsData(0xe00d);
+  final IconData panda = const _JustinoIconsAnimalsData(0xe00e);
+  final IconData pawprint = const _JustinoIconsAnimalsData(0xe00f);
+  final IconData penguin = const _JustinoIconsAnimalsData(0xe010);
+  final IconData petBowl = const _JustinoIconsAnimalsData(0xe011);
+  final IconData petBrush = const _JustinoIconsAnimalsData(0xe012);
+  final IconData petCarrier = const _JustinoIconsAnimalsData(0xe013);
+  final IconData petFood = const _JustinoIconsAnimalsData(0xe014);
+  final IconData pet = const _JustinoIconsAnimalsData(0xe015);
+  final IconData pig = const _JustinoIconsAnimalsData(0xe016);
+  final IconData rabbit = const _JustinoIconsAnimalsData(0xe017);
+  final IconData sheep = const _JustinoIconsAnimalsData(0xe018);
+  final IconData snail = const _JustinoIconsAnimalsData(0xe019);
+  final IconData snake = const _JustinoIconsAnimalsData(0xe01a);
+  final IconData veterinarian = const _JustinoIconsAnimalsData(0xe01b);
+  final IconData veterinary = const _JustinoIconsAnimalsData(0xe01c);
 }

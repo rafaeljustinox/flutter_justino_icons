@@ -13,35 +13,69 @@ class _JustinoIconsDrivingSchoolData extends IconData {
 
 @immutable
 class JustinoIconsDrivingSchool {
-  JustinoIconsDrivingSchool._();
+  const JustinoIconsDrivingSchool();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? automaticTransmission;
+
+  Map<String, IconData> get all => { 
+    'automaticTransmission' : automaticTransmission,
+    'beginningOfAdditionalLane' : beginningOfAdditionalLane,
+    'bookDrivingSchool' : bookDrivingSchool,
+    'carKey' : carKey,
+    'carPedals' : carPedals,
+    'driver' : driver,
+    'driversLicense' : driversLicense,
+    'drivingInstructor' : drivingInstructor,
+    'endOfAdditionalLane' : endOfAdditionalLane,
+    'fail' : fail,
+    'lPlate' : lPlate,
+    'learningDrivingSchool' : learningDrivingSchool,
+    'leftDrivingSchool' : leftDrivingSchool,
+    'manualTransmission' : manualTransmission,
+    'noEntry' : noEntry,
+    'noParkingDrivingSchool' : noParkingDrivingSchool,
+    'noTurn' : noTurn,
+    'oneWay' : oneWay,
+    'parkingDrivingSchool' : parkingDrivingSchool,
+    'pass' : pass,
+    'protection' : protection,
+    'safetyBelt' : safetyBelt,
+    'speedBump' : speedBump,
+    'speedLimit' : speedLimit,
+    'stopDrivingSchool' : stopDrivingSchool,
+    'testingDrivingSchool' : testingDrivingSchool,
+    'trafficCamera' : trafficCamera,
+    'trafficCone' : trafficCone,
+  };
   
-  static const IconData automaticTransmission = _JustinoIconsDrivingSchoolData(0xe000);
-  static const IconData beginningOfAdditionalLane = _JustinoIconsDrivingSchoolData(0xe001);
-  static const IconData bookDrivingSchool = _JustinoIconsDrivingSchoolData(0xe002);
-  static const IconData carKey = _JustinoIconsDrivingSchoolData(0xe003);
-  static const IconData carPedals = _JustinoIconsDrivingSchoolData(0xe004);
-  static const IconData driver = _JustinoIconsDrivingSchoolData(0xe005);
-  static const IconData driversLicense = _JustinoIconsDrivingSchoolData(0xe006);
-  static const IconData drivingInstructor = _JustinoIconsDrivingSchoolData(0xe007);
-  static const IconData endOfAdditionalLane = _JustinoIconsDrivingSchoolData(0xe008);
-  static const IconData fail = _JustinoIconsDrivingSchoolData(0xe009);
-  static const IconData lPlate = _JustinoIconsDrivingSchoolData(0xe00a);
-  static const IconData learningDrivingSchool = _JustinoIconsDrivingSchoolData(0xe00b);
-  static const IconData leftDrivingSchool = _JustinoIconsDrivingSchoolData(0xe00c);
-  static const IconData manualTransmission = _JustinoIconsDrivingSchoolData(0xe00d);
-  static const IconData noEntry = _JustinoIconsDrivingSchoolData(0xe00e);
-  static const IconData noParkingDrivingSchool = _JustinoIconsDrivingSchoolData(0xe00f);
-  static const IconData noTurn = _JustinoIconsDrivingSchoolData(0xe010);
-  static const IconData oneWay = _JustinoIconsDrivingSchoolData(0xe011);
-  static const IconData parkingDrivingSchool = _JustinoIconsDrivingSchoolData(0xe012);
-  static const IconData pass = _JustinoIconsDrivingSchoolData(0xe013);
-  static const IconData protection = _JustinoIconsDrivingSchoolData(0xe014);
-  static const IconData safetyBelt = _JustinoIconsDrivingSchoolData(0xe015);
-  static const IconData speedBump = _JustinoIconsDrivingSchoolData(0xe016);
-  static const IconData speedLimit = _JustinoIconsDrivingSchoolData(0xe017);
-  static const IconData stopDrivingSchool = _JustinoIconsDrivingSchoolData(0xe018);
-  static const IconData testingDrivingSchool = _JustinoIconsDrivingSchoolData(0xe019);
-  static const IconData trafficCamera = _JustinoIconsDrivingSchoolData(0xe01a);
-  static const IconData trafficCone = _JustinoIconsDrivingSchoolData(0xe01b);
+  final IconData automaticTransmission = const _JustinoIconsDrivingSchoolData(0xe000);
+  final IconData beginningOfAdditionalLane = const _JustinoIconsDrivingSchoolData(0xe001);
+  final IconData bookDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe002);
+  final IconData carKey = const _JustinoIconsDrivingSchoolData(0xe003);
+  final IconData carPedals = const _JustinoIconsDrivingSchoolData(0xe004);
+  final IconData driver = const _JustinoIconsDrivingSchoolData(0xe005);
+  final IconData driversLicense = const _JustinoIconsDrivingSchoolData(0xe006);
+  final IconData drivingInstructor = const _JustinoIconsDrivingSchoolData(0xe007);
+  final IconData endOfAdditionalLane = const _JustinoIconsDrivingSchoolData(0xe008);
+  final IconData fail = const _JustinoIconsDrivingSchoolData(0xe009);
+  final IconData lPlate = const _JustinoIconsDrivingSchoolData(0xe00a);
+  final IconData learningDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe00b);
+  final IconData leftDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe00c);
+  final IconData manualTransmission = const _JustinoIconsDrivingSchoolData(0xe00d);
+  final IconData noEntry = const _JustinoIconsDrivingSchoolData(0xe00e);
+  final IconData noParkingDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe00f);
+  final IconData noTurn = const _JustinoIconsDrivingSchoolData(0xe010);
+  final IconData oneWay = const _JustinoIconsDrivingSchoolData(0xe011);
+  final IconData parkingDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe012);
+  final IconData pass = const _JustinoIconsDrivingSchoolData(0xe013);
+  final IconData protection = const _JustinoIconsDrivingSchoolData(0xe014);
+  final IconData safetyBelt = const _JustinoIconsDrivingSchoolData(0xe015);
+  final IconData speedBump = const _JustinoIconsDrivingSchoolData(0xe016);
+  final IconData speedLimit = const _JustinoIconsDrivingSchoolData(0xe017);
+  final IconData stopDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe018);
+  final IconData testingDrivingSchool = const _JustinoIconsDrivingSchoolData(0xe019);
+  final IconData trafficCamera = const _JustinoIconsDrivingSchoolData(0xe01a);
+  final IconData trafficCone = const _JustinoIconsDrivingSchoolData(0xe01b);
 }

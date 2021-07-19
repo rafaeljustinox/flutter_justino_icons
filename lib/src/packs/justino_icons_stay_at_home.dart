@@ -13,27 +13,53 @@ class _JustinoIconsStayAtHomeData extends IconData {
 
 @immutable
 class JustinoIconsStayAtHome {
-  JustinoIconsStayAtHome._();
+  const JustinoIconsStayAtHome();
 
-  
-  static const IconData armchair = _JustinoIconsStayAtHomeData(0xe000);
-  static const IconData cleaning = _JustinoIconsStayAtHomeData(0xe001);
-  static const IconData computerScreen = _JustinoIconsStayAtHomeData(0xe002);
-  static const IconData cooking = _JustinoIconsStayAtHomeData(0xe003);
-  static const IconData doNotGoOut = _JustinoIconsStayAtHomeData(0xe004);
-  static const IconData doNot = _JustinoIconsStayAtHomeData(0xe005);
-  static const IconData homeStayAtHome = _JustinoIconsStayAtHomeData(0xe006);
-  static const IconData houseStayAtHome = _JustinoIconsStayAtHomeData(0xe007);
-  static const IconData isolationStayAtHome = _JustinoIconsStayAtHomeData(0xe008);
-  static const IconData lockStayAtHome = _JustinoIconsStayAtHomeData(0xe009);
-  static const IconData make = _JustinoIconsStayAtHomeData(0xe00a);
-  static const IconData observation = _JustinoIconsStayAtHomeData(0xe00b);
-  static const IconData onlineLearning = _JustinoIconsStayAtHomeData(0xe00c);
-  static const IconData play = _JustinoIconsStayAtHomeData(0xe00d);
-  static const IconData reading = _JustinoIconsStayAtHomeData(0xe00e);
-  static const IconData rest = _JustinoIconsStayAtHomeData(0xe00f);
-  static const IconData stayhome = _JustinoIconsStayAtHomeData(0xe010);
-  static const IconData waiting = _JustinoIconsStayAtHomeData(0xe011);
-  static const IconData watchTv = _JustinoIconsStayAtHomeData(0xe012);
-  static const IconData workingAtHome = _JustinoIconsStayAtHomeData(0xe013);
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? armchair;
+
+  Map<String, IconData> get all => { 
+    'armchair' : armchair,
+    'cleaning' : cleaning,
+    'computerScreen' : computerScreen,
+    'cooking' : cooking,
+    'doNotGoOut' : doNotGoOut,
+    'doNot' : doNot,
+    'homeStayAtHome' : homeStayAtHome,
+    'houseStayAtHome' : houseStayAtHome,
+    'isolationStayAtHome' : isolationStayAtHome,
+    'lockStayAtHome' : lockStayAtHome,
+    'make' : make,
+    'observation' : observation,
+    'onlineLearning' : onlineLearning,
+    'play' : play,
+    'reading' : reading,
+    'rest' : rest,
+    'stayhome' : stayhome,
+    'waiting' : waiting,
+    'watchTv' : watchTv,
+    'workingAtHome' : workingAtHome,
+  };
+
+  final IconData armchair = const _JustinoIconsStayAtHomeData(0xe000);
+  final IconData cleaning = const _JustinoIconsStayAtHomeData(0xe001);
+  final IconData computerScreen = const _JustinoIconsStayAtHomeData(0xe002);
+  final IconData cooking = const _JustinoIconsStayAtHomeData(0xe003);
+  final IconData doNotGoOut = const _JustinoIconsStayAtHomeData(0xe004);
+  final IconData doNot = const _JustinoIconsStayAtHomeData(0xe005);
+  final IconData homeStayAtHome = const _JustinoIconsStayAtHomeData(0xe006);
+  final IconData houseStayAtHome = const _JustinoIconsStayAtHomeData(0xe007);
+  final IconData isolationStayAtHome = const _JustinoIconsStayAtHomeData(0xe008);
+  final IconData lockStayAtHome = const _JustinoIconsStayAtHomeData(0xe009);
+  final IconData make = const _JustinoIconsStayAtHomeData(0xe00a);
+  final IconData observation = const _JustinoIconsStayAtHomeData(0xe00b);
+  final IconData onlineLearning = const _JustinoIconsStayAtHomeData(0xe00c);
+  final IconData play = const _JustinoIconsStayAtHomeData(0xe00d);
+  final IconData reading = const _JustinoIconsStayAtHomeData(0xe00e);
+  final IconData rest = const _JustinoIconsStayAtHomeData(0xe00f);
+  final IconData stayhome = const _JustinoIconsStayAtHomeData(0xe010);
+  final IconData waiting = const _JustinoIconsStayAtHomeData(0xe011);
+  final IconData watchTv = const _JustinoIconsStayAtHomeData(0xe012);
+  final IconData workingAtHome = const _JustinoIconsStayAtHomeData(0xe013);
 }

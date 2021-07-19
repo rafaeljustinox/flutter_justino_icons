@@ -13,35 +13,70 @@ class _JustinoIconsPlumberData extends IconData {
 
 @immutable
 class JustinoIconsPlumber {
-  JustinoIconsPlumber._();
+  const JustinoIconsPlumber();
 
-  
-  static const IconData brokenPipe = _JustinoIconsPlumberData(0xe000);
-  static const IconData drain = _JustinoIconsPlumberData(0xe001);
-  static const IconData drainage = _JustinoIconsPlumberData(0xe002);
-  static const IconData drinkingWater = _JustinoIconsPlumberData(0xe003);
-  static const IconData faucet = _JustinoIconsPlumberData(0xe004);
-  static const IconData glovesPlumber = _JustinoIconsPlumberData(0xe005);
-  static const IconData heatedTowelRail = _JustinoIconsPlumberData(0xe006);
-  static const IconData noWater = _JustinoIconsPlumberData(0xe007);
-  static const IconData nut = _JustinoIconsPlumberData(0xe008);
-  static const IconData pipe = _JustinoIconsPlumberData(0xe009);
-  static const IconData pipeline = _JustinoIconsPlumberData(0xe00a);
-  static const IconData piping = _JustinoIconsPlumberData(0xe00b);
-  static const IconData plumberTruck = _JustinoIconsPlumberData(0xe00c);
-  static const IconData plumber = _JustinoIconsPlumberData(0xe00d);
-  static const IconData plumbing = _JustinoIconsPlumberData(0xe00e);
-  static const IconData plunger = _JustinoIconsPlumberData(0xe00f);
-  static const IconData saveWater = _JustinoIconsPlumberData(0xe010);
-  static const IconData screwdriver = _JustinoIconsPlumberData(0xe011);
-  static const IconData sewer = _JustinoIconsPlumberData(0xe012);
-  static const IconData shower = _JustinoIconsPlumberData(0xe013);
-  static const IconData sink = _JustinoIconsPlumberData(0xe014);
-  static const IconData toolBox = _JustinoIconsPlumberData(0xe015);
-  static const IconData valve = _JustinoIconsPlumberData(0xe016);
-  static const IconData waterFilter = _JustinoIconsPlumberData(0xe017);
-  static const IconData waterMeter = _JustinoIconsPlumberData(0xe018);
-  static const IconData waterTap = _JustinoIconsPlumberData(0xe019);
-  static const IconData wrenchTool = _JustinoIconsPlumberData(0xe01a);
-  static const IconData wrench = _JustinoIconsPlumberData(0xe01b);
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? brokenPipe;
+
+  Map<String, IconData> get all => { 
+    'brokenPipe' : brokenPipe,
+    'drain' : drain,
+    'drainage' : drainage,
+    'drinkingWater' : drinkingWater,
+    'faucet' : faucet,
+    'glovesPlumber' : glovesPlumber,
+    'heatedTowelRail' : heatedTowelRail,
+    'noWater' : noWater,
+    'nut' : nut,
+    'pipe' : pipe,
+    'pipeline' : pipeline,
+    'piping' : piping,
+    'plumberTruck' : plumberTruck,
+    'plumber' : plumber,
+    'plumbing' : plumbing,
+    'plunger' : plunger,
+    'saveWater' : saveWater,
+    'screwdriver' : screwdriver,
+    'sewer' : sewer,
+    'shower' : shower,
+    'sink' : sink,
+    'toolBox' : toolBox,
+    'valve' : valve,
+    'waterFilter' : waterFilter,
+    'waterMeter' : waterMeter,
+    'waterTap' : waterTap,
+    'wrenchTool' : wrenchTool,
+    'wrench'   : wrench,
+  };
+
+
+  final IconData brokenPipe = const _JustinoIconsPlumberData(0xe000);
+  final IconData drain = const _JustinoIconsPlumberData(0xe001);
+  final IconData drainage = const _JustinoIconsPlumberData(0xe002);
+  final IconData drinkingWater = const _JustinoIconsPlumberData(0xe003);
+  final IconData faucet = const _JustinoIconsPlumberData(0xe004);
+  final IconData glovesPlumber = const _JustinoIconsPlumberData(0xe005);
+  final IconData heatedTowelRail = const _JustinoIconsPlumberData(0xe006);
+  final IconData noWater = const _JustinoIconsPlumberData(0xe007);
+  final IconData nut = const _JustinoIconsPlumberData(0xe008);
+  final IconData pipe = const _JustinoIconsPlumberData(0xe009);
+  final IconData pipeline = const _JustinoIconsPlumberData(0xe00a);
+  final IconData piping = const _JustinoIconsPlumberData(0xe00b);
+  final IconData plumberTruck = const _JustinoIconsPlumberData(0xe00c);
+  final IconData plumber = const _JustinoIconsPlumberData(0xe00d);
+  final IconData plumbing = const _JustinoIconsPlumberData(0xe00e);
+  final IconData plunger = const _JustinoIconsPlumberData(0xe00f);
+  final IconData saveWater = const _JustinoIconsPlumberData(0xe010);
+  final IconData screwdriver = const _JustinoIconsPlumberData(0xe011);
+  final IconData sewer = const _JustinoIconsPlumberData(0xe012);
+  final IconData shower = const _JustinoIconsPlumberData(0xe013);
+  final IconData sink = const _JustinoIconsPlumberData(0xe014);
+  final IconData toolBox = const _JustinoIconsPlumberData(0xe015);
+  final IconData valve = const _JustinoIconsPlumberData(0xe016);
+  final IconData waterFilter = const _JustinoIconsPlumberData(0xe017);
+  final IconData waterMeter = const _JustinoIconsPlumberData(0xe018);
+  final IconData waterTap = const _JustinoIconsPlumberData(0xe019);
+  final IconData wrenchTool = const _JustinoIconsPlumberData(0xe01a);
+  final IconData wrench = const _JustinoIconsPlumberData(0xe01b);
 }

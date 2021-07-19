@@ -13,32 +13,64 @@ class _JustinoIconsAccessibilityData extends IconData {
 
 @immutable
 class JustinoIconsAccessibility {
-  JustinoIconsAccessibility._();
 
+  const JustinoIconsAccessibility();
+
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
   
-  static const IconData audioDescription = _JustinoIconsAccessibilityData(0xe000);
-  static const IconData audio = _JustinoIconsAccessibilityData(0xe001);
-  static const IconData blind = _JustinoIconsAccessibilityData(0xe002);
-  static const IconData braille = _JustinoIconsAccessibilityData(0xe003);
-  static const IconData closedCaption = _JustinoIconsAccessibilityData(0xe004);
-  static const IconData computerAccessibility = _JustinoIconsAccessibilityData(0xe005);
-  static const IconData crutch = _JustinoIconsAccessibilityData(0xe006);
-  static const IconData deafness = _JustinoIconsAccessibilityData(0xe007);
-  static const IconData disabledPerson = _JustinoIconsAccessibilityData(0xe008);
-  static const IconData elevator = _JustinoIconsAccessibilityData(0xe009);
-  static const IconData glassesAccessibility = _JustinoIconsAccessibilityData(0xe00a);
-  static const IconData hearingAid = _JustinoIconsAccessibilityData(0xe00b);
-  static const IconData information = _JustinoIconsAccessibilityData(0xe00c);
-  static const IconData mobile = _JustinoIconsAccessibilityData(0xe00d);
-  static const IconData parkingAccessibility = _JustinoIconsAccessibilityData(0xe00e);
-  static const IconData prosthesis = _JustinoIconsAccessibilityData(0xe00f);
-  static const IconData ramp = _JustinoIconsAccessibilityData(0xe010);
-  static const IconData silent = _JustinoIconsAccessibilityData(0xe011);
-  static const IconData speech = _JustinoIconsAccessibilityData(0xe012);
-  static const IconData text = _JustinoIconsAccessibilityData(0xe013);
-  static const IconData toilet = _JustinoIconsAccessibilityData(0xe014);
-  static const IconData walker = _JustinoIconsAccessibilityData(0xe015);
-  static const IconData walkingStick = _JustinoIconsAccessibilityData(0xe016);
-  static const IconData wheelchair = _JustinoIconsAccessibilityData(0xe017);
-  static const IconData workPlace = _JustinoIconsAccessibilityData(0xe018);
+  IconData getByName(String name) => all[name] ?? audioDescription;
+
+  Map<String, IconData> get all => { 
+    'audioDescription' : audioDescription,
+    'audio' : audio,
+    'blind' : blind,
+    'braille' : braille,
+    'closedCaption' : closedCaption,
+    'computerAccessibility' : computerAccessibility,
+    'crutch' : crutch,
+    'deafness' : deafness,
+    'disabledPerson' : disabledPerson,
+    'elevator' : elevator,
+    'glassesAccessibility' : glassesAccessibility,
+    'hearingAid' : hearingAid,
+    'information' : information,
+    'mobile' : mobile,
+    'parkingAccessibility' : parkingAccessibility,
+    'prosthesis' : prosthesis,
+    'ramp' : ramp,
+    'silent' : silent,
+    'speech' : speech,
+    'text' : text,
+    'toilet' : toilet,
+    'walker' : walker,
+    'walkingStick' : walkingStick,
+    'wheelchair' : wheelchair,
+    'workPlace' : workPlace,
+  };
+
+  final IconData audioDescription = const _JustinoIconsAccessibilityData(0xe000);
+  final IconData audio = const _JustinoIconsAccessibilityData(0xe001);
+  final IconData blind = const _JustinoIconsAccessibilityData(0xe002);
+  final IconData braille = const _JustinoIconsAccessibilityData(0xe003);
+  final IconData closedCaption = const _JustinoIconsAccessibilityData(0xe004);
+  final IconData computerAccessibility = const _JustinoIconsAccessibilityData(0xe005);
+  final IconData crutch = const _JustinoIconsAccessibilityData(0xe006);
+  final IconData deafness = const _JustinoIconsAccessibilityData(0xe007);
+  final IconData disabledPerson = const _JustinoIconsAccessibilityData(0xe008);
+  final IconData elevator = const _JustinoIconsAccessibilityData(0xe009);
+  final IconData glassesAccessibility = const _JustinoIconsAccessibilityData(0xe00a);
+  final IconData hearingAid = const _JustinoIconsAccessibilityData(0xe00b);
+  final IconData information = const _JustinoIconsAccessibilityData(0xe00c);
+  final IconData mobile = const _JustinoIconsAccessibilityData(0xe00d);
+  final IconData parkingAccessibility = const _JustinoIconsAccessibilityData(0xe00e);
+  final IconData prosthesis = const _JustinoIconsAccessibilityData(0xe00f);
+  final IconData ramp = const _JustinoIconsAccessibilityData(0xe010);
+  final IconData silent = const _JustinoIconsAccessibilityData(0xe011);
+  final IconData speech = const _JustinoIconsAccessibilityData(0xe012);
+  final IconData text = const _JustinoIconsAccessibilityData(0xe013);
+  final IconData toilet = const _JustinoIconsAccessibilityData(0xe014);
+  final IconData walker = const _JustinoIconsAccessibilityData(0xe015);
+  final IconData walkingStick = const _JustinoIconsAccessibilityData(0xe016);
+  final IconData wheelchair = const _JustinoIconsAccessibilityData(0xe017);
+  final IconData workPlace = const _JustinoIconsAccessibilityData(0xe018);
 }

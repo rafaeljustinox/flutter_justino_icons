@@ -13,33 +13,65 @@ class _JustinoIconsChessData extends IconData {
 
 @immutable
 class JustinoIconsChess {
-  JustinoIconsChess._();
+  const JustinoIconsChess();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? bishop;
+
+  Map<String, IconData> get all => { 
+    'bishop' : bishop,
+    'bookChess' : bookChess,
+    'chessBoard' : chessBoard,
+    'chessClock' : chessClock,
+    'chessGame' : chessGame,
+    'chessPiece' : chessPiece,
+    'chess' : chess,
+    'competition' : competition,
+    'fight' : fight,
+    'intelligence' : intelligence,
+    'king' : king,
+    'knight' : knight,
+    'locationChess' : locationChess,
+    'medalChess' : medalChess,
+    'move' : move,
+    'onlineGaming' : onlineGaming,
+    'pawn' : pawn,
+    'player' : player,
+    'profitChess' : profitChess,
+    'queen' : queen,
+    'rook' : rook,
+    'scoreChess' : scoreChess,
+    'stopWatch' : stopWatch,
+    'strategy' : strategy,
+    'time' : time,
+    'tournament' : tournament,
+  };
   
-  static const IconData bishop = _JustinoIconsChessData(0xe000);
-  static const IconData bookChess = _JustinoIconsChessData(0xe001);
-  static const IconData chessBoard = _JustinoIconsChessData(0xe002);
-  static const IconData chessClock = _JustinoIconsChessData(0xe003);
-  static const IconData chessGame = _JustinoIconsChessData(0xe004);
-  static const IconData chessPiece = _JustinoIconsChessData(0xe005);
-  static const IconData chess = _JustinoIconsChessData(0xe006);
-  static const IconData competition = _JustinoIconsChessData(0xe007);
-  static const IconData fight = _JustinoIconsChessData(0xe008);
-  static const IconData intelligence = _JustinoIconsChessData(0xe009);
-  static const IconData king = _JustinoIconsChessData(0xe00a);
-  static const IconData knight = _JustinoIconsChessData(0xe00b);
-  static const IconData locationChess = _JustinoIconsChessData(0xe00c);
-  static const IconData medalChess = _JustinoIconsChessData(0xe00d);
-  static const IconData move = _JustinoIconsChessData(0xe00e);
-  static const IconData onlineGaming = _JustinoIconsChessData(0xe00f);
-  static const IconData pawn = _JustinoIconsChessData(0xe010);
-  static const IconData player = _JustinoIconsChessData(0xe011);
-  static const IconData profitChess = _JustinoIconsChessData(0xe012);
-  static const IconData queen = _JustinoIconsChessData(0xe013);
-  static const IconData rook = _JustinoIconsChessData(0xe014);
-  static const IconData scoreChess = _JustinoIconsChessData(0xe015);
-  static const IconData stopWatch = _JustinoIconsChessData(0xe016);
-  static const IconData strategy = _JustinoIconsChessData(0xe017);
-  static const IconData time = _JustinoIconsChessData(0xe018);
-  static const IconData tournament = _JustinoIconsChessData(0xe019);
+  final IconData bishop = const _JustinoIconsChessData(0xe000);
+  final IconData bookChess = const _JustinoIconsChessData(0xe001);
+  final IconData chessBoard = const _JustinoIconsChessData(0xe002);
+  final IconData chessClock = const _JustinoIconsChessData(0xe003);
+  final IconData chessGame = const _JustinoIconsChessData(0xe004);
+  final IconData chessPiece = const _JustinoIconsChessData(0xe005);
+  final IconData chess = const _JustinoIconsChessData(0xe006);
+  final IconData competition = const _JustinoIconsChessData(0xe007);
+  final IconData fight = const _JustinoIconsChessData(0xe008);
+  final IconData intelligence = const _JustinoIconsChessData(0xe009);
+  final IconData king = const _JustinoIconsChessData(0xe00a);
+  final IconData knight = const _JustinoIconsChessData(0xe00b);
+  final IconData locationChess = const _JustinoIconsChessData(0xe00c);
+  final IconData medalChess = const _JustinoIconsChessData(0xe00d);
+  final IconData move = const _JustinoIconsChessData(0xe00e);
+  final IconData onlineGaming = const _JustinoIconsChessData(0xe00f);
+  final IconData pawn = const _JustinoIconsChessData(0xe010);
+  final IconData player = const _JustinoIconsChessData(0xe011);
+  final IconData profitChess = const _JustinoIconsChessData(0xe012);
+  final IconData queen = const _JustinoIconsChessData(0xe013);
+  final IconData rook = const _JustinoIconsChessData(0xe014);
+  final IconData scoreChess = const _JustinoIconsChessData(0xe015);
+  final IconData stopWatch = const _JustinoIconsChessData(0xe016);
+  final IconData strategy = const _JustinoIconsChessData(0xe017);
+  final IconData time = const _JustinoIconsChessData(0xe018);
+  final IconData tournament = const _JustinoIconsChessData(0xe019);
 }

@@ -13,53 +13,106 @@ class _JustinoIconsFoodData extends IconData {
 
 @immutable
 class JustinoIconsFood {
-  JustinoIconsFood._();
+  const JustinoIconsFood();
+
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? applePie;
+  
+  Map<String, IconData> get all => { 
+    'applePie' : applePie,
+    'bacon' : bacon,
+    'baguette' : baguette,
+    'biscuit' : biscuit,
+    'boiledEgg' : boiledEgg,
+    'bread' : bread,
+    'cannedFoodFood' : cannedFoodFood,
+    'cereals' : cereals,
+    'cheese' : cheese,
+    'cherryFood' : cherryFood,
+    'chickenLeg' : chickenLeg,
+    'chicken' : chicken,
+    'chineseFood' : chineseFood,
+    'chocolateBar' : chocolateBar,
+    'croissant' : croissant,
+    'cupcake' : cupcake,
+    'cutlery' : cutlery,
+    'dinner' : dinner,
+    'donut' : donut,
+    'dressing' : dressing,
+    'dumpling' : dumpling,
+    'fish' : fish,
+    'friedEgg' : friedEgg,
+    'honey' : honey,
+    'iceCream' : iceCream,
+    'icePop' : icePop,
+    'kebab' : kebab,
+    'macaron' : macaron,
+    'meatFood' : meatFood,
+    'milkBottle' : milkBottle,
+    'milkFood' : milkFood,
+    'noodle' : noodle,
+    'oliveOil' : oliveOil,
+    'pancake' : pancake,
+    'pasta' : pasta,
+    'pepper' : pepper,
+    'pizzaSlice' : pizzaSlice,
+    'ribs' : ribs,
+    'salt' : salt,
+    'sausageFood' : sausageFood,
+    'shrimp' : shrimp,
+    'soup' : soup,
+    'soySauce' : soySauce,
+    'spicy' : spicy,
+    'sushi' : sushi,
+    'veganFood' : veganFood,
+  };
 
   
-  static const IconData applePie = _JustinoIconsFoodData(0xe000);
-  static const IconData bacon = _JustinoIconsFoodData(0xe001);
-  static const IconData baguette = _JustinoIconsFoodData(0xe002);
-  static const IconData biscuit = _JustinoIconsFoodData(0xe003);
-  static const IconData boiledEgg = _JustinoIconsFoodData(0xe004);
-  static const IconData bread = _JustinoIconsFoodData(0xe005);
-  static const IconData cannedFoodFood = _JustinoIconsFoodData(0xe006);
-  static const IconData cereals = _JustinoIconsFoodData(0xe007);
-  static const IconData cheese = _JustinoIconsFoodData(0xe008);
-  static const IconData cherryFood = _JustinoIconsFoodData(0xe009);
-  static const IconData chickenLeg = _JustinoIconsFoodData(0xe00a);
-  static const IconData chicken = _JustinoIconsFoodData(0xe00b);
-  static const IconData chineseFood = _JustinoIconsFoodData(0xe00c);
-  static const IconData chocolateBar = _JustinoIconsFoodData(0xe00d);
-  static const IconData croissant = _JustinoIconsFoodData(0xe00e);
-  static const IconData cupcake = _JustinoIconsFoodData(0xe00f);
-  static const IconData cutlery = _JustinoIconsFoodData(0xe010);
-  static const IconData dinner = _JustinoIconsFoodData(0xe011);
-  static const IconData donut = _JustinoIconsFoodData(0xe012);
-  static const IconData dressing = _JustinoIconsFoodData(0xe013);
-  static const IconData dumpling = _JustinoIconsFoodData(0xe014);
-  static const IconData fish = _JustinoIconsFoodData(0xe015);
-  static const IconData friedEgg = _JustinoIconsFoodData(0xe016);
-  static const IconData honey = _JustinoIconsFoodData(0xe017);
-  static const IconData iceCream = _JustinoIconsFoodData(0xe018);
-  static const IconData icePop = _JustinoIconsFoodData(0xe019);
-  static const IconData kebab = _JustinoIconsFoodData(0xe01a);
-  static const IconData macaron = _JustinoIconsFoodData(0xe01b);
-  static const IconData meatFood = _JustinoIconsFoodData(0xe01c);
-  static const IconData milkBottle = _JustinoIconsFoodData(0xe01d);
-  static const IconData milkFood = _JustinoIconsFoodData(0xe01e);
-  static const IconData noodle = _JustinoIconsFoodData(0xe01f);
-  static const IconData oliveOil = _JustinoIconsFoodData(0xe020);
-  static const IconData pancake = _JustinoIconsFoodData(0xe021);
-  static const IconData pasta = _JustinoIconsFoodData(0xe022);
-  static const IconData pepper = _JustinoIconsFoodData(0xe023);
-  static const IconData pizzaSlice = _JustinoIconsFoodData(0xe024);
-  static const IconData ribs = _JustinoIconsFoodData(0xe025);
-  static const IconData salt = _JustinoIconsFoodData(0xe026);
-  static const IconData sausageFood = _JustinoIconsFoodData(0xe027);
-  static const IconData shrimp = _JustinoIconsFoodData(0xe028);
-  static const IconData soup = _JustinoIconsFoodData(0xe029);
-  static const IconData soySauce = _JustinoIconsFoodData(0xe02a);
-  static const IconData spicy = _JustinoIconsFoodData(0xe02b);
-  static const IconData sushi = _JustinoIconsFoodData(0xe02c);
-  static const IconData veganFood = _JustinoIconsFoodData(0xe02d);
+  final IconData applePie = const _JustinoIconsFoodData(0xe000);
+  final IconData bacon = const _JustinoIconsFoodData(0xe001);
+  final IconData baguette = const _JustinoIconsFoodData(0xe002);
+  final IconData biscuit = const _JustinoIconsFoodData(0xe003);
+  final IconData boiledEgg = const _JustinoIconsFoodData(0xe004);
+  final IconData bread = const _JustinoIconsFoodData(0xe005);
+  final IconData cannedFoodFood = const _JustinoIconsFoodData(0xe006);
+  final IconData cereals = const _JustinoIconsFoodData(0xe007);
+  final IconData cheese = const _JustinoIconsFoodData(0xe008);
+  final IconData cherryFood = const _JustinoIconsFoodData(0xe009);
+  final IconData chickenLeg = const _JustinoIconsFoodData(0xe00a);
+  final IconData chicken = const _JustinoIconsFoodData(0xe00b);
+  final IconData chineseFood = const _JustinoIconsFoodData(0xe00c);
+  final IconData chocolateBar = const _JustinoIconsFoodData(0xe00d);
+  final IconData croissant = const _JustinoIconsFoodData(0xe00e);
+  final IconData cupcake = const _JustinoIconsFoodData(0xe00f);
+  final IconData cutlery = const _JustinoIconsFoodData(0xe010);
+  final IconData dinner = const _JustinoIconsFoodData(0xe011);
+  final IconData donut = const _JustinoIconsFoodData(0xe012);
+  final IconData dressing = const _JustinoIconsFoodData(0xe013);
+  final IconData dumpling = const _JustinoIconsFoodData(0xe014);
+  final IconData fish = const _JustinoIconsFoodData(0xe015);
+  final IconData friedEgg = const _JustinoIconsFoodData(0xe016);
+  final IconData honey = const _JustinoIconsFoodData(0xe017);
+  final IconData iceCream = const _JustinoIconsFoodData(0xe018);
+  final IconData icePop = const _JustinoIconsFoodData(0xe019);
+  final IconData kebab = const _JustinoIconsFoodData(0xe01a);
+  final IconData macaron = const _JustinoIconsFoodData(0xe01b);
+  final IconData meatFood = const _JustinoIconsFoodData(0xe01c);
+  final IconData milkBottle = const _JustinoIconsFoodData(0xe01d);
+  final IconData milkFood = const _JustinoIconsFoodData(0xe01e);
+  final IconData noodle = const _JustinoIconsFoodData(0xe01f);
+  final IconData oliveOil = const _JustinoIconsFoodData(0xe020);
+  final IconData pancake = const _JustinoIconsFoodData(0xe021);
+  final IconData pasta = const _JustinoIconsFoodData(0xe022);
+  final IconData pepper = const _JustinoIconsFoodData(0xe023);
+  final IconData pizzaSlice = const _JustinoIconsFoodData(0xe024);
+  final IconData ribs = const _JustinoIconsFoodData(0xe025);
+  final IconData salt = const _JustinoIconsFoodData(0xe026);
+  final IconData sausageFood = const _JustinoIconsFoodData(0xe027);
+  final IconData shrimp = const _JustinoIconsFoodData(0xe028);
+  final IconData soup = const _JustinoIconsFoodData(0xe029);
+  final IconData soySauce = const _JustinoIconsFoodData(0xe02a);
+  final IconData spicy = const _JustinoIconsFoodData(0xe02b);
+  final IconData sushi = const _JustinoIconsFoodData(0xe02c);
+  final IconData veganFood = const _JustinoIconsFoodData(0xe02d);
 }

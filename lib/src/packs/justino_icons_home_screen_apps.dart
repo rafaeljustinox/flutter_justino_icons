@@ -13,77 +13,153 @@ class _JustinoIconsHomeScreenAppsData extends IconData {
 
 @immutable
 class JustinoIconsHomeScreenApps {
-  JustinoIconsHomeScreenApps._();
+  const JustinoIconsHomeScreenApps();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  IconData getByName(String name) => all[name] ?? appStore;
+
+  Map<String, IconData> get all => { 
+    'appStore' : appStore,
+    'bankHomeScreenApps' : bankHomeScreenApps,
+    'books' : books,
+    'browserHomeScreenApps' : browserHomeScreenApps,
+    'calculator' : calculator,
+    'calendarHomeScreenApps' : calendarHomeScreenApps,
+    'cameraHomeScreenApps' : cameraHomeScreenApps,
+    'clockHomeScreenApps' : clockHomeScreenApps,
+    'contacts' : contacts,
+    'dailyHealthApp' : dailyHealthApp,
+    'discord' : discord,
+    'drive' : drive,
+    'edition' : edition,
+    'fileHosting' : fileHosting,
+    'findMyGadgetApp' : findMyGadgetApp,
+    'folderHomeScreenApps' : folderHomeScreenApps,
+    'houseHomeScreenApps' : houseHomeScreenApps,
+    'imageHomeScreenApps' : imageHomeScreenApps,
+    'instagram' : instagram,
+    'likeHomeScreenApps' : likeHomeScreenApps,
+    'linkedin' : linkedin,
+    'mailInboxApp' : mailInboxApp,
+    'maps' : maps,
+    'messenger' : messenger,
+    'mortarboard' : mortarboard,
+    'moviesApp' : moviesApp,
+    'musicHomeScreenApps' : musicHomeScreenApps,
+    'musicMakerApp' : musicMakerApp,
+    'musicStoreApp' : musicStoreApp,
+    'newsHomeScreenApps' : newsHomeScreenApps,
+    'notes' : notes,
+    'pages' : pages,
+    'pinHomeScreenApps' : pinHomeScreenApps,
+    'podcast' : podcast,
+    'reddit' : reddit,
+    'reminders' : reminders,
+    'remoteControl' : remoteControl,
+    'searchHomeScreenApps' : searchHomeScreenApps,
+    'settingsHomeScreenApps' : settingsHomeScreenApps,
+    'shopping' : shopping,
+    'shortcutScriptApp' : shortcutScriptApp,
+    'slack' : slack,
+    'slideShowApp' : slideShowApp,
+    'smartwatchApp' : smartwatchApp,
+    'snapchat' : snapchat,
+    'speechBubble' : speechBubble,
+    'spotify' : spotify,
+    'spreadsheetApp' : spreadsheetApp,
+    'stockExchangeApp' : stockExchangeApp,
+    'streamingTvApp' : streamingTvApp,
+    'telegram' : telegram,
+    'telephone' : telephone,
+    'tiktok' : tiktok,
+    'tinder' : tinder,
+    'tips' : tips,
+    'translate' : translate,
+    'transport' : transport,
+    'tumblr' : tumblr,
+    'tvApp' : tvApp,
+    'twitch' : twitch,
+    'twitter' : twitter,
+    'videoCallingApp' : videoCallingApp,
+    'videoEditingApp' : videoEditingApp,
+    'voiceMessageApp' : voiceMessageApp,
+    'walletPassesApp' : walletPassesApp,
+    'waze' : waze,
+    'weatherApp' : weatherApp,
+    'webBrowser' : webBrowser,
+    'whatsapp' : whatsapp,
+    'youtube' : youtube,
+  };
   
-  static const IconData appStore = _JustinoIconsHomeScreenAppsData(0xe000);
-  static const IconData bankHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe001);
-  static const IconData books = _JustinoIconsHomeScreenAppsData(0xe002);
-  static const IconData browserHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe003);
-  static const IconData calculator = _JustinoIconsHomeScreenAppsData(0xe004);
-  static const IconData calendarHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe005);
-  static const IconData cameraHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe006);
-  static const IconData clockHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe007);
-  static const IconData contacts = _JustinoIconsHomeScreenAppsData(0xe008);
-  static const IconData dailyHealthApp = _JustinoIconsHomeScreenAppsData(0xe009);
-  static const IconData discord = _JustinoIconsHomeScreenAppsData(0xe00a);
-  static const IconData drive = _JustinoIconsHomeScreenAppsData(0xe00b);
-  static const IconData edition = _JustinoIconsHomeScreenAppsData(0xe00c);
-  static const IconData fileHosting = _JustinoIconsHomeScreenAppsData(0xe00d);
-  static const IconData findMyGadgetApp = _JustinoIconsHomeScreenAppsData(0xe00e);
-  static const IconData folderHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe00f);
-  static const IconData houseHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe010);
-  static const IconData imageHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe011);
-  static const IconData instagram = _JustinoIconsHomeScreenAppsData(0xe012);
-  static const IconData likeHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe013);
-  static const IconData linkedin = _JustinoIconsHomeScreenAppsData(0xe014);
-  static const IconData mailInboxApp = _JustinoIconsHomeScreenAppsData(0xe015);
-  static const IconData maps = _JustinoIconsHomeScreenAppsData(0xe016);
-  static const IconData messenger = _JustinoIconsHomeScreenAppsData(0xe017);
-  static const IconData mortarboard = _JustinoIconsHomeScreenAppsData(0xe018);
-  static const IconData moviesApp = _JustinoIconsHomeScreenAppsData(0xe019);
-  static const IconData musicHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe01a);
-  static const IconData musicMakerApp = _JustinoIconsHomeScreenAppsData(0xe01b);
-  static const IconData musicStoreApp = _JustinoIconsHomeScreenAppsData(0xe01c);
-  static const IconData newsHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe01d);
-  static const IconData notes = _JustinoIconsHomeScreenAppsData(0xe01e);
-  static const IconData pages = _JustinoIconsHomeScreenAppsData(0xe01f);
-  static const IconData pinHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe020);
-  static const IconData podcast = _JustinoIconsHomeScreenAppsData(0xe021);
-  static const IconData reddit = _JustinoIconsHomeScreenAppsData(0xe022);
-  static const IconData reminders = _JustinoIconsHomeScreenAppsData(0xe023);
-  static const IconData remoteControl = _JustinoIconsHomeScreenAppsData(0xe024);
-  static const IconData searchHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe025);
-  static const IconData settingsHomeScreenApps = _JustinoIconsHomeScreenAppsData(0xe026);
-  static const IconData shopping = _JustinoIconsHomeScreenAppsData(0xe027);
-  static const IconData shortcutScriptApp = _JustinoIconsHomeScreenAppsData(0xe028);
-  static const IconData slack = _JustinoIconsHomeScreenAppsData(0xe029);
-  static const IconData slideShowApp = _JustinoIconsHomeScreenAppsData(0xe02a);
-  static const IconData smartwatchApp = _JustinoIconsHomeScreenAppsData(0xe02b);
-  static const IconData snapchat = _JustinoIconsHomeScreenAppsData(0xe02c);
-  static const IconData speechBubble = _JustinoIconsHomeScreenAppsData(0xe02d);
-  static const IconData spotify = _JustinoIconsHomeScreenAppsData(0xe02e);
-  static const IconData spreadsheetApp = _JustinoIconsHomeScreenAppsData(0xe02f);
-  static const IconData stockExchangeApp = _JustinoIconsHomeScreenAppsData(0xe030);
-  static const IconData streamingTvApp = _JustinoIconsHomeScreenAppsData(0xe031);
-  static const IconData telegram = _JustinoIconsHomeScreenAppsData(0xe032);
-  static const IconData telephone = _JustinoIconsHomeScreenAppsData(0xe033);
-  static const IconData tiktok = _JustinoIconsHomeScreenAppsData(0xe034);
-  static const IconData tinder = _JustinoIconsHomeScreenAppsData(0xe035);
-  static const IconData tips = _JustinoIconsHomeScreenAppsData(0xe036);
-  static const IconData translate = _JustinoIconsHomeScreenAppsData(0xe037);
-  static const IconData transport = _JustinoIconsHomeScreenAppsData(0xe038);
-  static const IconData tumblr = _JustinoIconsHomeScreenAppsData(0xe039);
-  static const IconData tvApp = _JustinoIconsHomeScreenAppsData(0xe03a);
-  static const IconData twitch = _JustinoIconsHomeScreenAppsData(0xe03b);
-  static const IconData twitter = _JustinoIconsHomeScreenAppsData(0xe03c);
-  static const IconData videoCallingApp = _JustinoIconsHomeScreenAppsData(0xe03d);
-  static const IconData videoEditingApp = _JustinoIconsHomeScreenAppsData(0xe03e);
-  static const IconData voiceMessageApp = _JustinoIconsHomeScreenAppsData(0xe03f);
-  static const IconData walletPassesApp = _JustinoIconsHomeScreenAppsData(0xe040);
-  static const IconData waze = _JustinoIconsHomeScreenAppsData(0xe041);
-  static const IconData weatherApp = _JustinoIconsHomeScreenAppsData(0xe042);
-  static const IconData webBrowser = _JustinoIconsHomeScreenAppsData(0xe043);
-  static const IconData whatsapp = _JustinoIconsHomeScreenAppsData(0xe044);
-  static const IconData youtube = _JustinoIconsHomeScreenAppsData(0xe045);
+  final IconData appStore = const _JustinoIconsHomeScreenAppsData(0xe000);
+  final IconData bankHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe001);
+  final IconData books = const _JustinoIconsHomeScreenAppsData(0xe002);
+  final IconData browserHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe003);
+  final IconData calculator = const _JustinoIconsHomeScreenAppsData(0xe004);
+  final IconData calendarHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe005);
+  final IconData cameraHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe006);
+  final IconData clockHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe007);
+  final IconData contacts = const _JustinoIconsHomeScreenAppsData(0xe008);
+  final IconData dailyHealthApp = const _JustinoIconsHomeScreenAppsData(0xe009);
+  final IconData discord = const _JustinoIconsHomeScreenAppsData(0xe00a);
+  final IconData drive = const _JustinoIconsHomeScreenAppsData(0xe00b);
+  final IconData edition = const _JustinoIconsHomeScreenAppsData(0xe00c);
+  final IconData fileHosting = const _JustinoIconsHomeScreenAppsData(0xe00d);
+  final IconData findMyGadgetApp = const _JustinoIconsHomeScreenAppsData(0xe00e);
+  final IconData folderHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe00f);
+  final IconData houseHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe010);
+  final IconData imageHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe011);
+  final IconData instagram = const _JustinoIconsHomeScreenAppsData(0xe012);
+  final IconData likeHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe013);
+  final IconData linkedin = const _JustinoIconsHomeScreenAppsData(0xe014);
+  final IconData mailInboxApp = const _JustinoIconsHomeScreenAppsData(0xe015);
+  final IconData maps = const _JustinoIconsHomeScreenAppsData(0xe016);
+  final IconData messenger = const _JustinoIconsHomeScreenAppsData(0xe017);
+  final IconData mortarboard = const _JustinoIconsHomeScreenAppsData(0xe018);
+  final IconData moviesApp = const _JustinoIconsHomeScreenAppsData(0xe019);
+  final IconData musicHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe01a);
+  final IconData musicMakerApp = const _JustinoIconsHomeScreenAppsData(0xe01b);
+  final IconData musicStoreApp = const _JustinoIconsHomeScreenAppsData(0xe01c);
+  final IconData newsHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe01d);
+  final IconData notes = const _JustinoIconsHomeScreenAppsData(0xe01e);
+  final IconData pages = const _JustinoIconsHomeScreenAppsData(0xe01f);
+  final IconData pinHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe020);
+  final IconData podcast = const _JustinoIconsHomeScreenAppsData(0xe021);
+  final IconData reddit = const _JustinoIconsHomeScreenAppsData(0xe022);
+  final IconData reminders = const _JustinoIconsHomeScreenAppsData(0xe023);
+  final IconData remoteControl = const _JustinoIconsHomeScreenAppsData(0xe024);
+  final IconData searchHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe025);
+  final IconData settingsHomeScreenApps = const _JustinoIconsHomeScreenAppsData(0xe026);
+  final IconData shopping = const _JustinoIconsHomeScreenAppsData(0xe027);
+  final IconData shortcutScriptApp = const _JustinoIconsHomeScreenAppsData(0xe028);
+  final IconData slack = const _JustinoIconsHomeScreenAppsData(0xe029);
+  final IconData slideShowApp = const _JustinoIconsHomeScreenAppsData(0xe02a);
+  final IconData smartwatchApp = const _JustinoIconsHomeScreenAppsData(0xe02b);
+  final IconData snapchat = const _JustinoIconsHomeScreenAppsData(0xe02c);
+  final IconData speechBubble = const _JustinoIconsHomeScreenAppsData(0xe02d);
+  final IconData spotify = const _JustinoIconsHomeScreenAppsData(0xe02e);
+  final IconData spreadsheetApp = const _JustinoIconsHomeScreenAppsData(0xe02f);
+  final IconData stockExchangeApp = const _JustinoIconsHomeScreenAppsData(0xe030);
+  final IconData streamingTvApp = const _JustinoIconsHomeScreenAppsData(0xe031);
+  final IconData telegram = const _JustinoIconsHomeScreenAppsData(0xe032);
+  final IconData telephone = const _JustinoIconsHomeScreenAppsData(0xe033);
+  final IconData tiktok = const _JustinoIconsHomeScreenAppsData(0xe034);
+  final IconData tinder = const _JustinoIconsHomeScreenAppsData(0xe035);
+  final IconData tips = const _JustinoIconsHomeScreenAppsData(0xe036);
+  final IconData translate = const _JustinoIconsHomeScreenAppsData(0xe037);
+  final IconData transport = const _JustinoIconsHomeScreenAppsData(0xe038);
+  final IconData tumblr = const _JustinoIconsHomeScreenAppsData(0xe039);
+  final IconData tvApp = const _JustinoIconsHomeScreenAppsData(0xe03a);
+  final IconData twitch = const _JustinoIconsHomeScreenAppsData(0xe03b);
+  final IconData twitter = const _JustinoIconsHomeScreenAppsData(0xe03c);
+  final IconData videoCallingApp = const _JustinoIconsHomeScreenAppsData(0xe03d);
+  final IconData videoEditingApp = const _JustinoIconsHomeScreenAppsData(0xe03e);
+  final IconData voiceMessageApp = const _JustinoIconsHomeScreenAppsData(0xe03f);
+  final IconData walletPassesApp = const _JustinoIconsHomeScreenAppsData(0xe040);
+  final IconData waze = const _JustinoIconsHomeScreenAppsData(0xe041);
+  final IconData weatherApp = const _JustinoIconsHomeScreenAppsData(0xe042);
+  final IconData webBrowser = const _JustinoIconsHomeScreenAppsData(0xe043);
+  final IconData whatsapp = const _JustinoIconsHomeScreenAppsData(0xe044);
+  final IconData youtube = const _JustinoIconsHomeScreenAppsData(0xe045);
 }

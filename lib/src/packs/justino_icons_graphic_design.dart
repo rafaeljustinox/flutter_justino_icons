@@ -13,44 +13,88 @@ class _JustinoIconsGraphicDesignData extends IconData {
 
 @immutable
 class JustinoIconsGraphicDesign {
-  JustinoIconsGraphicDesign._();
+  const JustinoIconsGraphicDesign();
+
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  
+  IconData getByName(String name) => all[name] ?? a3dModel;
+
+  Map<String, IconData> get all => { 
+    'a3dModel' : a3dModel,
+    'a3dModeling' : a3dModeling,
+    'a3d' : a3d,
+    'colorPalette' : colorPalette,
+    'colours' : colours,
+    'compassGraphicDesign' : compassGraphicDesign,
+    'computerGraphicDesign' : computerGraphicDesign,
+    'copy' : copy,
+    'creativity' : creativity,
+    'crop' : crop,
+    'cut' : cut,
+    'documentGraphicDesign' : documentGraphicDesign,
+    'draw' : draw,
+    'file' : file,
+    'fill' : fill,
+    'frontView' : frontView,
+    'graphicDesign' : graphicDesign,
+    'graphicDesigner' : graphicDesigner,
+    'ideaGraphicDesign' : ideaGraphicDesign,
+    'imageGraphicDesign' : imageGraphicDesign,
+    'layersGraphicDesign' : layersGraphicDesign,
+    'noGraphicDesign' : noGraphicDesign,
+    'palette' : palette,
+    'pen' : pen,
+    'printing' : printing,
+    'project' : project,
+    'reflect' : reflect,
+    'rotate' : rotate,
+    'settingsGraphicDesign' : settingsGraphicDesign,
+    'shape' : shape,
+    'side' : side,
+    'sketchbook' : sketchbook,
+    'stroke' : stroke,
+    'tablet' : tablet,
+    'transform' : transform,
+    'typography' : typography,
+    'vector' : vector,
+  };
 
   
-  static const IconData a3dModel = _JustinoIconsGraphicDesignData(0xe000);
-  static const IconData a3dModeling = _JustinoIconsGraphicDesignData(0xe001);
-  static const IconData a3d = _JustinoIconsGraphicDesignData(0xe002);
-  static const IconData colorPalette = _JustinoIconsGraphicDesignData(0xe003);
-  static const IconData colours = _JustinoIconsGraphicDesignData(0xe004);
-  static const IconData compassGraphicDesign = _JustinoIconsGraphicDesignData(0xe005);
-  static const IconData computerGraphicDesign = _JustinoIconsGraphicDesignData(0xe006);
-  static const IconData copy = _JustinoIconsGraphicDesignData(0xe007);
-  static const IconData creativity = _JustinoIconsGraphicDesignData(0xe008);
-  static const IconData crop = _JustinoIconsGraphicDesignData(0xe009);
-  static const IconData cut = _JustinoIconsGraphicDesignData(0xe00a);
-  static const IconData documentGraphicDesign = _JustinoIconsGraphicDesignData(0xe00b);
-  static const IconData draw = _JustinoIconsGraphicDesignData(0xe00c);
-  static const IconData file = _JustinoIconsGraphicDesignData(0xe00d);
-  static const IconData fill = _JustinoIconsGraphicDesignData(0xe00e);
-  static const IconData frontView = _JustinoIconsGraphicDesignData(0xe00f);
-  static const IconData graphicDesign = _JustinoIconsGraphicDesignData(0xe010);
-  static const IconData graphicDesigner = _JustinoIconsGraphicDesignData(0xe011);
-  static const IconData ideaGraphicDesign = _JustinoIconsGraphicDesignData(0xe012);
-  static const IconData imageGraphicDesign = _JustinoIconsGraphicDesignData(0xe013);
-  static const IconData layersGraphicDesign = _JustinoIconsGraphicDesignData(0xe014);
-  static const IconData noGraphicDesign = _JustinoIconsGraphicDesignData(0xe015);
-  static const IconData palette = _JustinoIconsGraphicDesignData(0xe016);
-  static const IconData pen = _JustinoIconsGraphicDesignData(0xe017);
-  static const IconData printing = _JustinoIconsGraphicDesignData(0xe018);
-  static const IconData project = _JustinoIconsGraphicDesignData(0xe019);
-  static const IconData reflect = _JustinoIconsGraphicDesignData(0xe01a);
-  static const IconData rotate = _JustinoIconsGraphicDesignData(0xe01b);
-  static const IconData settingsGraphicDesign = _JustinoIconsGraphicDesignData(0xe01c);
-  static const IconData shape = _JustinoIconsGraphicDesignData(0xe01d);
-  static const IconData side = _JustinoIconsGraphicDesignData(0xe01e);
-  static const IconData sketchbook = _JustinoIconsGraphicDesignData(0xe01f);
-  static const IconData stroke = _JustinoIconsGraphicDesignData(0xe020);
-  static const IconData tablet = _JustinoIconsGraphicDesignData(0xe021);
-  static const IconData transform = _JustinoIconsGraphicDesignData(0xe022);
-  static const IconData typography = _JustinoIconsGraphicDesignData(0xe023);
-  static const IconData vector = _JustinoIconsGraphicDesignData(0xe024);
+  final IconData a3dModel = const _JustinoIconsGraphicDesignData(0xe000);
+  final IconData a3dModeling = const _JustinoIconsGraphicDesignData(0xe001);
+  final IconData a3d = const _JustinoIconsGraphicDesignData(0xe002);
+  final IconData colorPalette = const _JustinoIconsGraphicDesignData(0xe003);
+  final IconData colours = const _JustinoIconsGraphicDesignData(0xe004);
+  final IconData compassGraphicDesign = const _JustinoIconsGraphicDesignData(0xe005);
+  final IconData computerGraphicDesign = const _JustinoIconsGraphicDesignData(0xe006);
+  final IconData copy = const _JustinoIconsGraphicDesignData(0xe007);
+  final IconData creativity = const _JustinoIconsGraphicDesignData(0xe008);
+  final IconData crop = const _JustinoIconsGraphicDesignData(0xe009);
+  final IconData cut = const _JustinoIconsGraphicDesignData(0xe00a);
+  final IconData documentGraphicDesign = const _JustinoIconsGraphicDesignData(0xe00b);
+  final IconData draw = const _JustinoIconsGraphicDesignData(0xe00c);
+  final IconData file = const _JustinoIconsGraphicDesignData(0xe00d);
+  final IconData fill = const _JustinoIconsGraphicDesignData(0xe00e);
+  final IconData frontView = const _JustinoIconsGraphicDesignData(0xe00f);
+  final IconData graphicDesign = const _JustinoIconsGraphicDesignData(0xe010);
+  final IconData graphicDesigner = const _JustinoIconsGraphicDesignData(0xe011);
+  final IconData ideaGraphicDesign = const _JustinoIconsGraphicDesignData(0xe012);
+  final IconData imageGraphicDesign = const _JustinoIconsGraphicDesignData(0xe013);
+  final IconData layersGraphicDesign = const _JustinoIconsGraphicDesignData(0xe014);
+  final IconData noGraphicDesign = const _JustinoIconsGraphicDesignData(0xe015);
+  final IconData palette = const _JustinoIconsGraphicDesignData(0xe016);
+  final IconData pen = const _JustinoIconsGraphicDesignData(0xe017);
+  final IconData printing = const _JustinoIconsGraphicDesignData(0xe018);
+  final IconData project = const _JustinoIconsGraphicDesignData(0xe019);
+  final IconData reflect = const _JustinoIconsGraphicDesignData(0xe01a);
+  final IconData rotate = const _JustinoIconsGraphicDesignData(0xe01b);
+  final IconData settingsGraphicDesign = const _JustinoIconsGraphicDesignData(0xe01c);
+  final IconData shape = const _JustinoIconsGraphicDesignData(0xe01d);
+  final IconData side = const _JustinoIconsGraphicDesignData(0xe01e);
+  final IconData sketchbook = const _JustinoIconsGraphicDesignData(0xe01f);
+  final IconData stroke = const _JustinoIconsGraphicDesignData(0xe020);
+  final IconData tablet = const _JustinoIconsGraphicDesignData(0xe021);
+  final IconData transform = const _JustinoIconsGraphicDesignData(0xe022);
+  final IconData typography = const _JustinoIconsGraphicDesignData(0xe023);
+  final IconData vector = const _JustinoIconsGraphicDesignData(0xe024);
 }

@@ -13,37 +13,73 @@ class _JustinoIconsFruitsData extends IconData {
 
 @immutable
 class JustinoIconsFruits {
-  JustinoIconsFruits._();
+  const JustinoIconsFruits();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
   
-  static const IconData appleFruits = _JustinoIconsFruitsData(0xe000);
-  static const IconData apricot = _JustinoIconsFruitsData(0xe001);
-  static const IconData avocado = _JustinoIconsFruitsData(0xe002);
-  static const IconData banana = _JustinoIconsFruitsData(0xe003);
-  static const IconData blueberries = _JustinoIconsFruitsData(0xe004);
-  static const IconData cherryFruits = _JustinoIconsFruitsData(0xe005);
-  static const IconData cranberry = _JustinoIconsFruitsData(0xe006);
-  static const IconData currant = _JustinoIconsFruitsData(0xe007);
-  static const IconData fig = _JustinoIconsFruitsData(0xe008);
-  static const IconData gooseberry = _JustinoIconsFruitsData(0xe009);
-  static const IconData grapes = _JustinoIconsFruitsData(0xe00a);
-  static const IconData guava = _JustinoIconsFruitsData(0xe00b);
-  static const IconData kiwi = _JustinoIconsFruitsData(0xe00c);
-  static const IconData lemon = _JustinoIconsFruitsData(0xe00d);
-  static const IconData lychee = _JustinoIconsFruitsData(0xe00e);
-  static const IconData mandarin = _JustinoIconsFruitsData(0xe00f);
-  static const IconData mango = _JustinoIconsFruitsData(0xe010);
-  static const IconData melon = _JustinoIconsFruitsData(0xe011);
-  static const IconData orange = _JustinoIconsFruitsData(0xe012);
-  static const IconData papaya = _JustinoIconsFruitsData(0xe013);
-  static const IconData peach = _JustinoIconsFruitsData(0xe014);
-  static const IconData pear = _JustinoIconsFruitsData(0xe015);
-  static const IconData pineapple = _JustinoIconsFruitsData(0xe016);
-  static const IconData plum = _JustinoIconsFruitsData(0xe017);
-  static const IconData pomegranate = _JustinoIconsFruitsData(0xe018);
-  static const IconData raspberry = _JustinoIconsFruitsData(0xe019);
-  static const IconData starFruit = _JustinoIconsFruitsData(0xe01a);
-  static const IconData strawberry = _JustinoIconsFruitsData(0xe01b);
-  static const IconData tamarind = _JustinoIconsFruitsData(0xe01c);
-  static const IconData watermelon = _JustinoIconsFruitsData(0xe01d);
+  IconData getByName(String name) => all[name] ?? appleFruits;
+
+  Map<String, IconData> get all => { 
+    'appleFruits' : appleFruits,
+    'apricot' : apricot,
+    'avocado' : avocado,
+    'banana' : banana,
+    'blueberries' : blueberries,
+    'cherryFruits' : cherryFruits,
+    'cranberry' : cranberry,
+    'currant' : currant,
+    'fig' : fig,
+    'gooseberry' : gooseberry,
+    'grapes' : grapes,
+    'guava' : guava,
+    'kiwi' : kiwi,
+    'lemon' : lemon,
+    'lychee' : lychee,
+    'mandarin' : mandarin,
+    'mango' : mango,
+    'melon' : melon,
+    'orange' : orange,
+    'papaya' : papaya,
+    'peach' : peach,
+    'pear' : pear,
+    'pineapple' : pineapple,
+    'plum' : plum,
+    'pomegranate' : pomegranate,
+    'raspberry' : raspberry,
+    'starFruit' : starFruit,
+    'strawberry' : strawberry,
+    'tamarind' : tamarind,
+    'watermelon' : watermelon,
+  };
+  
+  final IconData appleFruits = const _JustinoIconsFruitsData(0xe000);
+  final IconData apricot = const _JustinoIconsFruitsData(0xe001);
+  final IconData avocado = const _JustinoIconsFruitsData(0xe002);
+  final IconData banana = const _JustinoIconsFruitsData(0xe003);
+  final IconData blueberries = const _JustinoIconsFruitsData(0xe004);
+  final IconData cherryFruits = const _JustinoIconsFruitsData(0xe005);
+  final IconData cranberry = const _JustinoIconsFruitsData(0xe006);
+  final IconData currant = const _JustinoIconsFruitsData(0xe007);
+  final IconData fig = const _JustinoIconsFruitsData(0xe008);
+  final IconData gooseberry = const _JustinoIconsFruitsData(0xe009);
+  final IconData grapes = const _JustinoIconsFruitsData(0xe00a);
+  final IconData guava = const _JustinoIconsFruitsData(0xe00b);
+  final IconData kiwi = const _JustinoIconsFruitsData(0xe00c);
+  final IconData lemon = const _JustinoIconsFruitsData(0xe00d);
+  final IconData lychee = const _JustinoIconsFruitsData(0xe00e);
+  final IconData mandarin = const _JustinoIconsFruitsData(0xe00f);
+  final IconData mango = const _JustinoIconsFruitsData(0xe010);
+  final IconData melon = const _JustinoIconsFruitsData(0xe011);
+  final IconData orange = const _JustinoIconsFruitsData(0xe012);
+  final IconData papaya = const _JustinoIconsFruitsData(0xe013);
+  final IconData peach = const _JustinoIconsFruitsData(0xe014);
+  final IconData pear = const _JustinoIconsFruitsData(0xe015);
+  final IconData pineapple = const _JustinoIconsFruitsData(0xe016);
+  final IconData plum = const _JustinoIconsFruitsData(0xe017);
+  final IconData pomegranate = const _JustinoIconsFruitsData(0xe018);
+  final IconData raspberry = const _JustinoIconsFruitsData(0xe019);
+  final IconData starFruit = const _JustinoIconsFruitsData(0xe01a);
+  final IconData strawberry = const _JustinoIconsFruitsData(0xe01b);
+  final IconData tamarind = const _JustinoIconsFruitsData(0xe01c);
+  final IconData watermelon = const _JustinoIconsFruitsData(0xe01d);
 }

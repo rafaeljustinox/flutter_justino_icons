@@ -13,57 +13,114 @@ class _JustinoIconsProtectionAndSecurityData extends IconData {
 
 @immutable
 class JustinoIconsProtectionAndSecurity {
-  JustinoIconsProtectionAndSecurity._();
+  const JustinoIconsProtectionAndSecurity();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+
+  IconData getByName(String name) => all[name] ?? alarmBell;
+
+  Map<String, IconData> get all => { 
+    'alarmBell' : alarmBell,
+    'bankProtectionAndSecurity' : bankProtectionAndSecurity,
+    'boots' : boots,
+    'box' : box,
+    'bulletproofVest' : bulletproofVest,
+    'cctv' : cctv,
+    'computerProtectionAndSecurity' : computerProtectionAndSecurity,
+    'cone' : cone,
+    'creditCardProtectionAndSecurity' : creditCardProtectionAndSecurity,
+    'doorLock' : doorLock,
+    'door' : door,
+    'eyeScanner' : eyeScanner,
+    'faceRecognition' : faceRecognition,
+    'fenceProtectionAndSecurity' : fenceProtectionAndSecurity,
+    'fingerprints' : fingerprints,
+    'fireExtinguisher' : fireExtinguisher,
+    'firewall' : firewall,
+    'folderProtectionAndSecurity' : folderProtectionAndSecurity,
+    'gasMask' : gasMask,
+    'gun' : gun,
+    'handcuffs' : handcuffs,
+    'harness' : harness,
+    'helmet' : helmet,
+    'idCard' : idCard,
+    'lifeJacket' : lifeJacket,
+    'lifeSaver' : lifeSaver,
+    'lockProtectionAndSecurity' : lockProtectionAndSecurity,
+    'locker' : locker,
+    'medicalMaskProtectionAndSecurity' : medicalMaskProtectionAndSecurity,
+    'metalDetector' : metalDetector,
+    'paperShredder' : paperShredder,
+    'password' : password,
+    'pepperSpray' : pepperSpray,
+    'phoneProtectionAndSecurity' : phoneProtectionAndSecurity,
+    'qrCode' : qrCode,
+    'roadblock' : roadblock,
+    'safeBox' : safeBox,
+    'safetyGoggles' : safetyGoggles,
+    'seatBelt' : seatBelt,
+    'securityGate' : securityGate,
+    'serverProtectionAndSecurity' : serverProtectionAndSecurity,
+    'shieldProtectionAndSecurity' : shieldProtectionAndSecurity,
+    'siren' : siren,
+    'taser' : taser,
+    'umbrellaProtectionAndSecurity' : umbrellaProtectionAndSecurity,
+    'unlockPattern' : unlockPattern,
+    'usb' : usb,
+    'walkieTalkie' : walkieTalkie,
+    'wallet' : wallet,
+    'weldingMask' : weldingMask,
+  };
   
-  static const IconData alarmBell = _JustinoIconsProtectionAndSecurityData(0xe000);
-  static const IconData bankProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe001);
-  static const IconData boots = _JustinoIconsProtectionAndSecurityData(0xe002);
-  static const IconData box = _JustinoIconsProtectionAndSecurityData(0xe003);
-  static const IconData bulletproofVest = _JustinoIconsProtectionAndSecurityData(0xe004);
-  static const IconData cctv = _JustinoIconsProtectionAndSecurityData(0xe005);
-  static const IconData computerProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe006);
-  static const IconData cone = _JustinoIconsProtectionAndSecurityData(0xe007);
-  static const IconData creditCardProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe008);
-  static const IconData doorLock = _JustinoIconsProtectionAndSecurityData(0xe009);
-  static const IconData door = _JustinoIconsProtectionAndSecurityData(0xe00a);
-  static const IconData eyeScanner = _JustinoIconsProtectionAndSecurityData(0xe00b);
-  static const IconData faceRecognition = _JustinoIconsProtectionAndSecurityData(0xe00c);
-  static const IconData fenceProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe00d);
-  static const IconData fingerprints = _JustinoIconsProtectionAndSecurityData(0xe00e);
-  static const IconData fireExtinguisher = _JustinoIconsProtectionAndSecurityData(0xe00f);
-  static const IconData firewall = _JustinoIconsProtectionAndSecurityData(0xe010);
-  static const IconData folderProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe011);
-  static const IconData gasMask = _JustinoIconsProtectionAndSecurityData(0xe012);
-  static const IconData gun = _JustinoIconsProtectionAndSecurityData(0xe013);
-  static const IconData handcuffs = _JustinoIconsProtectionAndSecurityData(0xe014);
-  static const IconData harness = _JustinoIconsProtectionAndSecurityData(0xe015);
-  static const IconData helmet = _JustinoIconsProtectionAndSecurityData(0xe016);
-  static const IconData idCard = _JustinoIconsProtectionAndSecurityData(0xe017);
-  static const IconData lifeJacket = _JustinoIconsProtectionAndSecurityData(0xe018);
-  static const IconData lifeSaver = _JustinoIconsProtectionAndSecurityData(0xe019);
-  static const IconData lockProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe01a);
-  static const IconData locker = _JustinoIconsProtectionAndSecurityData(0xe01b);
-  static const IconData medicalMaskProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe01c);
-  static const IconData metalDetector = _JustinoIconsProtectionAndSecurityData(0xe01d);
-  static const IconData paperShredder = _JustinoIconsProtectionAndSecurityData(0xe01e);
-  static const IconData password = _JustinoIconsProtectionAndSecurityData(0xe01f);
-  static const IconData pepperSpray = _JustinoIconsProtectionAndSecurityData(0xe020);
-  static const IconData phoneProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe021);
-  static const IconData qrCode = _JustinoIconsProtectionAndSecurityData(0xe022);
-  static const IconData roadblock = _JustinoIconsProtectionAndSecurityData(0xe023);
-  static const IconData safeBox = _JustinoIconsProtectionAndSecurityData(0xe024);
-  static const IconData safetyGoggles = _JustinoIconsProtectionAndSecurityData(0xe025);
-  static const IconData seatBelt = _JustinoIconsProtectionAndSecurityData(0xe026);
-  static const IconData securityGate = _JustinoIconsProtectionAndSecurityData(0xe027);
-  static const IconData serverProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe028);
-  static const IconData shieldProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe029);
-  static const IconData siren = _JustinoIconsProtectionAndSecurityData(0xe02a);
-  static const IconData taser = _JustinoIconsProtectionAndSecurityData(0xe02b);
-  static const IconData umbrellaProtectionAndSecurity = _JustinoIconsProtectionAndSecurityData(0xe02c);
-  static const IconData unlockPattern = _JustinoIconsProtectionAndSecurityData(0xe02d);
-  static const IconData usb = _JustinoIconsProtectionAndSecurityData(0xe02e);
-  static const IconData walkieTalkie = _JustinoIconsProtectionAndSecurityData(0xe02f);
-  static const IconData wallet = _JustinoIconsProtectionAndSecurityData(0xe030);
-  static const IconData weldingMask = _JustinoIconsProtectionAndSecurityData(0xe031);
+  final IconData alarmBell = const _JustinoIconsProtectionAndSecurityData(0xe000);
+  final IconData bankProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe001);
+  final IconData boots = const _JustinoIconsProtectionAndSecurityData(0xe002);
+  final IconData box = const _JustinoIconsProtectionAndSecurityData(0xe003);
+  final IconData bulletproofVest = const _JustinoIconsProtectionAndSecurityData(0xe004);
+  final IconData cctv = const _JustinoIconsProtectionAndSecurityData(0xe005);
+  final IconData computerProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe006);
+  final IconData cone = const _JustinoIconsProtectionAndSecurityData(0xe007);
+  final IconData creditCardProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe008);
+  final IconData doorLock = const _JustinoIconsProtectionAndSecurityData(0xe009);
+  final IconData door = const _JustinoIconsProtectionAndSecurityData(0xe00a);
+  final IconData eyeScanner = const _JustinoIconsProtectionAndSecurityData(0xe00b);
+  final IconData faceRecognition = const _JustinoIconsProtectionAndSecurityData(0xe00c);
+  final IconData fenceProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe00d);
+  final IconData fingerprints = const _JustinoIconsProtectionAndSecurityData(0xe00e);
+  final IconData fireExtinguisher = const _JustinoIconsProtectionAndSecurityData(0xe00f);
+  final IconData firewall = const _JustinoIconsProtectionAndSecurityData(0xe010);
+  final IconData folderProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe011);
+  final IconData gasMask = const _JustinoIconsProtectionAndSecurityData(0xe012);
+  final IconData gun = const _JustinoIconsProtectionAndSecurityData(0xe013);
+  final IconData handcuffs = const _JustinoIconsProtectionAndSecurityData(0xe014);
+  final IconData harness = const _JustinoIconsProtectionAndSecurityData(0xe015);
+  final IconData helmet = const _JustinoIconsProtectionAndSecurityData(0xe016);
+  final IconData idCard = const _JustinoIconsProtectionAndSecurityData(0xe017);
+  final IconData lifeJacket = const _JustinoIconsProtectionAndSecurityData(0xe018);
+  final IconData lifeSaver = const _JustinoIconsProtectionAndSecurityData(0xe019);
+  final IconData lockProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe01a);
+  final IconData locker = const _JustinoIconsProtectionAndSecurityData(0xe01b);
+  final IconData medicalMaskProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe01c);
+  final IconData metalDetector = const _JustinoIconsProtectionAndSecurityData(0xe01d);
+  final IconData paperShredder = const _JustinoIconsProtectionAndSecurityData(0xe01e);
+  final IconData password = const _JustinoIconsProtectionAndSecurityData(0xe01f);
+  final IconData pepperSpray = const _JustinoIconsProtectionAndSecurityData(0xe020);
+  final IconData phoneProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe021);
+  final IconData qrCode = const _JustinoIconsProtectionAndSecurityData(0xe022);
+  final IconData roadblock = const _JustinoIconsProtectionAndSecurityData(0xe023);
+  final IconData safeBox = const _JustinoIconsProtectionAndSecurityData(0xe024);
+  final IconData safetyGoggles = const _JustinoIconsProtectionAndSecurityData(0xe025);
+  final IconData seatBelt = const _JustinoIconsProtectionAndSecurityData(0xe026);
+  final IconData securityGate = const _JustinoIconsProtectionAndSecurityData(0xe027);
+  final IconData serverProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe028);
+  final IconData shieldProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe029);
+  final IconData siren = const _JustinoIconsProtectionAndSecurityData(0xe02a);
+  final IconData taser = const _JustinoIconsProtectionAndSecurityData(0xe02b);
+  final IconData umbrellaProtectionAndSecurity = const _JustinoIconsProtectionAndSecurityData(0xe02c);
+  final IconData unlockPattern = const _JustinoIconsProtectionAndSecurityData(0xe02d);
+  final IconData usb = const _JustinoIconsProtectionAndSecurityData(0xe02e);
+  final IconData walkieTalkie = const _JustinoIconsProtectionAndSecurityData(0xe02f);
+  final IconData wallet = const _JustinoIconsProtectionAndSecurityData(0xe030);
+  final IconData weldingMask = const _JustinoIconsProtectionAndSecurityData(0xe031);
 }

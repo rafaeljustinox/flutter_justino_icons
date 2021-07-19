@@ -13,97 +13,195 @@ class _JustinoIconsBusinessData extends IconData {
 
 @immutable
 class JustinoIconsBusiness {
-  JustinoIconsBusiness._();
+  const JustinoIconsBusiness();
 
+  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+
+  Map<String, IconData> get all => { 
+    'addReminder' : addReminder,
+    'alertBusiness' : alertBusiness,
+    'arrowBusiness' : arrowBusiness,
+    'at' : at,
+    'audit' : audit,
+    'bill' : bill,
+    'blockUser' : blockUser,
+    'branching' : branching,
+    'briefcaseBusiness' : briefcaseBusiness,
+    'browserBusiness' : browserBusiness,
+    'businessStrategy' : businessStrategy,
+    'businessman' : businessman,
+    'calendarBusiness' : calendarBusiness,
+    'chatBusiness' : chatBusiness,
+    'check' : check,
+    'checked' : checked,
+    'cloudBusiness' : cloudBusiness,
+    'coin' : coin,
+    'configuration' : configuration,
+    'contactBook' : contactBook,
+    'contentMarketing' : contentMarketing,
+    'controllingCard' : controllingCard,
+    'copyright' : copyright,
+    'deadline' : deadline,
+    'diagram' : diagram,
+    'discount' : discount,
+    'documentBusiness' : documentBusiness,
+    'dollar' : dollar,
+    'emailBusiness' : emailBusiness,
+    'exchange' : exchange,
+    'form' : form,
+    'ganttChart' : ganttChart,
+    'goal' : goal,
+    'graph' : graph,
+    'growthBusiness' : growthBusiness,
+    'heart' : heart,
+    'histogram' : histogram,
+    'ideaBusiness' : ideaBusiness,
+    'incomingMessage' : incomingMessage,
+    'insurance' : insurance,
+    'interest' : interest,
+    'internetBusiness' : internetBusiness,
+    'invitation' : invitation,
+    'jobSearch' : jobSearch,
+    'keyword' : keyword,
+    'laptopBusiness' : laptopBusiness,
+    'lineChart' : lineChart,
+    'loupeBusiness' : loupeBusiness,
+    'mailBusiness' : mailBusiness,
+    'management' : management,
+    'marketing' : marketing,
+    'mobileAnalytics' : mobileAnalytics,
+    'moneyBag' : moneyBag,
+    'moneyTransfer' : moneyTransfer,
+    'money' : money,
+    'office' : office,
+    'options' : options,
+    'payDay' : payDay,
+    'payPerClick' : payPerClick,
+    'percentage' : percentage,
+    'pieChart' : pieChart,
+    'planningBusiness' : planningBusiness,
+    'presentation' : presentation,
+    'priceTag' : priceTag,
+    'profitBusiness' : profitBusiness,
+    'projectManagement' : projectManagement,
+    'rss' : rss,
+    'salary' : salary,
+    'saveMoney' : saveMoney,
+    'savings' : savings,
+    'scatterPlot' : scatterPlot,
+    'searchBusiness' : searchBusiness,
+    'searching' : searching,
+    'sendMoney' : sendMoney,
+    'service' : service,
+    'settingsBusiness' : settingsBusiness,
+    'sliderNavigation' : sliderNavigation,
+    'spam' : spam,
+    'statistics' : statistics,
+    'talkShow' : talkShow,
+    'targetBusiness' : targetBusiness,
+    'tasks' : tasks,
+    'term' : term,
+    'testingBusiness' : testingBusiness,
+    'timeManagementBusiness' : timeManagementBusiness,
+    'treeStructure' : treeStructure,
+    'userBusiness' : userBusiness,
+    'videoMarketing' : videoMarketing,
+    'webDevelopment' : webDevelopment,
+    'worldwideBusiness' : worldwideBusiness,
+  };
+
+  IconData getByName(String name) {
+    return all[name] ?? addReminder;
+  }
   
-  static const IconData addReminder = _JustinoIconsBusinessData(0xe000);
-  static const IconData alertBusiness = _JustinoIconsBusinessData(0xe001);
-  static const IconData arrowBusiness = _JustinoIconsBusinessData(0xe002);
-  static const IconData at = _JustinoIconsBusinessData(0xe003);
-  static const IconData audit = _JustinoIconsBusinessData(0xe004);
-  static const IconData bill = _JustinoIconsBusinessData(0xe005);
-  static const IconData blockUser = _JustinoIconsBusinessData(0xe006);
-  static const IconData branching = _JustinoIconsBusinessData(0xe007);
-  static const IconData briefcaseBusiness = _JustinoIconsBusinessData(0xe008);
-  static const IconData browserBusiness = _JustinoIconsBusinessData(0xe009);
-  static const IconData businessStrategy = _JustinoIconsBusinessData(0xe00a);
-  static const IconData businessman = _JustinoIconsBusinessData(0xe00b);
-  static const IconData calendarBusiness = _JustinoIconsBusinessData(0xe00c);
-  static const IconData chatBusiness = _JustinoIconsBusinessData(0xe00d);
-  static const IconData check = _JustinoIconsBusinessData(0xe00e);
-  static const IconData checked = _JustinoIconsBusinessData(0xe00f);
-  static const IconData cloudBusiness = _JustinoIconsBusinessData(0xe010);
-  static const IconData coin = _JustinoIconsBusinessData(0xe011);
-  static const IconData configuration = _JustinoIconsBusinessData(0xe012);
-  static const IconData contactBook = _JustinoIconsBusinessData(0xe013);
-  static const IconData contentMarketing = _JustinoIconsBusinessData(0xe014);
-  static const IconData controllingCard = _JustinoIconsBusinessData(0xe015);
-  static const IconData copyright = _JustinoIconsBusinessData(0xe016);
-  static const IconData deadline = _JustinoIconsBusinessData(0xe017);
-  static const IconData diagram = _JustinoIconsBusinessData(0xe018);
-  static const IconData discount = _JustinoIconsBusinessData(0xe019);
-  static const IconData documentBusiness = _JustinoIconsBusinessData(0xe01a);
-  static const IconData dollar = _JustinoIconsBusinessData(0xe01b);
-  static const IconData emailBusiness = _JustinoIconsBusinessData(0xe01c);
-  static const IconData exchange = _JustinoIconsBusinessData(0xe01d);
-  static const IconData form = _JustinoIconsBusinessData(0xe01e);
-  static const IconData ganttChart = _JustinoIconsBusinessData(0xe01f);
-  static const IconData goal = _JustinoIconsBusinessData(0xe020);
-  static const IconData graph = _JustinoIconsBusinessData(0xe021);
-  static const IconData growthBusiness = _JustinoIconsBusinessData(0xe022);
-  static const IconData heart = _JustinoIconsBusinessData(0xe023);
-  static const IconData histogram = _JustinoIconsBusinessData(0xe024);
-  static const IconData ideaBusiness = _JustinoIconsBusinessData(0xe025);
-  static const IconData incomingMessage = _JustinoIconsBusinessData(0xe026);
-  static const IconData insurance = _JustinoIconsBusinessData(0xe027);
-  static const IconData interest = _JustinoIconsBusinessData(0xe028);
-  static const IconData internetBusiness = _JustinoIconsBusinessData(0xe029);
-  static const IconData invitation = _JustinoIconsBusinessData(0xe02a);
-  static const IconData jobSearch = _JustinoIconsBusinessData(0xe02b);
-  static const IconData keyword = _JustinoIconsBusinessData(0xe02c);
-  static const IconData laptopBusiness = _JustinoIconsBusinessData(0xe02d);
-  static const IconData lineChart = _JustinoIconsBusinessData(0xe02e);
-  static const IconData loupeBusiness = _JustinoIconsBusinessData(0xe02f);
-  static const IconData mailBusiness = _JustinoIconsBusinessData(0xe030);
-  static const IconData management = _JustinoIconsBusinessData(0xe031);
-  static const IconData marketing = _JustinoIconsBusinessData(0xe032);
-  static const IconData mobileAnalytics = _JustinoIconsBusinessData(0xe033);
-  static const IconData moneyBag = _JustinoIconsBusinessData(0xe034);
-  static const IconData moneyTransfer = _JustinoIconsBusinessData(0xe035);
-  static const IconData money = _JustinoIconsBusinessData(0xe036);
-  static const IconData office = _JustinoIconsBusinessData(0xe037);
-  static const IconData options = _JustinoIconsBusinessData(0xe038);
-  static const IconData payDay = _JustinoIconsBusinessData(0xe039);
-  static const IconData payPerClick = _JustinoIconsBusinessData(0xe03a);
-  static const IconData percentage = _JustinoIconsBusinessData(0xe03b);
-  static const IconData pieChart = _JustinoIconsBusinessData(0xe03c);
-  static const IconData planningBusiness = _JustinoIconsBusinessData(0xe03d);
-  static const IconData presentation = _JustinoIconsBusinessData(0xe03e);
-  static const IconData priceTag = _JustinoIconsBusinessData(0xe03f);
-  static const IconData profitBusiness = _JustinoIconsBusinessData(0xe040);
-  static const IconData projectManagement = _JustinoIconsBusinessData(0xe041);
-  static const IconData rss = _JustinoIconsBusinessData(0xe042);
-  static const IconData salary = _JustinoIconsBusinessData(0xe043);
-  static const IconData saveMoney = _JustinoIconsBusinessData(0xe044);
-  static const IconData savings = _JustinoIconsBusinessData(0xe045);
-  static const IconData scatterPlot = _JustinoIconsBusinessData(0xe046);
-  static const IconData searchBusiness = _JustinoIconsBusinessData(0xe047);
-  static const IconData searching = _JustinoIconsBusinessData(0xe048);
-  static const IconData sendMoney = _JustinoIconsBusinessData(0xe049);
-  static const IconData service = _JustinoIconsBusinessData(0xe04a);
-  static const IconData settingsBusiness = _JustinoIconsBusinessData(0xe04b);
-  static const IconData sliderNavigation = _JustinoIconsBusinessData(0xe04c);
-  static const IconData spam = _JustinoIconsBusinessData(0xe04d);
-  static const IconData statistics = _JustinoIconsBusinessData(0xe04e);
-  static const IconData talkShow = _JustinoIconsBusinessData(0xe04f);
-  static const IconData targetBusiness = _JustinoIconsBusinessData(0xe050);
-  static const IconData tasks = _JustinoIconsBusinessData(0xe051);
-  static const IconData term = _JustinoIconsBusinessData(0xe052);
-  static const IconData testingBusiness = _JustinoIconsBusinessData(0xe053);
-  static const IconData timeManagementBusiness = _JustinoIconsBusinessData(0xe054);
-  static const IconData treeStructure = _JustinoIconsBusinessData(0xe055);
-  static const IconData userBusiness = _JustinoIconsBusinessData(0xe056);
-  static const IconData videoMarketing = _JustinoIconsBusinessData(0xe057);
-  static const IconData webDevelopment = _JustinoIconsBusinessData(0xe058);
-  static const IconData worldwideBusiness = _JustinoIconsBusinessData(0xe059);
+  final IconData addReminder = const _JustinoIconsBusinessData(0xe000);
+  final IconData alertBusiness = const _JustinoIconsBusinessData(0xe001);
+  final IconData arrowBusiness = const _JustinoIconsBusinessData(0xe002);
+  final IconData at = const _JustinoIconsBusinessData(0xe003);
+  final IconData audit = const _JustinoIconsBusinessData(0xe004);
+  final IconData bill = const _JustinoIconsBusinessData(0xe005);
+  final IconData blockUser = const _JustinoIconsBusinessData(0xe006);
+  final IconData branching = const _JustinoIconsBusinessData(0xe007);
+  final IconData briefcaseBusiness = const _JustinoIconsBusinessData(0xe008);
+  final IconData browserBusiness = const _JustinoIconsBusinessData(0xe009);
+  final IconData businessStrategy = const _JustinoIconsBusinessData(0xe00a);
+  final IconData businessman = const _JustinoIconsBusinessData(0xe00b);
+  final IconData calendarBusiness = const _JustinoIconsBusinessData(0xe00c);
+  final IconData chatBusiness = const _JustinoIconsBusinessData(0xe00d);
+  final IconData check = const _JustinoIconsBusinessData(0xe00e);
+  final IconData checked = const _JustinoIconsBusinessData(0xe00f);
+  final IconData cloudBusiness = const _JustinoIconsBusinessData(0xe010);
+  final IconData coin = const _JustinoIconsBusinessData(0xe011);
+  final IconData configuration = const _JustinoIconsBusinessData(0xe012);
+  final IconData contactBook = const _JustinoIconsBusinessData(0xe013);
+  final IconData contentMarketing = const _JustinoIconsBusinessData(0xe014);
+  final IconData controllingCard = const _JustinoIconsBusinessData(0xe015);
+  final IconData copyright = const _JustinoIconsBusinessData(0xe016);
+  final IconData deadline = const _JustinoIconsBusinessData(0xe017);
+  final IconData diagram = const _JustinoIconsBusinessData(0xe018);
+  final IconData discount = const _JustinoIconsBusinessData(0xe019);
+  final IconData documentBusiness = const _JustinoIconsBusinessData(0xe01a);
+  final IconData dollar = const _JustinoIconsBusinessData(0xe01b);
+  final IconData emailBusiness = const _JustinoIconsBusinessData(0xe01c);
+  final IconData exchange = const _JustinoIconsBusinessData(0xe01d);
+  final IconData form = const _JustinoIconsBusinessData(0xe01e);
+  final IconData ganttChart = const _JustinoIconsBusinessData(0xe01f);
+  final IconData goal = const _JustinoIconsBusinessData(0xe020);
+  final IconData graph = const _JustinoIconsBusinessData(0xe021);
+  final IconData growthBusiness = const _JustinoIconsBusinessData(0xe022);
+  final IconData heart = const _JustinoIconsBusinessData(0xe023);
+  final IconData histogram = const _JustinoIconsBusinessData(0xe024);
+  final IconData ideaBusiness = const _JustinoIconsBusinessData(0xe025);
+  final IconData incomingMessage = const _JustinoIconsBusinessData(0xe026);
+  final IconData insurance = const _JustinoIconsBusinessData(0xe027);
+  final IconData interest = const _JustinoIconsBusinessData(0xe028);
+  final IconData internetBusiness = const _JustinoIconsBusinessData(0xe029);
+  final IconData invitation = const _JustinoIconsBusinessData(0xe02a);
+  final IconData jobSearch = const _JustinoIconsBusinessData(0xe02b);
+  final IconData keyword = const _JustinoIconsBusinessData(0xe02c);
+  final IconData laptopBusiness = const _JustinoIconsBusinessData(0xe02d);
+  final IconData lineChart = const _JustinoIconsBusinessData(0xe02e);
+  final IconData loupeBusiness = const _JustinoIconsBusinessData(0xe02f);
+  final IconData mailBusiness = const _JustinoIconsBusinessData(0xe030);
+  final IconData management = const _JustinoIconsBusinessData(0xe031);
+  final IconData marketing = const _JustinoIconsBusinessData(0xe032);
+  final IconData mobileAnalytics = const _JustinoIconsBusinessData(0xe033);
+  final IconData moneyBag = const _JustinoIconsBusinessData(0xe034);
+  final IconData moneyTransfer = const _JustinoIconsBusinessData(0xe035);
+  final IconData money = const _JustinoIconsBusinessData(0xe036);
+  final IconData office = const _JustinoIconsBusinessData(0xe037);
+  final IconData options = const _JustinoIconsBusinessData(0xe038);
+  final IconData payDay = const _JustinoIconsBusinessData(0xe039);
+  final IconData payPerClick = const _JustinoIconsBusinessData(0xe03a);
+  final IconData percentage = const _JustinoIconsBusinessData(0xe03b);
+  final IconData pieChart = const _JustinoIconsBusinessData(0xe03c);
+  final IconData planningBusiness = const _JustinoIconsBusinessData(0xe03d);
+  final IconData presentation = const _JustinoIconsBusinessData(0xe03e);
+  final IconData priceTag = const _JustinoIconsBusinessData(0xe03f);
+  final IconData profitBusiness = const _JustinoIconsBusinessData(0xe040);
+  final IconData projectManagement = const _JustinoIconsBusinessData(0xe041);
+  final IconData rss = const _JustinoIconsBusinessData(0xe042);
+  final IconData salary = const _JustinoIconsBusinessData(0xe043);
+  final IconData saveMoney = const _JustinoIconsBusinessData(0xe044);
+  final IconData savings = const _JustinoIconsBusinessData(0xe045);
+  final IconData scatterPlot = const _JustinoIconsBusinessData(0xe046);
+  final IconData searchBusiness = const _JustinoIconsBusinessData(0xe047);
+  final IconData searching = const _JustinoIconsBusinessData(0xe048);
+  final IconData sendMoney = const _JustinoIconsBusinessData(0xe049);
+  final IconData service = const _JustinoIconsBusinessData(0xe04a);
+  final IconData settingsBusiness = const _JustinoIconsBusinessData(0xe04b);
+  final IconData sliderNavigation = const _JustinoIconsBusinessData(0xe04c);
+  final IconData spam = const _JustinoIconsBusinessData(0xe04d);
+  final IconData statistics = const _JustinoIconsBusinessData(0xe04e);
+  final IconData talkShow = const _JustinoIconsBusinessData(0xe04f);
+  final IconData targetBusiness = const _JustinoIconsBusinessData(0xe050);
+  final IconData tasks = const _JustinoIconsBusinessData(0xe051);
+  final IconData term = const _JustinoIconsBusinessData(0xe052);
+  final IconData testingBusiness = const _JustinoIconsBusinessData(0xe053);
+  final IconData timeManagementBusiness = const _JustinoIconsBusinessData(0xe054);
+  final IconData treeStructure = const _JustinoIconsBusinessData(0xe055);
+  final IconData userBusiness = const _JustinoIconsBusinessData(0xe056);
+  final IconData videoMarketing = const _JustinoIconsBusinessData(0xe057);
+  final IconData webDevelopment = const _JustinoIconsBusinessData(0xe058);
+  final IconData worldwideBusiness = const _JustinoIconsBusinessData(0xe059);
 }
