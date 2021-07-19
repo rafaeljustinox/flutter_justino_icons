@@ -15,11 +15,11 @@ class _JustinoIconsGalaxyData extends IconData {
 class JustinoIconsGalaxy {
   const JustinoIconsGalaxy();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) =>  all[name] ?? alien;
+  IconData getByName(String name) => iconsMap[name] ?? alien;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'alien' : alien,
     'blackHole' : blackHole,
     'comet' : comet,

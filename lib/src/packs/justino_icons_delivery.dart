@@ -15,11 +15,11 @@ class _JustinoIconsDeliveryData extends IconData {
 class JustinoIconsDelivery {
   const JustinoIconsDelivery();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? hoursDelivery;
+  IconData getByName(String name) => iconsMap[name] ?? hoursDelivery;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'hoursDelivery' : hoursDelivery,
     'addPackage' : addPackage,
     'approvedDelivery' : approvedDelivery,

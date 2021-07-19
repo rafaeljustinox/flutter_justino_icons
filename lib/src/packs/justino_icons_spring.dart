@@ -15,11 +15,11 @@ class _JustinoIconsSpringData extends IconData {
 class JustinoIconsSpring {
   const JustinoIconsSpring();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? bbqSpring;
+  IconData getByName(String name) => iconsMap[name] ?? bbqSpring;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'bbqSpring' : bbqSpring,
     'birdHouse' : birdHouse,
     'bird' : bird,

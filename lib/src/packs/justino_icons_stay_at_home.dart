@@ -15,11 +15,11 @@ class _JustinoIconsStayAtHomeData extends IconData {
 class JustinoIconsStayAtHome {
   const JustinoIconsStayAtHome();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? armchair;
+  IconData getByName(String name) => iconsMap[name] ?? armchair;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'armchair' : armchair,
     'cleaning' : cleaning,
     'computerScreen' : computerScreen,

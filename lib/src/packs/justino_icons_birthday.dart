@@ -15,9 +15,11 @@ class _JustinoIconsBirthdayData extends IconData {
 class JustinoIconsBirthday {
   const JustinoIconsBirthday();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  Map<String, IconData> get all => { 
+  IconData getByName(String name) => iconsMap[name] ?? acousticGuitar;
+
+  Map<String, IconData> get iconsMap => { 
     'acousticGuitar' : acousticGuitar,
     'balloons' : balloons,
     'birthdayBoy' : birthdayBoy,
@@ -55,11 +57,6 @@ class JustinoIconsBirthday {
     'wow' : wow,
     'yes' : yes,
   };
-
-  IconData getByName(String name) {
-    return all[name] ?? acousticGuitar;
-  }
-
   
   final IconData acousticGuitar = const _JustinoIconsBirthdayData(0xe000);
   final IconData balloons = const _JustinoIconsBirthdayData(0xe001);

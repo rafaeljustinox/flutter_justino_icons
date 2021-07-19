@@ -15,11 +15,11 @@ class _JustinoIconsSwimmingPoolRulesData extends IconData {
 class JustinoIconsSwimmingPoolRules {
   const JustinoIconsSwimmingPoolRules();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? beCareful;
+  IconData getByName(String name) => iconsMap[name] ?? beCareful;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'beCareful' : beCareful,
     'divingPlatform' : divingPlatform,
     'dontSwimAlone' : dontSwimAlone,

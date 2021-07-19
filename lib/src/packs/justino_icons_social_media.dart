@@ -15,11 +15,11 @@ class _JustinoIconsSocialMediaData extends IconData {
 class JustinoIconsSocialMedia {
   const JustinoIconsSocialMedia();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? addUser;
+  IconData getByName(String name) => iconsMap[name] ?? addUser;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'addUser' : addUser,
     'angryFace' : angryFace,
     'cameraSocialMedia' : cameraSocialMedia,

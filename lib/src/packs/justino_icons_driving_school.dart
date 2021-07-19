@@ -15,11 +15,11 @@ class _JustinoIconsDrivingSchoolData extends IconData {
 class JustinoIconsDrivingSchool {
   const JustinoIconsDrivingSchool();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? automaticTransmission;
+  IconData getByName(String name) => iconsMap[name] ?? automaticTransmission;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'automaticTransmission' : automaticTransmission,
     'beginningOfAdditionalLane' : beginningOfAdditionalLane,
     'bookDrivingSchool' : bookDrivingSchool,

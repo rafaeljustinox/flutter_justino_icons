@@ -15,11 +15,11 @@ class _JustinoIconsSignalsProhibitionsData extends IconData {
 class JustinoIconsSignalsProhibitions {
   const JustinoIconsSignalsProhibitions();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? busStop;
+  IconData getByName(String name) => iconsMap[name] ?? busStop;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'busStop' : busStop,
     'camping' : camping,
     'disabled' : disabled,

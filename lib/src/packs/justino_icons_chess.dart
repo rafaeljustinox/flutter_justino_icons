@@ -15,11 +15,11 @@ class _JustinoIconsChessData extends IconData {
 class JustinoIconsChess {
   const JustinoIconsChess();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? bishop;
+  IconData getByName(String name) => iconsMap[name] ?? bishop;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'bishop' : bishop,
     'bookChess' : bookChess,
     'chessBoard' : chessBoard,

@@ -15,9 +15,9 @@ class _JustinoIconsUserInterfaceData extends IconData {
 class JustinoIconsUserInterface {
   const JustinoIconsUserInterface();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'battery' : battery,
     'bookmark' : bookmark,
     'briefcaseUserInterface' : briefcaseUserInterface,
@@ -70,7 +70,7 @@ class JustinoIconsUserInterface {
     'wifiRouter' : wifiRouter,
   };
 
-  IconData getByName(String name) => all[name] ?? battery;
+  IconData getByName(String name) => iconsMap[name] ?? battery;
   
   final IconData battery = const _JustinoIconsUserInterfaceData(0xe000);
   final IconData bookmark = const _JustinoIconsUserInterfaceData(0xe001);

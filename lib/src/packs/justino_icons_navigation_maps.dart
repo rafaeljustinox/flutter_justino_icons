@@ -15,11 +15,11 @@ class _JustinoIconsNavigationMapsData extends IconData {
 class JustinoIconsNavigationMaps {
   const JustinoIconsNavigationMaps();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? direction;
+  IconData getByName(String name) => iconsMap[name] ?? direction;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'direction' : direction,
     'distanceNavigationMaps' : distanceNavigationMaps,
     'downloadNavigationMaps' : downloadNavigationMaps,

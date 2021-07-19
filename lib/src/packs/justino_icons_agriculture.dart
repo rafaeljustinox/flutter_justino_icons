@@ -15,11 +15,11 @@ class _JustinoIconsAgricultureData extends IconData {
 class JustinoIconsAgriculture {
   const JustinoIconsAgriculture();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? artificialIntelligence;
+  IconData getByName(String name) => iconsMap[name] ?? artificialIntelligence;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'artificialIntelligence' : artificialIntelligence,
     'bio' : bio,
     'chemistry' : chemistry,

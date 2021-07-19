@@ -15,12 +15,12 @@ class _JustinoIconsProtectionAndSecurityData extends IconData {
 class JustinoIconsProtectionAndSecurity {
   const JustinoIconsProtectionAndSecurity();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
 
-  IconData getByName(String name) => all[name] ?? alarmBell;
+  IconData getByName(String name) => iconsMap[name] ?? alarmBell;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'alarmBell' : alarmBell,
     'bankProtectionAndSecurity' : bankProtectionAndSecurity,
     'boots' : boots,

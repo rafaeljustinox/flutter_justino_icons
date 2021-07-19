@@ -15,11 +15,11 @@ class _JustinoIconsPlumberData extends IconData {
 class JustinoIconsPlumber {
   const JustinoIconsPlumber();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? brokenPipe;
+  IconData getByName(String name) => iconsMap[name] ?? brokenPipe;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'brokenPipe' : brokenPipe,
     'drain' : drain,
     'drainage' : drainage,

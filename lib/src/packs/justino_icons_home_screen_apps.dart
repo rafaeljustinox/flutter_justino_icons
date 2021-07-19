@@ -15,11 +15,11 @@ class _JustinoIconsHomeScreenAppsData extends IconData {
 class JustinoIconsHomeScreenApps {
   const JustinoIconsHomeScreenApps();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? appStore;
+  IconData getByName(String name) => iconsMap[name] ?? appStore;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'appStore' : appStore,
     'bankHomeScreenApps' : bankHomeScreenApps,
     'books' : books,

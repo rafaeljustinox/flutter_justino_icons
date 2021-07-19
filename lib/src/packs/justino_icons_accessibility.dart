@@ -16,11 +16,11 @@ class JustinoIconsAccessibility {
 
   const JustinoIconsAccessibility();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
   
-  IconData getByName(String name) => all[name] ?? audioDescription;
+  IconData getByName(String name) => iconsMap[name] ?? audioDescription;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'audioDescription' : audioDescription,
     'audio' : audio,
     'blind' : blind,

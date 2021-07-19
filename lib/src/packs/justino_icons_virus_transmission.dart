@@ -15,11 +15,11 @@ class _JustinoIconsVirusTransmissionData extends IconData {
 class JustinoIconsVirusTransmission {
   const JustinoIconsVirusTransmission();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? airTransmission;
+  IconData getByName(String name) => iconsMap[name] ?? airTransmission;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'airTransmission' : airTransmission,
     'antiseptic' : antiseptic,
     'attention' : attention,

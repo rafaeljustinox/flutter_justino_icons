@@ -15,11 +15,11 @@ class _JustinoIconsMotivationData extends IconData {
 class JustinoIconsMotivation {
   const JustinoIconsMotivation();
 
-  List<IconData> get allIcons => this.all.keys.map((key) => this.all[key]!).toList();
+  List<IconData> get all => this.iconsMap.keys.map((key) => this.iconsMap[key]!).toList();
 
-  IconData getByName(String name) => all[name] ?? add;
+  IconData getByName(String name) => iconsMap[name] ?? add;
 
-  Map<String, IconData> get all => { 
+  Map<String, IconData> get iconsMap => { 
     'add' : add,
     'agreement' : agreement,
     'brain' : brain,
