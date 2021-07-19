@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         child: Wrap(
                           children: [
                             Text(
-                              _selected.name,
+                              '',
                               style: Theme.of(context).textTheme.headline6,
                             ),
                           ],
@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: GridView.extent(
               padding: EdgeInsets.all(12.0),
               maxCrossAxisExtent: 82,
-              children: JustinoIcons.allIcons.map((icon){
+              children: JustinoIcons.all.map((icon){
                 return InkWell(
                   onTap: (){
                     _selectIcon(icon);

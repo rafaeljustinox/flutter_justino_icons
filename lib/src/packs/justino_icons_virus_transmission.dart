@@ -8,6 +8,7 @@ class _JustinoIconsVirusTransmissionData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsVirusTransmission',
+          fontPackage: 'justino_icons'
         );
 }
 

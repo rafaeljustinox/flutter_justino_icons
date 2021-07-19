@@ -8,6 +8,7 @@ class _JustinoIconsAgricultureData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsAgriculture',
+          fontPackage: 'justino_icons'
         );
 }
 

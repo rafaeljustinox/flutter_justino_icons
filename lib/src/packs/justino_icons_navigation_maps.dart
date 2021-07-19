@@ -8,6 +8,7 @@ class _JustinoIconsNavigationMapsData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsNavigationMaps',
+          fontPackage: 'justino_icons'
         );
 }
 

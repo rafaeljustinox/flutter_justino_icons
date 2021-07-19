@@ -8,6 +8,7 @@ class _JustinoIconsHalloweenData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsHalloween',
+          fontPackage: 'justino_icons'
         );
 }
 

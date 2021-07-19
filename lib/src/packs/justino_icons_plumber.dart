@@ -8,6 +8,7 @@ class _JustinoIconsPlumberData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsPlumber',
+          fontPackage: 'justino_icons'
         );
 }
 

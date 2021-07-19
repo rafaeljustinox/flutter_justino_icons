@@ -8,6 +8,7 @@ class _JustinoIconsRewardAndBadgesData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsRewardAndBadges',
+          fontPackage: 'justino_icons'
         );
 }
 

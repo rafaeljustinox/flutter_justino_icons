@@ -8,6 +8,7 @@ class _JustinoIconsAccessibilityData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsAccessibility',
+          fontPackage: 'justino_icons'
         );
 }
 

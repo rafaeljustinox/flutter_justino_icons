@@ -8,6 +8,7 @@ class _JustinoIconsSummerData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsSummer',
+          fontPackage: 'justino_icons'
         );
 }
 

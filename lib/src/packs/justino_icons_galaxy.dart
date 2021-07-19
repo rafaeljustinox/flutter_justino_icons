@@ -8,6 +8,7 @@ class _JustinoIconsGalaxyData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsGalaxy',
+          fontPackage: 'justino_icons'
         );
 }
 

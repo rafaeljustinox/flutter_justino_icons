@@ -8,6 +8,7 @@ class _JustinoIconsCoffeeData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsCoffee',
+          fontPackage: 'justino_icons'
         );
 }
 

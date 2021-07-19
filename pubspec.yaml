@@ -20,6 +20,159 @@ flutter:
   #flutter pub global run icon_font_generator --from=../justino_icons_assets/all-icons --class-name=JustinoIcons --out-font=fonts/JustinoIcons.ttf --out-flutter=lib/justino_icons_1.dart
 
   fonts:
-    - family: JustinoIcons
+    - family: JustinoIconsAccessibility
       fonts:
-        - asset: fonts/JustinoIcons.ttf
+        - asset: fonts/JustinoIconsAccessibility.ttf
+
+    - family: JustinoIconsAdventure
+      fonts:
+        - asset: fonts/JustinoIconsAdventure.ttf
+
+    - family: JustinoIconsAgriculture
+      fonts:
+        - asset: fonts/JustinoIconsAgriculture.ttf
+
+    - family: JustinoIconsAirport
+      fonts:
+        - asset: fonts/JustinoIconsAirport.ttf
+
+    - family: JustinoIconsAnimals
+      fonts:
+        - asset: fonts/JustinoIconsAnimals.ttf
+
+    - family: JustinoIconsBirthday
+      fonts:
+        - asset: fonts/JustinoIconsBirthday.ttf
+
+    - family: JustinoIconsBusiness
+      fonts:
+        - asset: fonts/JustinoIconsBusiness.ttf
+
+    - family: JustinoIconsChess
+      fonts:
+        - asset: fonts/JustinoIconsChess.ttf
+
+    - family: JustinoIconsChristmas
+      fonts:
+        - asset: fonts/JustinoIconsChristmas.ttf
+
+    - family: JustinoIconsCoffee
+      fonts:
+        - asset: fonts/JustinoIconsCoffee.ttf
+
+    - family: JustinoIconsDelivery
+      fonts:
+        - asset: fonts/JustinoIconsDelivery.ttf
+
+    - family: JustinoIconsDrivingSchool
+      fonts:
+        - asset: fonts/JustinoIconsDrivingSchool.ttf
+
+    - family: JustinoIconsEmojis
+      fonts:
+        - asset: fonts/JustinoIconsEmojis.ttf
+
+    - family: JustinoIconsFood
+      fonts:
+        - asset: fonts/JustinoIconsFood.ttf
+
+    - family: JustinoIconsFruits
+      fonts:
+        - asset: fonts/JustinoIconsFruits.ttf
+
+    - family: JustinoIconsGalaxy
+      fonts:
+        - asset: fonts/JustinoIconsGalaxy.ttf
+
+    - family: JustinoIconsGraphicDesign
+      fonts:
+        - asset: fonts/JustinoIconsGraphicDesign.ttf
+
+    - family: JustinoIconsGym
+      fonts:
+        - asset: fonts/JustinoIconsGym.ttf
+
+    - family: JustinoIconsHalloween
+      fonts:
+        - asset: fonts/JustinoIconsHalloween.ttf
+
+    - family: JustinoIconsHomeScreenApps
+      fonts:
+        - asset: fonts/JustinoIconsHomeScreenApps.ttf
+
+    - family: JustinoIconsLaboratory
+      fonts:
+        - asset: fonts/JustinoIconsLaboratory.ttf
+
+    - family: JustinoIconsMotivation
+      fonts:
+        - asset: fonts/JustinoIconsMotivation.ttf
+
+    - family: JustinoIconsMusic
+      fonts:
+        - asset: fonts/JustinoIconsMusic.ttf
+
+    - family: JustinoIconsNavigationMaps
+      fonts:
+        - asset: fonts/JustinoIconsNavigationMaps.ttf
+
+    - family: JustinoIconsPlumber
+      fonts:
+        - asset: fonts/JustinoIconsPlumber.ttf
+
+    - family: JustinoIconsProtectionAndSecurity
+      fonts:
+        - asset: fonts/JustinoIconsProtectionAndSecurity.ttf
+
+    - family: JustinoIconsRewardAndBadges
+      fonts:
+        - asset: fonts/JustinoIconsRewardAndBadges.ttf
+
+    - family: JustinoIconsSailor
+      fonts:
+        - asset: fonts/JustinoIconsSailor.ttf
+
+    - family: JustinoIconsSignalsProhibitions
+      fonts:
+        - asset: fonts/JustinoIconsSignalsProhibitions.ttf
+
+    - family: JustinoIconsSocialMedia
+      fonts:
+        - asset: fonts/JustinoIconsSocialMedia.ttf
+
+    - family: JustinoIconsSports
+      fonts:
+        - asset: fonts/JustinoIconsSports.ttf
+
+    - family: JustinoIconsSpring
+      fonts:
+        - asset: fonts/JustinoIconsSpring.ttf
+
+    - family: JustinoIconsStayAtHome
+      fonts:
+        - asset: fonts/JustinoIconsStayAtHome.ttf
+
+    - family: JustinoIconsSummer
+      fonts:
+        - asset: fonts/JustinoIconsSummer.ttf
+
+    - family: JustinoIconsSwimmingPoolRules
+      fonts:
+        - asset: fonts/JustinoIconsSwimmingPoolRules.ttf
+
+    - family: JustinoIconsTravel
+      fonts:
+        - asset: fonts/JustinoIconsTravel.ttf
+
+    - family: JustinoIconsUserInterface
+      fonts:
+        - asset: fonts/JustinoIconsUserInterface.ttf
+
+    - family: JustinoIconsVirusTransmission
+      fonts:
+        - asset: fonts/JustinoIconsVirusTransmission.ttf
+
+    - family: JustinoIconsWeather
+      fonts:
+        - asset: fonts/JustinoIconsWeather.ttf
+

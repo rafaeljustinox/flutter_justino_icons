@@ -8,6 +8,7 @@ class _JustinoIconsAirportData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsAirport',
+          fontPackage: 'justino_icons'
         );
 }
 

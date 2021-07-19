@@ -8,6 +8,7 @@ class _JustinoIconsUserInterfaceData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsUserInterface',
+          fontPackage: 'justino_icons'
         );
 }
 

@@ -8,6 +8,7 @@ class _JustinoIconsStayAtHomeData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsStayAtHome',
+          fontPackage: 'justino_icons'
         );
 }
 

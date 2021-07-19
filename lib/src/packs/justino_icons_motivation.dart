@@ -8,6 +8,7 @@ class _JustinoIconsMotivationData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsMotivation',
+          fontPackage: 'justino_icons'
         );
 }
 

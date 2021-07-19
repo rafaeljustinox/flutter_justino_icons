@@ -8,6 +8,7 @@ class _JustinoIconsHomeScreenAppsData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsHomeScreenApps',
+          fontPackage: 'justino_icons'
         );
 }
 

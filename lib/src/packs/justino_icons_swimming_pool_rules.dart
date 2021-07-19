@@ -8,6 +8,7 @@ class _JustinoIconsSwimmingPoolRulesData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsSwimmingPoolRules',
+          fontPackage: 'justino_icons'
         );
 }
 

@@ -8,6 +8,7 @@ class _JustinoIconsSignalsProhibitionsData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsSignalsProhibitions',
+          fontPackage: 'justino_icons'
         );
 }
 

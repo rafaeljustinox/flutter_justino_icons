@@ -8,6 +8,7 @@ class _JustinoIconsChessData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsChess',
+          fontPackage: 'justino_icons'
         );
 }
 

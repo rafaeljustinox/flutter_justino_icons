@@ -8,6 +8,7 @@ class _JustinoIconsBirthdayData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsBirthday',
+          fontPackage: 'justino_icons'
         );
 }
 

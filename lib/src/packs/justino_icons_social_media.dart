@@ -8,6 +8,7 @@ class _JustinoIconsSocialMediaData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsSocialMedia',
+          fontPackage: 'justino_icons'
         );
 }
 

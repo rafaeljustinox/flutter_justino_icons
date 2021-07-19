@@ -40,14 +40,8 @@ import 'package:justino_icons/src/packs/justino_icons_virus_transmission.dart';
 import 'package:justino_icons/src/packs/justino_icons_weather.dart';
 
 @immutable
-class JustinoIconData extends IconData {
-  const JustinoIconData(int codePoint)
-  : super(codePoint, fontFamily: 'JustinoIcons', fontPackage: 'justino_icons');
-}
-
-@immutable
 class JustinoIcons {
-  JustinoIcons._();
+  JustinoIcons();
 
   static IconData? getByName(String name) {
     const categories = {

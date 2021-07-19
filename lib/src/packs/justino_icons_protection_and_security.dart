@@ -8,6 +8,7 @@ class _JustinoIconsProtectionAndSecurityData extends IconData {
       : super(
           codePoint,
           fontFamily: 'JustinoIconsProtectionAndSecurity',
+          fontPackage: 'justino_icons'
         );
 }
 
